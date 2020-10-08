@@ -21,25 +21,25 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/access', function () {
-    return view('access');
-});
+// Route::get('/access', function () {
+//     return view('access');
+// });
 
-Route::get('/recruit', function () {
-    return view('recruit');
-});
+// Route::get('/recruit', function () {
+//     return view('recruit');
+// });
 
-Route::get('/company', function () {
-    return view('company');
-});
+// Route::get('/company', function () {
+//     return view('company');
+// });
 
-Route::get('/pro', function () {
-    return view('pro');
-});
+// Route::get('/pro', function () {
+//     return view('pro');
+// });
 
 
 Route::get('/contact', [ContactController::class, 'get']);
 
-Route::post('/confirm',[ContactController::class,'confirm']);
+Route::post('/confirm', [ContactController::class, 'confirm']);
 
 Route::post('/result', [ContactController::class, 'create']);
