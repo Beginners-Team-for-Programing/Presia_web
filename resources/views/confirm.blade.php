@@ -14,28 +14,27 @@
         @csrf
 
 
-        <label>お名前</label>
-          {{ $inputs['name'] }}
+            <label>お名前</label>
+                {{ $inputs['name'] }}
 
 
-          <label>メールアドレス</label>
-            {{ $inputs['mail'] }}
+            <label>メールアドレス</label>
+                {{ $inputs['mail'] }}
 
 
-          <label>電話番号</label>
-             {{ $inputs['tel'] }}
+            <label>電話番号</label>
+                {{ $inputs['tel'] }}
 
 
-          <label>お問い合わせ内容</label>
-             {{ $inputs['contents'] }}
+            <label>お問い合わせ内容</label>
+                {{ $inputs['contents'] }}
 
+            <!-- 修正  formの外に"入力内容修正"ボタンを移動　history.back()メソッドを使用し前の画面に戻る　　不具合のアルゴリズムは分かっていない-->
+            <!-- <button type="submit" name="/contact" value="back">入力内容修正</button> -->
 
-          <button type="submit" name="/contact" value="back">
-       入力内容修正
-   </button>
-   <button type="submit" value="send">
-       送信する
-   </button>
-</form>
+            <button type="submit" value="send">送信する</button>
+
+        </form>
+            <button id="square_btn" onClick="history.back()">入力内容修正</button>　　<!--ここ追加>
     </body>
 </html>
