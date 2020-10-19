@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP</title>
+  <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
+  <scriptsrc="{{ asset('/js/index.js') }}">
+    </script>
+
 </head>
 
 <body>
+  <img alt="" src="{{ asset('/img/presia.png') }}">
   <h1>PRESIA</h1>
   <ul>
     <li><a href=''>Top</a></li>
