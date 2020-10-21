@@ -5,25 +5,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP</title>
-  <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
-  <scriptsrc="{{ asset('/js/index.js') }}">
-    </script>
-
+  <link rel="stylesheet" href="{{ asset('asset/css/index.css') }}">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
 </head>
 
 <body>
-  <img alt="presiaロゴ" src="{{ asset('/images/presia.png') }}">
-  <h1>PRESIA</h1>
-  <ul>
-    <li><a href=''>Top</a></li>
-    <li><a href='company'>Company</a></li>
-    <li><a href='pro'>Project</a></li>
-    <li><a href='access'>Access</a></li>
-    <li><a href='recruit'>Recruit</a></li>
-    <li><a href='contact'>Contact</a></li>
-  </ul>
+    <div class="back-button">
+        <p class="pagetop"><a href="#wrap">▲</a></p>
+    </div>
+    <script>
+        $(document).ready(function() {
+        var pagetop = $('.pagetop');
+        $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+        pagetop.fadeIn();
+        } else {
+        pagetop.fadeOut();
+        }
+        });
+        pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+        });
+        });
+    </script>
+    <div class="nav">
+        <ul>
+          <li><a href='index'>Top</a></li>
+          <li><a href='company'>About</a></li>
+          <li><a href='pro'>Service</a></li>
+          <li><a href='recruit'>Recruit</a></li>
+          <li><a href='access'>Access</a></li>
+          <li><a href="tel:000-1234-5678">TEL:00000000</a></li>
+          <li><a href='contact'>Contact</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="imgBox inview fadeIn_up">
+            <img alt="presiarogo" src="{{ asset('asset/images/presia.png') }}">
+        </div>
+        <div class="txtBox inview fadeIn_up">
+            <p>関わるすべての人を幸せに</p>
+        </div>
+    </div>
+    <script>
+        $(function(){
+        $(".inview").on("inview", function (event, isInView) {
+        if (isInView) {
+        $(this).stop().addClass("is-show");
+        }
+        });
+        });
+    </script>
 
-  <h1>Company</h1>
+
+
+  <h2>Company</h2>
   <ul>
     <li>会社</li>
     <li>所在地</li>
@@ -33,17 +71,17 @@
     <li>設立</li>
     <li>従業員数</li>
   </ul>
-  <h2>沿革</h2>
+  <h3>沿革</h3>
   <p>２０１９年６月</p>
   <p>２０１９年８月</p>
 
-  <h1>Project</h1>
+  <h2>Project</h2>
   <ul>
     <li>飲食店経営</li>
     <li>飲食コンサル</li>
     <li>Web制作</li>
 
-    <h1>ACCESS</h1>
+    <h3>ACCESS</h3>
     <p>所在地：154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</p>
     <p>田園都市線 池尻大橋駅　徒歩３分</p>
 
