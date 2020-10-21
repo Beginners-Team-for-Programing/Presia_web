@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <img alt="" src="{{ asset('/img/presia.png') }}">
+  <img alt="presiaロゴ" src="{{ asset('/images/presia.png') }}">
   <h1>PRESIA</h1>
   <ul>
     <li><a href=''>Top</a></li>
