@@ -20,7 +20,7 @@
     <li><a href='pro'>Project</a></li>
     <li><a href='access'>Access</a></li>
     <li><a href='recruit'>Recruit</a></li>
-    <li><a href='#contact'>Contact</a></li>
+    <li><a href='contact'>Contact</a></li>
   </ul>
 
   <h1>Company</h1>
@@ -59,7 +59,7 @@
   </ul>
 
   <a href="http://127.0.0.1:8000/contact">
-    <h1  id="contact">お問い合わせ</h1>
+    <h1>お問い合わせ</h1>
   </a>
 
 
