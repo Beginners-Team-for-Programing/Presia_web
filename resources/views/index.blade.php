@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP</title>
+  <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
+  <scriptsrc="{{ asset('/js/index.js') }}">
+    </script>
+
 </head>
 
 <body>
+  <img alt="presiaロゴ" src="{{ asset('/images/presia.png') }}">
   <h1>PRESIA</h1>
   <ul>
     <li><a href=''>Top</a></li>
@@ -15,7 +20,7 @@
     <li><a href='pro'>Project</a></li>
     <li><a href='access'>Access</a></li>
     <li><a href='recruit'>Recruit</a></li>
-    <li><a href='#contact'>Contact</a></li>
+    <li><a href='contact'>Contact</a></li>
   </ul>
 
   <h1>Company</h1>
@@ -54,7 +59,7 @@
   </ul>
 
   <a href="http://127.0.0.1:8000/contact">
-    <h1  id="contact">お問い合わせ</h1>
+    <h1>お問い合わせ</h1>
   </a>
 
 
