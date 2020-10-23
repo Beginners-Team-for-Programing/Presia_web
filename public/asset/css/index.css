@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+
+
 /* フェードイン */
 .fadeIn_up {
   opacity: 0;
@@ -44,6 +47,8 @@
     width: 80%;
     margin: 0 auto;
     height: 75px;
+    position: fixed;
+   
 }
 .nav ul {
     margin: 0;

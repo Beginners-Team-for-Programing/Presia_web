@@ -7,57 +7,60 @@
   <title>TOP</title>
   <link rel="stylesheet" href="{{ asset('asset/css/index.css') }}">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js">
+  </script>
 </head>
 
 <body>
-    <div class="back-button">
-        <p class="pagetop"><a href="#wrap">▲</a></p>
-    </div>
-    <script>
-        $(document).ready(function() {
-        var pagetop = $('.pagetop');
-        $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+  <div class="back-button">
+    <p class="pagetop"><a href="#wrap">▲</a></p>
+  </div>
+  <script>
+  $(document).ready(function() {
+    var pagetop = $('.pagetop');
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 100) {
         pagetop.fadeIn();
-        } else {
+      } else {
         pagetop.fadeOut();
-        }
-        });
-        pagetop.click(function () {
-           $('body, html').animate({ scrollTop: 0 }, 500);
-              return false;
-        });
-        });
-    </script>
-    <div class="nav">
-        <ul>
-          <li><a href='index'>Top</a></li>
-          <li><a href='company'>About</a></li>
-          <li><a href='pro'>Service</a></li>
-          <li><a href='recruit'>Recruit</a></li>
-          <li><a href='access'>Access</a></li>
-          <li><a href="tel:000-1234-5678">TEL:00000000</a></li>
-          <li><a href='contact'>Contact</a></li>
-        </ul>
+      }
+    });
+    pagetop.click(function() {
+      $('body, html').animate({
+        scrollTop: 0
+      }, 500);
+      return false;
+    });
+  });
+  </script>
+  <div class="nav">
+    <ul>
+      <li><a href='index'>Top</a></li>
+      <li><a href='company'>About</a></li>
+      <li><a href='pro'>Service</a></li>
+      <li><a href='recruit'>Recruit</a></li>
+      <li><a href='access'>Access</a></li>
+      <li><a href="tel:000-1234-5678">TEL:00000000</a></li>
+      <li><a href='contact'>Contact</a></li>
+    </ul>
+  </div>
+  <div class="section">
+    <div class="imgBox inview fadeIn_up">
+      <img alt="presiarogo" src="{{ asset('asset/images/presia.png') }}">
     </div>
-    <div class="section">
-        <div class="imgBox inview fadeIn_up">
-            <img alt="presiarogo" src="{{ asset('asset/images/presia.png') }}">
-        </div>
-        <div class="txtBox inview fadeIn_up">
-            <p>関わるすべての人を幸せに</p>
-        </div>
+    <div class="txtBox inview fadeIn_up">
+      <p>関わるすべての人を幸せに</p>
     </div>
-    <script>
-        $(function(){
-        $(".inview").on("inview", function (event, isInView) {
-        if (isInView) {
+  </div>
+  <script>
+  $(function() {
+    $(".inview").on("inview", function(event, isInView) {
+      if (isInView) {
         $(this).stop().addClass("is-show");
-        }
-        });
-        });
-    </script>
+      }
+    });
+  });
+  </script>
 
 
 
