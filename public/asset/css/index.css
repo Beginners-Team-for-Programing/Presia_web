@@ -42,12 +42,20 @@
     -moz-opacity: 0.5;
     opacity: 0.5;
 }
+
+.section {
+    margin-top: 150px;
+}
 /*ナビゲーション */
 .nav {
     width: 80%;
     margin: 0 auto;
     height: 75px;
+    z-index: 9999; 
     position: fixed;
+    top: 0;
+    position: auto;
+    background-color: white;
    
 }
 .nav ul {
@@ -74,3 +82,4 @@
 	 color: #333333;
 	 text-decoration: none;
  }
+
