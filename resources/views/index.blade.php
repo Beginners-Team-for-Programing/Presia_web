@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP</title>
   <link rel="stylesheet" href="{{ asset('asset/css/index.css') }}">
+
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js">
   </script>
@@ -79,11 +83,51 @@
   <p>２０１９年８月</p>
 
   <h2>Project</h2>
-  <ul>
-    <li>飲食店経営</li>
-    <li>飲食コンサル</li>
-    <li>Web制作</li>
 
+  <div class="container" width="900%">
+    <!-- 列を垂直方向中央揃え、align-items-centerクラスを指定した例 -->
+    <div class="row align-items-center">
+        <!-- 3つの列の1列目 -->
+        <div class="col-md" width="30%">
+          <div class="">
+            <div style="text-align:center;">
+              <h3>飲食店経営</h3>
+              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+              <p class="text-center">時代はハンバーグへと移り変わる</p>
+              <p class="text-center">Times are changing for hamburgers.</p>
+            </div>
+          </div>
+        </div>
+        <!-- 3つの列の2列目 -->
+        <div class="col-md" width="30%">
+          <div class="">
+            <div style="text-align:center;">
+              <h3>飲食コンサル</h3>
+              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+              <p class="text-center">ITで飲食業界を一新しましょう！</p>
+              <p class="text-center">Transform the restaurant industry with IT!</P>
+            </div>
+          </div>
+        </div>
+        <!-- 3つの列の3列目 -->
+        <div class="col-md" width="30%">
+          <div class="">
+            <h3>Web制作</h3>
+            <div style="text-align:center;">
+              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+            </div>
+            <p class="text-center">webサイトは自分で作ってこそ価値がある<p>
+            <p class="text-center">A website is only valuable if you create it yourself.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+  <ul>
     <h3>ACCESS</h3>
     <p>所在地：154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</p>
     <p>田園都市線 池尻大橋駅　徒歩３分</p>
@@ -104,6 +148,9 @@
   </a>
 
 
+<!-- Bootstrap javascript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>
