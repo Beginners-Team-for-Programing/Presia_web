@@ -7,8 +7,9 @@
   <title>TOP</title>
   <link rel="stylesheet" href="{{ asset('asset/css/index.css') }}">
 
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js">
@@ -66,60 +67,117 @@
   });
   </script>
 
+  <div class="campany">
+    <h2>CMPANY PROFILE</h2>
+    <h4>会社概要</h4>
 
+    <table borrder="0" align="center">
+      <tr>
+        <td>会社名</td>
+        <td>株式会社プレジア</td>
+      </tr>
+      <tr>
+        <td>代表取締役</td>
+        <td>関澤光太</td>
+      </tr>
+      <tr>
+        <td>資本金</td>
+        <td>￥2,000,000</td>
+      </tr>
+      <tr>
+        <td>所在地</td>
+        <td>〒154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</td>
+      </tr>
+      <tr>
+        <td>従業員数</td>
+        <td>１０名（パート・アルバイト含む）</td>
+      </tr>
+      <tr>
+        <td>電話番号</td>
+        <td>03-0000-0000</td>
+      </tr>
+      <tr>
+        <td>受付時間</td>
+        <td>平日10:00-18:00 （土日は休業）</td>
+      </tr>
+    </table>
+  </div>
 
-  <h2>Company</h2>
-  <ul>
-    <li>会社</li>
-    <li>所在地</li>
-    <li>役員</li>
-    <li>TEL</li>
-    <li>FAX</li>
-    <li>設立</li>
-    <li>従業員数</li>
-  </ul>
-  <h3>沿革</h3>
-  <p>２０１９年６月</p>
-  <p>２０１９年８月</p>
+  <div class="history">
+    <h2>HISTORY</h2>
+    <h4>沿革</h4>
+    <table borrder="0" align="center">
+      <tr>
+        <td>2013年10月</td>
+        <td>Roppongi BAR DEN オープン</td>
+      </tr>
+      <tr>
+        <td>2013年10月</td>
+        <td>BAR　GLOSSオープン</td>
+      </tr>
+      <tr>
+        <td>2013年10月</td>
+        <td>BAR HEVENオープン</td>
+      </tr>
+      <tr>
+        <td>2014年03月</td>
+        <td>株式会社プレジア設立</td>
+      </tr>
+      <tr>
+        <td>2015年10月</td>
+        <td>東京都港区に本社移転</td>
+      </tr>
+      <tr>
+        <td>2018年10月</td>
+        <td>事業拡大に伴い、本店を東京都目黒区に移転</td>
+      </tr>
+      <tr>
+        <td>2020年10月</td>
+        <td>事業拡大に伴い、東京都渋谷区に本社移転</td>
+      </tr>
+    </table>
+  </div>
+
 
   <h2>Project</h2>
 
   <div class="container" width="900%">
     <!-- 列を垂直方向中央揃え、align-items-centerクラスを指定した例 -->
     <div class="row align-items-center">
-        <!-- 3つの列の1列目 -->
-        <div class="col-md" width="30%">
-          <div class="">
-            <div style="text-align:center;">
-              <h3>飲食店経営</h3>
-              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-              <p class="text-center">時代はハンバーグへと移り変わる</p>
-              <p class="text-center">Times are changing for hamburgers.</p>
-            </div>
+      <!-- 3つの列の1列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <div style="text-align:center;">
+            <h3>飲食店経営</h3>
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+            <p class="text-center">時代はハンバーグへと移り変わる</p>
+            <p class="text-center">Times are changing for hamburgers.</p>
           </div>
         </div>
-        <!-- 3つの列の2列目 -->
-        <div class="col-md" width="30%">
-          <div class="">
-            <div style="text-align:center;">
-              <h3>飲食コンサル</h3>
-              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-              <p class="text-center">ITで飲食業界を一新しましょう！</p>
-              <p class="text-center">Transform the restaurant industry with IT!</P>
-            </div>
+      </div>
+      <!-- 3つの列の2列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <div style="text-align:center;">
+            <h3>飲食コンサル</h3>
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+            <p class="text-center">ITで飲食業界を一新しましょう！</p>
+            <p class="text-center">Transform the restaurant industry with IT!</P>
           </div>
         </div>
-        <!-- 3つの列の3列目 -->
-        <div class="col-md" width="30%">
-          <div class="">
-            <h3>Web制作</h3>
-            <div style="text-align:center;">
-              <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-            </div>
-            <p class="text-center">webサイトは自分で作ってこそ価値がある<p>
-            <p class="text-center">A website is only valuable if you create it yourself.</p>
+      </div>
+      <!-- 3つの列の3列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <h3>Web制作</h3>
+          <div style="text-align:center;">
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
           </div>
+          <p class="text-center">webサイトは自分で作ってこそ価値がある
+          <p>
+          <p class="text-center">A website is only valuable if you create it yourself.</p>
         </div>
+      </div>
     </div>
   </div>
 
@@ -148,9 +206,13 @@
   </a>
 
 
-<!-- Bootstrap javascript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- Bootstrap javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
