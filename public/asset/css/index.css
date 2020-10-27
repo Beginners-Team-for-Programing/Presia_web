@@ -83,3 +83,13 @@
 	 text-decoration: none;
  }
 
+ .table, td {
+    border-bottom:solid 1px silver;
+}
+
+.campany {
+    text-align: center;
+}
+.history {
+    text-align: center;
+}
