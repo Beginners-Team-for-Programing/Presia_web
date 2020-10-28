@@ -49,14 +49,16 @@
       <li><a href='contact'>Contact</a></li>
     </ul>
   </div>
-  <div class="section">
-    <div class="imgBox inview fadeIn_up">
-      <img alt="presiarogo" src="{{ asset('asset/images/presia.png') }}">
-    </div>
-    <div class="txtBox inview fadeIn_up">
-      <p>関わるすべての人を幸せに</p>
-    </div>
-  </div>
+<div class="main">
+<div class="section">
+       <div class="txtBox inview fadeIn_up">
+           <p>関わるすべての人を幸せに</p>
+           <h2>Make Everyone Happy</h2>
+       </div>
+       <div class="imgBox inview fadeIn_up">
+           <img alt="presiarogo" src="{{ asset('asset/images/presia.png') }}">
+       </div>
+</div>
   <script>
   $(function() {
     $(".inview").on("inview", function(event, isInView) {
@@ -66,7 +68,63 @@
     });
   });
   </script>
-
+  <div class="vision">
+             <h2>VISION</h2>
+             <p>私たち株式会社プレジアは創業当初より、事業を通じて
+             『関わる全ての人を幸せにすること』＝「世の中を、より良くすること」
+             を目指しています。
+             クライアント、社員、その家族、全ての人の「幸せ」を実現するために
+             既存の形に捉われない、過去の成功に満足しない、
+             この精神で常に現状に疑問を持ち、日々挑戦していきます。
+             </p>
+         </div>
+  <div class="container" width="900%">
+    <!-- 列を垂直方向中央揃え、align-items-centerクラスを指定した例 -->
+    <div class="row align-items-center">
+      <!-- 3つの列の1列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <div style="text-align:center;">
+            <h3>飲食店経営</h3>
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+            <p class="text-center">都心の港区を中心に飲食店経営を行っております。
+                     日本中の強豪がひしめき合う街、六本木。 新規参入の難易度は非常に高く、また、参入しても１年と持たないお店が大半を占める中で、
+                     私たちプレジアは、１０年間直営店を運営してきております。
+                     世の中に必要とされる飲食事業を創造し続けております。</p>
+            <p class="text-center">Times are changing for hamburgers.</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3つの列の2列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <div style="text-align:center;">
+            <h3>飲食コンサル</h3>
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+            <p class="text-center">夢を追い求める飲食店経営者を支援したい、という想いから
+                      長年の飲食店経営や事業経営によって蓄積させたノウハウを元に、店舗管理の仕組み作りからお客様サポート、人材の採用や仕入れに至るまでを一貫して提供しています。</p>
+            <p class="text-center">Transform the restaurant industry with IT!</P>
+          </div>
+        </div>
+      </div>
+      <!-- 3つの列の3列目 -->
+      <div class="col-md" width="30%">
+        <div class="">
+          <h3>Web制作</h3>
+          <div style="text-align:center;">
+            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
+          </div>
+          <p class="text-center">ITを通して、関わる全ての人を幸せにする』
+                     をテーマに、高品質なホームページ制作と丁寧なアフターサポートによって
+                     お客様のWEB戦略の一員として共にお仕事させていただいております。
+                     はじめてホームページを制作する方も、ホームページを作り変えたい方も、
+                     是非ご要望をお聞かせください。
+          <p>
+          <p class="text-center">A website is only valuable if you create it yourself.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="campany">
     <h2>CMPANY PROFILE</h2>
     <h4>会社概要</h4>
@@ -141,45 +199,7 @@
 
   <h2>Project</h2>
 
-  <div class="container" width="900%">
-    <!-- 列を垂直方向中央揃え、align-items-centerクラスを指定した例 -->
-    <div class="row align-items-center">
-      <!-- 3つの列の1列目 -->
-      <div class="col-md" width="30%">
-        <div class="">
-          <div style="text-align:center;">
-            <h3>飲食店経営</h3>
-            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-            <p class="text-center">時代はハンバーグへと移り変わる</p>
-            <p class="text-center">Times are changing for hamburgers.</p>
-          </div>
-        </div>
-      </div>
-      <!-- 3つの列の2列目 -->
-      <div class="col-md" width="30%">
-        <div class="">
-          <div style="text-align:center;">
-            <h3>飲食コンサル</h3>
-            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-            <p class="text-center">ITで飲食業界を一新しましょう！</p>
-            <p class="text-center">Transform the restaurant industry with IT!</P>
-          </div>
-        </div>
-      </div>
-      <!-- 3つの列の3列目 -->
-      <div class="col-md" width="30%">
-        <div class="">
-          <h3>Web制作</h3>
-          <div style="text-align:center;">
-            <a href=""><img alt="glasses" src="{{ asset('/images/glasses.png') }}"></a>
-          </div>
-          <p class="text-center">webサイトは自分で作ってこそ価値がある
-          <p>
-          <p class="text-center">A website is only valuable if you create it yourself.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 
 
@@ -213,6 +233,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
   </script>
+
+</div>
+
 </body>
 
 </html>

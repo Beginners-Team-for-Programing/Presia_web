@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
 
-
+body {
+    width: 100%;
+    font-family:sans-serif;
+    text-align: center;
+}
+.main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    margin:0 auto;
+}
 /* フェードイン */
 .fadeIn_up {
   opacity: 0;
@@ -51,12 +63,14 @@
     width: 80%;
     margin: 0 auto;
     height: 75px;
-    z-index: 9999; 
+    z-index: 9999;
     position: fixed;
-    top: 0;
-    position: auto;
+    top: 25px;
+ left: 50%;
+transform: translate(-50%, -50%);
+
     background-color: white;
-   
+
 }
 .nav ul {
     margin: 0;
@@ -86,10 +100,12 @@
  .table, td {
     border-bottom:solid 1px silver;
 }
-
-.campany {
-    text-align: center;
+.section {
+    margin:60px auto 0 auto;
 }
-.history {
-    text-align: center;
+.txtBox inview fadeIn_up p {
+    margin: 10px auto 0 auto;
+}
+.txtBox inview fadeIn_up h2 {
+   margin: 5px auto;
 }
