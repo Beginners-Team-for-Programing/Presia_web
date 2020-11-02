@@ -41,8 +41,8 @@
           <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
         </div>
       </div>
-      <div class="container" width="100%">
 
+      <div class="container" width="100%">
         <!-- 列を垂直方向中央揃え、align-items-centerクラスを指定した例 -->
         <div class="row align-items-center">
           <div class="vision">
@@ -106,107 +106,112 @@
           </div>
         </div>
       </div>
-      <div class="campany">
+    </div>
 
+    <div class="campany">
+      <div class="cam">
         <h2>CMPANY PROFILE</h2>
         <h4>会社概要</h4>
       </div>
 
-
-      <table class="profile" width="100%">　
+      <table class="campany-box">　
         <tr>
           <th>会社名</th>
           <td>株式会社プレジア</td>
         </tr>
         <tr>
-          <th>代表取締役</td>
+          <th>代表取締役</th>
           <td>関澤光太</td>
         </tr>
         <tr>
-          <th>資本金</td>
+          <th>資本金</th>
           <td>￥2,000,000</td>
         </tr>
         <tr>
-          <th>所在地</td>
+          <th>所在地</th>
           <td>〒154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</td>
         </tr>
         <tr>
-          <th>従業員数</td>
+          <th>従業員数</th>
           <td>１０名（パート・アルバイト含む）</td>
         </tr>
         <tr>
-          <th>電話番号</td>
+          <th>電話番号</th>
           <td>03-0000-0000</td>
         </tr>
         <tr>
-          <th>受付時間</td>
+          <th>受付時間</th>
           <td>平日10:00-18:00 （土日は休業）</td>
         </tr>
       </table>
+    </div>
 
 
-      <div class="history">
+    <div class="history">
+      <div class="his">
+
+
         <h2>HISTORY</h2>
         <h4>沿革</h4>
       </div>
 
-      <table class="profile" width="100%">
+      <table class="history-box">
         <tr>
-          <th>2013年10月</td>
+          <th>2013年10月</th>
           <td>Roppongi BAR DEN オープン</td>
         </tr>
         <tr>
-          <th>2013年10月</td>
+          <th>2013年10月</th>
           <td>BAR　GLOSSオープン</td>
         </tr>
         <tr>
-          <th>2013年10月</td>
+          <th>2013年10月</th>
           <td>BAR HEVENオープン</td>
         </tr>
         <tr>
-          <th>2014年03月</td>
+          <th>2014年03月</th>
           <td>株式会社プレジア設立</td>
         </tr>
         <tr>
-          <th>2015年10月</td>
+          <th>2015年10月</th>
           <td>東京都港区に本社移転</td>
         </tr>
         <tr>
-          <th>2018年10月</td>
+          <th>2018年10月</th>
           <td>事業拡大に伴い、本店を東京都目黒区に移転</td>
         </tr>
         <tr>
 
-          <th>2020年10月</td>
+          <th>2020年10月</th>
           <td>事業拡大に伴い、東京都渋谷区に本社移転</td>
         </tr>
       </table>
-
-
-      <div>
-        <ul>
-          <h3>ACCESS</h3>
-          <p>所在地：154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</p>
-          <p>田園都市線 池尻大橋駅　徒歩３分</p>
-          <p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.134010762009!2d139.67986371525794!3d35.64906978020179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4a8947ef97b%3A0xa4b90507c017fd52!2z44CSMTU0LTAwMDEg5p2x5Lqs6YO95LiW55Sw6LC35Yy65rGg5bC777yS5LiB55uu77yT77yT4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1600649480011!5m2!1sja!2sjp"
-              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-              tabindex="0">
-            </iframe>
-          </p>
-          <a
-            href="https://www.google.com/maps/place/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%97%E3%83%AC%E3%82%B8%E3%82%A2/@35.6490831,139.6798687,17z/data=!3m1!4b1!4m5!3m4!1s0x60188c7f31915555:0x225fea8d935519a6!8m2!3d35.6490831!4d139.6820574">
-            詳しい地図をgooglemapで見る
-          </a>
-        </ul>
-      </div>
-      <div>
-        <a href="http://127.0.0.1:8000/contact">
-          <h1>お問い合わせ</h1>
-        </a>
-      </div>
     </div>
+
+
+    <div class="access">
+      <ul>
+        <h3>ACCESS</h3>
+        <p>所在地：154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</p>
+        <p>田園都市線 池尻大橋駅　徒歩３分</p>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1338338467995!2d139.67986371519984!3d35.64907413934231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4a8947ef97b%3A0xa4b90507c017fd52!2z44CSMTU0LTAwMDEg5p2x5Lqs6YO95LiW55Sw6LC35Yy65rGg5bC777yS5LiB55uu77yT77yT4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1604329490150!5m2!1sja!2sjp"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </p>
+        <a
+          href="https://www.google.com/maps/place/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%97%E3%83%AC%E3%82%B8%E3%82%A2/@35.6490831,139.6798687,17z/data=!3m1!4b1!4m5!3m4!1s0x60188c7f31915555:0x225fea8d935519a6!8m2!3d35.6490831!4d139.6820574">
+          詳しい地図をgooglemapで見る
+        </a>
+      </ul>
+    </div>
+    <div class="contact">
+      <a href="http://127.0.0.1:8000/contact">
+        <h1>お問い合わせ</h1>
+      </a>
+    </div>
+  </div>
   </div>
   <!-- wrapper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

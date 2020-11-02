@@ -103,12 +103,6 @@ body {
  }
 
  
- .profile, td, th{
-    border-bottom:solid 1px silver;
-    padding: 20px;
-   
-    color: gray;
-}
 
 .section {
     margin:60px auto 0 auto;
@@ -120,13 +114,58 @@ body {
    margin: 5px auto;
 }
 
-.campany {
+
+/* 会社概要・沿革 */
+.cam {
+    text-align: center;
+    color: black;
+    font-family: 'Noto Sans CJK JP Subset', sans-serif;
+    padding-top: 50px;
+    
+}
+.his {
+    text-align: center;
     color: black;
     font-family: 'Noto Sans CJK JP Subset', sans-serif;
     padding-top: 50px;
 }
-.history {
-    color: black;
-    font-family: 'Noto Sans CJK JP Subset', sans-serif;
-    padding-top: 50px;
+.campany-box, .history-box {
+    width: 100%;
+}
+.campany-box th, .campany-box td {
+    border-bottom:solid 1px silver;
+    padding: 20px;
+   color: gray;
+}
+.campany-box td {
+    padding-left: 460px;
+}
+.campany-box th {
+    width: 200px;
+    text-align: center;
+
+}
+
+
+.history-box th, .history-box td {
+    border-bottom:solid 1px silver;
+    padding: 20px;
+   color: gray;
+}
+.history-box td {
+padding-left: 460px;
+}
+.history-box th {
+    width: 200px;
+    text-align: center;
+
+}
+
+
+.access, .contact {
+    text-align: center;
+}
+ 
+.access {
+    padding-top: 20px;
 }
