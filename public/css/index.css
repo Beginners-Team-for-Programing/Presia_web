@@ -102,7 +102,7 @@ body {
 	 text-decoration: none;
  }
 
- 
+
 
 .section {
     margin:60px auto 0 auto;
@@ -121,7 +121,7 @@ body {
     color: black;
     font-family: 'Noto Sans CJK JP Subset', sans-serif;
     padding-top: 50px;
-    
+
 }
 .his {
     text-align: center;
@@ -136,13 +136,11 @@ body {
     border-bottom:solid 1px silver;
     padding: 20px;
    color: gray;
-}
-.campany-box td {
-    padding-left: 460px;
+   padding-left: 80px;
 }
 .campany-box th {
     width: 200px;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -151,21 +149,90 @@ body {
     border-bottom:solid 1px silver;
     padding: 20px;
    color: gray;
-}
-.history-box td {
-padding-left: 460px;
+   padding-left: 80px;
 }
 .history-box th {
     width: 200px;
-    text-align: center;
-
+    text-align: left;
 }
-
-
 .access, .contact {
     text-align: center;
 }
- 
+
 .access {
     padding-top: 20px;
+}
+.vision {
+    margin: 0 auto 50px auto;
+}
+.vision p {
+    /* 三行のままならいらないが、増やすならleftにした方がいい */
+    /* text-align: left; */
+    margin: 20px 15px;
+    padding-left: 20px;
+}
+.service {
+    margin: 50px auto;
+}
+.service-1 h3,
+.service-2 h3,
+.service-3 h3 {
+    font-size: 1.5em;
+}
+.service-1,
+.service-2,
+.service-3  {
+    display: flex;
+    margin: 25px auto;
+}
+.service-1 div,
+.service-2 div,
+.service-3 div {
+    width: 50%;
+}
+.service-img img {
+    width: 100%;
+    height: 300px;
+}
+.main-2 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+/* footer nav */
+.footer-nav {
+    width: 80%;
+    margin: 0 auto;
+    height: 75px;
+}
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+ .footer-nav ul li {
+	 float: left;
+	 width: 14%;
+	 height: 50px;
+	 text-align: center;
+	 text-decoration: none;
+	 padding-top: 15px;
+}
+.footer-nav ul li a {
+	 display: block;
+	 height: 30px;
+     margin-top: 10px;
+	 margin: 0;
+	 padding: 10px;
+	 color: #333333;
+	 text-decoration: none;
+ }
+.footer-sns {
+    text-align: center;
+}
+.footer-sns img {
+    padding-left: 20px;
 }
