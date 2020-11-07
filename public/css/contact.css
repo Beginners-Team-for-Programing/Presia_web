@@ -1,34 +1,33 @@
-@charset "UTF-8";
-
-
-body {
-    width: 100%;
-    /* font-family:sans-serif; */
-    text-align: center;
-}
+@charset "utf-8";
 
 #wrapper {
     width: 80%;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 0 10% 10%;
+    /* background-color: rgb(124, 206, 226); */
 }
 
-#main {
+#wrapper .form-group {
     width: 100%;
-    margin: 0 auto;
+    margin: 4% 0 0 0 ;
     text-align: center;
 }
 
-.form-group {
+#wrapper .form-group input {
     width: 80%;
-    margin: 0 auto;
-    text-align: center;
 }
 
-.form-group input {
-    width: 75%;
-}
-
-.form-group textarea {
-    width: 75%;
+#wrapper .form-group textarea {
+    width: 80%;
 } 
+
+#wrapper .form-group .error-message{
+    color: #ff0000;
+    text-align: left;
+    margin:  0 10%;
+}
+
+#send{
+    width: 20%;
+    text-align: center;
+    margin: 5% 0 40% 40%;
+}

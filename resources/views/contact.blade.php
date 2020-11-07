@@ -15,54 +15,91 @@
 
     @else
         <div id="wrapper">
-            <h2>お問い合わせフォーム</h2>
-            <p>サービスや採用に関するお問い合わせは、こちらからお願いいたします。</p>
-            <p>弊社とビジネスをご一緒頂けるパートナー企業様を募集しております。</p>
-            <p>下記のフォームを入力してください。</p>
-            @if(count($errors) > 0)
+            <div class="form-group">
+                <h1>お問い合わせフォーム</h1>
+                <p>サービスや採用に関するお問い合わせは、こちらからお願いいたします。</p>
+                <p>弊社とビジネスをご一緒頂けるパートナー企業様を募集しております。</p>
+                <p>下記のフォームを入力してください。</p>
+                @if(count($errors) > 0)
                 <p>入力に問題があります。再度入力してください。</p>
-            @endif
-            <div id="main">
-                <form action="/confirm" method="POST">
-                        @csrf
-                    <div class="form-group">
-                        @error('name')
-                            <tr><th>ERROR</th>
-                            <td>{{$message}}</td></tr>
-                        @enderror
-                        <tr><td><input type="text" name="name" value="{{old('name')}}" placeholder="Name"></td></tr>
-                        <!-- <tr><th>お名前: </th><td><input type="text" name="name" value="{{old('name')}}"placeholder="吉谷瞳"></td></tr> -->
-                    </div>
-                    <div class="form-group">
-                        @error('mail')
-                            <tr><th>ERROR</th>
-                            <td>{{$message}}</td></tr>
-                        @enderror
-                        <tr><td><input type="text" name="mail" value="{{old('mail')}}" placeholder="E-mail"></td></tr>
-                        <!-- <tr><th>メールアドレス: </th><td><input type="text" name="mail" value="{{old('mail')}}"placeholder="〇〇〇〇@presia.co.jp"></td></tr> -->
-                    </div>
-                    <div class="form-group">
-                        @error('tel')
-                            <tr><th>ERROR</th>
-                            <td>{{$message}}</td></tr>
-                        @enderror
-                        <tr><td><input type="text" name="tel" value="{{old('tel')}}" placeholder="Tel"></td></tr>
-                        <!-- <tr><th>電話番号: </th><td><input type="text" name="tel" value="{{old('tel')}}"placeholder="09012345678"></td></tr> -->
-                    </div>
-                    <div class="form-group">
-                        @error('contents')
-                            <tr><th>ERROR</th>
-                            <td>{{$message}}</td></tr>
-                        @enderror
-                        <tr><td><textarea name="contents" value="Message"> {{old('contents')}}</textarea></td></tr>
-                        <!-- <tr><th>お問い合わせ内容: </th><td><textarea name="contents"　cols="50" rows="5"> {{old('contents')}}</textarea></td></tr> -->
-                    </div>
-                    <div id="send">
-                        <tr><td><input type="submit" value="Send"></td></tr>
-                    </div>
-                </form>
             </div>
+    @endif
+            <form action="/confirm" method="POST">
+                @csrf
+                <div class="form-group">
+                    @error('name')
+                    <div class="error-message">
+                        <p>ERROR {{$message}}</p>
+                    </div>
+                    @enderror
+                    <input type="text" name="name" value="{{old('name')}}" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    @error('mail')
+                    <div class="error-message">
+                        <p>ERROR {{$message}}</p>
+                    </div>
+                    @enderror
+                    <input type="text" name="mail" value="{{old('mail')}}" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    @error('tel')
+                    <div class="error-message">
+                        <p>ERROR {{$message}}</p>
+                    </div>
+                    @enderror
+                    <input type="text" name="tel" value="{{old('tel')}}" placeholder="Tel">
+                </div>
+                <div class="form-group">
+                    @error('contents')
+                    <div class="error-message">
+                        <p>ERROR {{$message}}</p>
+                    </div>
+                    @enderror
+                    <textarea name="contents" value="Message" placeholder="Message" > {{old('contents')}}</textarea>
+                </div>
+                <div id="send">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+
+            <!-- tr,td削除　テーブル用のタグなのでここには不適切ではないか？　ズームアウトしたときに警告が入力欄と同じ行に来ていたがそれも改善 -->
+            <!-- <form action="/confirm" method="POST">
+                    @csrf
+                <div class="form-group">
+                    @error('name')
+                        <tr><th>ERROR</th>
+                        <td>{{$message}}</td></tr>
+                    @enderror
+                    <tr><td><input type="text" name="name" value="{{old('name')}}" placeholder="Name"></td></tr>
+                </div>
+                <div class="form-group">
+                    @error('mail')
+                        <tr><th>ERROR</th>
+                        <td>{{$message}}</td></tr>
+                    @enderror
+                    <tr><td><input type="text" name="mail" value="{{old('mail')}}" placeholder="E-mail"></td></tr>
+                </div>
+                <div class="form-group">
+                    @error('tel')
+                        <tr><th>ERROR</th>
+                        <td>{{$message}}</td></tr>
+                    @enderror
+                    <tr><td><input type="text" name="tel" value="{{old('tel')}}" placeholder="Tel"></td></tr>
+                </div>
+                <div class="form-group">
+                    @error('contents')
+                        <tr><th>ERROR</th>
+                        <td>{{$message}}</td></tr>
+                    @enderror
+                    <tr><td><textarea name="contents" value="Message"> {{old('contents')}}</textarea></td></tr>
+                </div>
+                <div id="send">
+                    <tr><td><input type="submit" value="Send"></td></tr>
+                </div>
+            </form> -->
         </div>
+        <!-- wrapper end -->
     @endif
         <!-- Bootstrap javascript -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"
