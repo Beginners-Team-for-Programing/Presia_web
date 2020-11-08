@@ -17,20 +17,25 @@
     <div class="back-button">
       <p class="pagetop"><a href="#wrap">▲</a></p>
     </div>
-    <!-- TODO：幅を小さくすると文字がかぶる -->
     <div class="nav">
-      <ul>
-        <li><a href='index'>Top</a></li>
-        <li><a href='company'>About</a></li>
-        <li><a href='pro'>Service</a></li>
-        <li><a href='recruit'>Recruit</a></li>
-        <li><a href='access'>Access</a></li>
-        <li><a href="tel:000-1234-5678">TEL:00000000</a></li>
-        <li><a href='contact'>Contact</a></li>
-      </ul>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href='index'>Top</a></li>
+            <li class="nav-item"><a href='company'>About</a></li>
+            <li class="nav-item"><a href='pro'>Service</a></li>
+            <li class="nav-item"><a href='recruit'>Recruit</a></li>
+            <li class="nav-item"><a href='access'>Access</a></li>
+            <li class="nav-item"><a href="tel:000-1234-5678">TEL:00000000</a></li>
+            <li class="nav-item"><a href='contact'>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!-- nav -->
-
     <div class="main">
       <div class="section">
         <div class="txtBox inview fadeIn_up">

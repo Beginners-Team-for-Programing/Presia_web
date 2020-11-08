@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 body {
     width: 100%;
     font-family:sans-serif;
@@ -16,13 +15,13 @@ body {
 }
 /* フェードイン */
 .fadeIn_up {
-  opacity: 0;
-  transform: translate(0, 50%);
-  transition: 4s;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: 4s;
 }
 .fadeIn_up.is-show {
-  transform: translate(0, 0);
-  opacity: 1;
+    transform: translate(0, 0);
+    opacity: 1;
 }
 .pagetop {
     display: none;
@@ -84,24 +83,28 @@ body {
     width: 100%;
 }
 
- .nav ul li {
-	 float: left;
-	 width: 14%;
-	 height: 50px;
-	 text-align: center;
-	 text-decoration: none;
-	 padding-top: 15px;
+.nav ul li {
+    float: left;
+    /* うまく整列しないので削除 */
+    /* width: 14%; */
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
 }
 .nav ul li a {
-	 display: block;
-	 height: 30px;
-     margin-top: 10px;
-	 margin: 0;
-	 padding: 10px;
-	 color: #333333;
-	 text-decoration: none;
- }
-
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    margin: 0;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+.nav .navbar .navbar-expand-md .navbar-light .bg-light{
+    width: 100%;
+    text-align: center;
+}
 
 
 .section {
@@ -111,7 +114,7 @@ body {
     margin: 10px auto 0 auto;
 }
 .txtBox inview fadeIn_up h2 {
-   margin: 5px auto;
+    margin: 5px auto;
 }
 
 
@@ -135,8 +138,8 @@ body {
 .campany-box th, .campany-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
-   color: gray;
-   padding-left: 80px;
+    color: gray;
+    padding-left: 80px;
 }
 .campany-box th {
     width: 200px;
@@ -148,8 +151,8 @@ body {
 .history-box th, .history-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
-   color: gray;
-   padding-left: 80px;
+    color: gray;
+    padding-left: 80px;
 }
 .history-box th {
     width: 200px;
@@ -213,23 +216,23 @@ body {
     list-style-type: none;
     width: 100%;
 }
- .footer-nav ul li {
-	 float: left;
-	 width: 14%;
-	 height: 50px;
-	 text-align: center;
-	 text-decoration: none;
-	 padding-top: 15px;
+.footer-nav ul li {
+    float: left;
+    width: 14%;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
 }
 .footer-nav ul li a {
-	 display: block;
-	 height: 30px;
-     margin-top: 10px;
-	 margin: 0;
-	 padding: 10px;
-	 color: #333333;
-	 text-decoration: none;
- }
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    margin: 0;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+}
 .footer-sns {
     text-align: center;
 }
