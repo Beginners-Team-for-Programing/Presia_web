@@ -202,7 +202,25 @@ body {
     margin: 0 auto;
 }
 
-
+/* main-3 */
+.main-3{
+    /* width: 50%; */
+    text-align: center;
+    /* margin: 0 25%; */
+}
+.main-3 .item{
+    margin: 5%;
+}
+.main-3 .item img{
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    border: 9px solid black;
+}
+.main-3 .item .content{
+    margin: 3% 0;
+}
 
 /* footer nav */
 .footer-nav {
