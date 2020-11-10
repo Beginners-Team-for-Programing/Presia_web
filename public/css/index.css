@@ -74,7 +74,8 @@ body h2 {
 #wrapper2,
 #wrapper3,
 #wrapper4,
-#wrapper5 {
+#wrapper5 
+#wrapper6 {
     width: 100%;
     overflow: hidden;
 }
