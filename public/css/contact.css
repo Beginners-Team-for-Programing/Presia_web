@@ -1,9 +1,8 @@
 @charset "utf-8";
 
 #wrapper {
-    width: 80%;
-    margin: 0 0 10% 10%;
-    /* background-color: rgb(124, 206, 226); */
+    width: 990px;
+    margin: 0 auto;
 }
 
 #wrapper .form-group {
