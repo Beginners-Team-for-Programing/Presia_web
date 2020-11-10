@@ -4,9 +4,10 @@ body {
     width: 100%;
     font-family:sans-serif;
     text-align: center;
+    color: #222222;
 }
 .main {
-    width: 80%;
+    width: 990px;
     margin: 0 auto;
     text-align: center;
 }
@@ -53,20 +54,61 @@ body {
     -moz-opacity: 0.5;
     opacity: 0.5;
 }
-
 .section {
     margin-top: 150px;
 }
+body h2 {
+    text-align: center;
+    font-size: 42px;
+    margin: 50px auto;
+}
 
 /* wrapper */
-.wrapper {
+#wrapper {
+    margin: 0 auto;
+}
+#wrapper1 {
+    text-align: center;
+}
+#wrapper1,
+#wrapper2,
+#wrapper3,
+#wrapper4,
+#wrapper5 {
     width: 100%;
     overflow: hidden;
 }
-
+#wrapper2 {
+    background-image: url("/images/company.jpeg");
+    height: 800px;
+    color: white;
+}
+#wrapper3,
+#wrapper5 {
+    background-color: #EEEEEE;
+}
+.recruit {
+    width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+.access {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.access p {
+    margin: 0 auto;
+}
+iframe {
+    margin: 50px auto 20px auto;
+    width: 400px;
+}
+.content {
+    margin: 20px auto ;
+}
 /*ナビゲーション */
 .nav {
-    width: 80%;
     margin: 0 auto;
     height: 75px;
     z-index: 9999;
@@ -95,9 +137,8 @@ body {
 .nav ul li a {
     display: block;
     height: 30px;
-    margin-top: 10px;
     margin: 0;
-    padding: 10px;
+    padding: 5px 10px 10px 10px;
     color: #333333;
     text-decoration: none;
 }
@@ -122,14 +163,14 @@ body {
 .cam {
     text-align: center;
     color: black;
-    font-family: 'Noto Sans CJK JP Subset', sans-serif;
+    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
     padding-top: 50px;
 
 }
 .his {
     text-align: center;
     color: black;
-    font-family: 'Noto Sans CJK JP Subset', sans-serif;
+    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
     padding-top: 50px;
 }
 .campany-box, .history-box {
@@ -144,10 +185,7 @@ body {
 .campany-box th {
     width: 200px;
     text-align: left;
-
 }
-
-
 .history-box th, .history-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
@@ -158,21 +196,15 @@ body {
     width: 200px;
     text-align: left;
 }
-.access, .contact {
-    text-align: center;
-}
-
-.access {
-    padding-top: 20px;
-}
 .vision {
     margin: 0 auto 50px auto;
+    width: 990px;
 }
 .vision p {
     /* 三行のままならいらないが、増やすならleftにした方がいい */
     /* text-align: left; */
-    margin: 20px 15px;
-    padding-left: 20px;
+    margin: 0;
+    text-align: left;
 }
 .service {
     margin: 50px auto;
@@ -181,47 +213,37 @@ body {
 .service-2 h3,
 .service-3 h3 {
     font-size: 1.5em;
+    margin: 20px auto;
+}
+.service-1 p,
+.service-2 p,
+.service-3 p {
+    text-align: left;
+    line-height: 30px;
+    margin: 0 10px;
 }
 .service-1,
 .service-2,
 .service-3  {
     display: flex;
-    margin: 25px auto;
+    margin: 50px auto;
 }
 .service-1 div,
 .service-2 div,
 .service-3 div {
     width: 50%;
 }
+.service-3 {
+    margin-bottom: 75px;
+}
 .service-img img {
     width: 100%;
-    height: 300px;
+    height: auto;
 }
 .main-2 {
-    width: 60%;
+    width: 990px;
     margin: 0 auto;
 }
-
-/* main-3 */
-.main-3{
-    /* width: 50%; */
-    text-align: center;
-    /* margin: 0 25%; */
-}
-.main-3 .item{
-    margin: 5%;
-}
-.main-3 .item img{
-    text-align: center;
-    width: 1000px;
-    height: 600px;
-    margin: 0 auto;
-    border: 9px solid black;
-}
-.main-3 .item .content{
-    margin: 3% 0;
-}
-
 /* footer nav */
 .footer-nav {
     width: 80%;
