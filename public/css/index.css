@@ -142,9 +142,9 @@ iframe {
     color: #333333;
     text-decoration: none;
 }
-.nav .navbar .navbar-expand-md .navbar-light .bg-light{
+.bg-light{
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
