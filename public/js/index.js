@@ -70,3 +70,15 @@ $(function(){
 		});
 	});
 });
+
+$(function(){
+    $('.service-img').mouseover(function(){
+        console.log('マウスオーバー！');
+        $('.service-img').children('img').attr('src', "{{ asset('/images/web製作.png') }}")
+
+        // $('service-img img').pixelate({
+        //     value: 0.05,
+        //     reveal:true
+        // })
+    })
+});
