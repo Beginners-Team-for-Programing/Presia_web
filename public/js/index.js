@@ -72,13 +72,14 @@ $(function(){
 });
 
 $(function(){
-    $('.service-img').mouseover(function(){
+    $('.service-img').hover(function(){
         console.log('マウスオーバー！');
-        $('.service-img').children('img').attr('src', "{{ asset('/images/web製作.png') }}")
-
-        // $('service-img img').pixelate({
-        //     value: 0.05,
-        //     reveal:true
-        // })
-    })
+        const Src = $(this).children('img').attr('src');
+        console.log(Src);
+        $(this).children('img').attr('src', "/images/web製作.png");
+    }, function() {
+        console.log('マウスリーブ！');
+        $(this).children('img').attr('src', this.Src);
+    }
+    )
 });
