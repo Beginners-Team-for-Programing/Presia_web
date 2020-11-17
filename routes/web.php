@@ -37,6 +37,10 @@ Route::get('/', function () {
 //     return view('pro');
 // });
 
+Route::get('/privacy', function () {
+     return view('privacy');
+});
+
 
 Route::get('/contact', [ContactController::class, 'get']);
 
