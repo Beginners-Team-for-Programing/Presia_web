@@ -60,7 +60,7 @@ $(function(){
 //フェードイン
 $(function(){
 	$(window).scroll(function (){
-		$('.service-img').each(function(){
+		$('.service-1').each(function(){
 			var elemPos = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var windowHeight = $(window).height();
