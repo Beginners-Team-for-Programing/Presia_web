@@ -13,6 +13,22 @@
 </head>
 
 <body>
+    <pre>
+
+
+        8888888bo.
+        888'  '88P
+        888    888
+        888.  .888                                            o888
+        8888888Pd'    oooo d8b     .od88bo.      .d8888b.
+        888           "888""8P    8'      '8     88'          oooo     .od88bo.d8b
+        888            888        P'88888P'       Y'888b.     "888     8'     '88
+        888            888        bY.                  88      888     8       88
+        888            888         Y888888P'     .d88888P      888     Y'88888P"Y8b.
+
+        https://www.00000000000000000000000000
+
+    </pre>
   <div id="wrapper">
     <div id="wrapper1">
       <div class="back-button">
@@ -26,13 +42,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item"><a href='#wrapper'>Top</a></li>
-              <li class="nav-item"><a href='#wrapper2'>About</a></li>
-              <li class="nav-item"><a href='#wrapper3'>Service</a></li>
-              <li class="nav-item"><a href='#wrapper4'>Recruit</a></li>
-              <li class="nav-item"><a href='#wrapper5'>campany</a></li>
-              <li class="nav-item"><a href="#wrapper6">Access</a></li>
-              <li class="nav-item"><a href='#wrapper7'>Contact</a></li>
+              <li class="nav-item"><a href='#wrapper'>TOP</a></li>
+              <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
+              <li class="nav-item"><a href='#wrapper3'>SERVICE</a></li>
+              <li class="nav-item"><a href='#wrapper4'>RECRUIT</a></li>
+              <li class="nav-item"><a href='#wrapper5'>COMPANY</a></li>
+              <li class="nav-item"><a href="#wrapper6">ACCESS</a></li>
+              <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
             </ul>
           </div>
         </nav>
@@ -50,7 +66,7 @@
     </div>
     <div id="wrapper2">
       <div class="vision">
-        <h2>About us</h2>
+        <h2>ABOUT US</h2>
         <p>私たち株式会社プレジアは創業当初より、事業を通じて<br>
           『関わる全ての人を幸せにすること』＝「世の中を、より良くすること」を目指しています。<br>
           クライアント、社員、その家族、全ての人の「幸せ」を実現するために、既存の形に捉われない、過去の成功に満足しない、
@@ -109,7 +125,7 @@
     </div>
     <div id="wrapper4">
       <div class="recruit">
-        <h2>Recruit</h2>
+        <h2>RECRUIT</h2>
         <img src="{{ asset('/images/recruit_2.jpg') }}" alt="recruit_2" width=90% height=50%>
         <div class="content">
           <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
@@ -124,7 +140,7 @@
       <div class="main-2">
         <div class="campany">
           <div class="cam">
-            <h2>Company Profile</h2>
+            <h2>PROFILE</h2>
           </div>
           <table class="campany-box">　
             <tr>
@@ -159,7 +175,7 @@
         </div>
         <div class="history">
           <div class="his">
-            <h2>History</h2>
+            <h2>HISTORY</h2>
           </div>
           <table class="history-box">
             <tr>
@@ -213,7 +229,7 @@
 
         <div id="wrapper7">
           <div class="#contact">
-            <h2>Contact</h2>
+            <h2>CONTACT</h2>
           </div>
         </div>
       </div>
@@ -222,13 +238,13 @@
     <div class="footer">
       <div class="footer-nav">
         <ul>
-          <li><a href='#wrapper'>Top</a></li>
-          <li><a href='#wrapper2'>About</a></li>
-          <li><a href='#wrapper3'>Service</a></li>
-          <li><a href='#wrapper4'>Recruit</a></li>
-          <li><a href='#wrapper5'>Access</a></li>
-          <li><a href="#wrapper6">Canpany</a></li>
-          <li><a href='#wrapper7'>Contact</a></li>
+          <li><a href='#wrapper'>TOP</a></li>
+          <li><a href='#wrapper2'>ABOUT</a></li>
+          <li><a href='#wrapper3'>SERVICE</a></li>
+          <li><a href='#wrapper4'>RECRUIT</a></li>
+          <li><a href='#wrapper5'>ACCESS</a></li>
+          <li><a href="#wrapper6">COMPANY</a></li>
+          <li><a href='#wrapper7'>CONTACT</a></li>
         </ul>
       </div>
       <div class="footer-sns">
@@ -238,7 +254,8 @@
         <img src="images/facebook.png"></img>
       </div>
       <div class="footer-text">
-        aaaaaaaaa
+        <small>©︎ 2020 PRESIA Co.,Ltd.</small>
+        <a href="/privacy/">プライバシーポリシー</a>
       </div>
     </div>
   </div>
