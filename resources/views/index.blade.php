@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <pre>
+  <pre>
 
 
         8888888bo.
@@ -88,6 +88,7 @@
               私たちプレジアは、１０年間直営店を運営してきております。
               世の中に必要とされる飲食事業を創造し続けております。
             </p>
+
           </div>
           <div class="service-img">
             <img src="{{ asset('/images/飲食店経営.jpg') }}" alt="restaurant-management">
@@ -126,7 +127,10 @@
     <div id="wrapper4">
       <div class="recruit">
         <h2>RECRUIT</h2>
-        <img src="{{ asset('/images/recruit_2.jpg') }}" alt="recruit_2" width=90% height=50%>
+        <div class="service-img">
+
+          <img src="{{ asset('/images/recruit_2.jpg') }}" alt="recruit_2" width=90% height=50%>
+        </div>
         <div class="content">
           <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
           <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
