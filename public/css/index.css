@@ -283,14 +283,38 @@ iframe {
 
 
 /* フェードイン */
-.service-1 {
+.service-img {
 	opacity : 0.1;
 	transform : translate(0, 100px);
 	transition : all 500ms;
 	}
 
 /* 画面内に入った状態 */
-.service-1.scrollin {
+.service-img.scrollin {
 	opacity : 1;
 	transform : translate(0, 0);
-	}
+    }
+    
+    /*左から右にフェードイン*/
+.service-contents {
+  opacity: 0.1;
+  transform: translateX(-20px);
+  transition: all 1s;
+  
+}
+.service-contents.scrollin {
+  opacity: 1;
+  transform: translate(0);
+}
+
+
+/*下から上にフェードイン リクルート*/
+.content {
+  opacity: 0.1;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+.content {
+  opacity: 1;
+  transform: translateY(0);
+}

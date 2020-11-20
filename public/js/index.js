@@ -60,7 +60,7 @@ $(function(){
 //フェードイン
 $(function(){
 	$(window).scroll(function (){
-		$('.service-1').each(function(){
+		$('.service-img').each(function(){
 			var elemPos = $(this).offset().top;
 			var scroll = $(window).scrollTop();
 			var windowHeight = $(window).height();
@@ -84,3 +84,32 @@ $(function(){
     }
     )
 });
+
+//左から右
+$(function(){
+    $(window).scroll(function (){
+        $('.service-contents').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 150){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+
+//リクルートしたから上
+$(function(){
+    $(window).scroll(function (){
+        $('.content').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 150){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+
