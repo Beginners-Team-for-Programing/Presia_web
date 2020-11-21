@@ -42,13 +42,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item"><a href='#wrapper'>TOP</a></li>
-              <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
-              <li class="nav-item"><a href='#wrapper3'>SERVICE</a></li>
-              <li class="nav-item"><a href='#wrapper4'>RECRUIT</a></li>
-              <li class="nav-item"><a href='#wrapper5'>COMPANY</a></li>
-              <li class="nav-item"><a href="#wrapper6">ACCESS</a></li>
-              <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
+              <li class="nav-item0"><a href='#wrapper'>TOP</a></li>
+              <li class="nav-item1"><a href='#wrapper2'>ABOUT</a></li>
+              <li class="nav-item2"><a href='#wrapper3'>SERVICE</a></li>
+              <li class="nav-item3"><a href='#wrapper4'>RECRUIT</a></li>
+              <li class="nav-item4"><a href='#wrapper5'>COMPANY</a></li>
+              <li class="nav-item5"><a href="#wrapper6">ACCESS</a></li>
+              <li class="nav-item6"><a href='#wrapper7'>CONTACT</a></li>
             </ul>
           </div>
         </nav>
