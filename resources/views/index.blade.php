@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <pre>
+    <!--
 
 
         8888888bo.
@@ -26,9 +26,9 @@
         888            888        bY.                  88      888     8       88
         888            888         Y888888P'     .d88888P      888     Y'88888P"Y8b.
 
-        https://www.00000000000000000000000000
+        私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
-    </pre>
+    -->
   <div id="wrapper">
     <div id="wrapper1">
       <div class="back-button">
@@ -42,13 +42,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item0"><a href='#wrapper'>TOP</a></li>
-              <li class="nav-item1"><a href='#wrapper2'>ABOUT</a></li>
-              <li class="nav-item2"><a href='#wrapper3'>SERVICE</a></li>
-              <li class="nav-item3"><a href='#wrapper4'>RECRUIT</a></li>
-              <li class="nav-item4"><a href='#wrapper5'>COMPANY</a></li>
-              <li class="nav-item5"><a href="#wrapper6">ACCESS</a></li>
-              <li class="nav-item6"><a href='#wrapper7'>CONTACT</a></li>
+              <li class="nav-item"><a href='#wrapper'>TOP</a></li>
+              <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
+              <li class="nav-item"><a href='#wrapper3'>SERVICE</a></li>
+              <li class="nav-item"><a href='#wrapper4'>RECRUIT</a></li>
+              <li class="nav-item"><a href='#wrapper5'>COMPANY</a></li>
+              <li class="nav-item"><a href="#wrapper6">ACCESS</a></li>
+              <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
             </ul>
           </div>
         </nav>
@@ -88,7 +88,6 @@
               私たちプレジアは、１０年間直営店を運営してきております。
               世の中に必要とされる飲食事業を創造し続けております。
             </p>
-
           </div>
           <div class="service-img">
             <img src="{{ asset('/images/飲食店経営.jpg') }}" alt="restaurant-management">
@@ -127,16 +126,13 @@
     <div id="wrapper4">
       <div class="recruit">
         <h2>RECRUIT</h2>
-        <div class="service-img">
-
-          <img src="{{ asset('/images/recruit_2.jpg') }}" alt="recruit_2" width=90% height=50%>
-        </div>
+        <img src="{{ asset('/images/recruit_2.jpg') }}" alt="recruit_2" width=90% height=50%>
         <div class="content">
-          <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
-          <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
-          <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
-          <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
-          <p>本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。本文です。</p>
+          <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
+            今まで培ってきた「個性」は、必ず活かせます。
+            あなたの「個性」を使って、たくさんの幸せの創出を一緒にしませんか？
+            思い描く理想の働き方を、プレジアで実現しましょう。
+            募集概要は当ホームページのどこかに隠れています。</p>
         </div>
       </div>
     </div>

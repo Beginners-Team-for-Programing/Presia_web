@@ -74,7 +74,7 @@ body h2 {
 #wrapper2,
 #wrapper3,
 #wrapper4,
-#wrapper5 
+#wrapper5
 #wrapper6 {
     width: 100%;
     overflow: hidden;
@@ -297,13 +297,13 @@ iframe {
 	opacity : 1;
 	transform : translate(0, 0);
     }
-    
+
     /*左から右にフェードイン*/
 .service-contents {
     opacity: 0.1;
     transform: translateX(-20px);
     transition: all 1s;
-    
+
 }
 .service-contents.scrollin {
     opacity: 1;
@@ -320,4 +320,20 @@ iframe {
 .content {
     opacity: 1;
     transform: translateY(0);
+}
+.content p {
+    margin: 30px auto ;
+    width: 80%;
+}
+
+
+/* プライバシーポリシー */
+.P-main {
+    width: 990px;
+    margin: 0 auto;
+    text-align: left;
+}
+.P-main h3 {
+    margin: 50px auto 30px auto;
+    border-bottom:dashed 1px silver;
 }
