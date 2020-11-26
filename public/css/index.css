@@ -80,7 +80,7 @@ body h2 {
     overflow: hidden;
 }
 #wrapper2 {
-    background-image: url("/images/company.jpeg");
+    background-image: url("/images/company.png");
     height: 800px;
     color: white;
 }
@@ -283,6 +283,10 @@ iframe {
 .footer-sns img {
     padding-left: 20px;
 }
+.footer-text {
+    margin: 30px auto 10px auto;
+    text-align: center;
+}
 
 
 /* フェードイン */
@@ -335,5 +339,8 @@ iframe {
 }
 .P-main h3 {
     margin: 50px auto 30px auto;
-    border-bottom:dashed 1px silver;
+    border-bottom:solid 1px silver;
+}
+.back-top {
+    text-align: center;
 }
