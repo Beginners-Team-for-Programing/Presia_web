@@ -21,21 +21,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('/access', function () {
-//     return view('access');
-// });
+Route::get('/recruit', function () {
+    return view('recruit');
+});
 
-// Route::get('/recruit', function () {
-//     return view('recruit');
-// });
-
-// Route::get('/company', function () {
-//     return view('company');
-// });
-
-// Route::get('/pro', function () {
-//     return view('pro');
-// });
 
 Route::get('/privacy', function () {
      return view('privacy');

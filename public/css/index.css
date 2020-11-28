@@ -107,6 +107,7 @@ iframe {
 }
 .content {
     margin: 20px auto ;
+    line-height: 30px;
 }
 /*ナビゲーション */
 .nav {
@@ -206,6 +207,7 @@ iframe {
     /* text-align: left; */
     margin: 0;
     text-align: left;
+    line-height: 30px;
 }
 .service {
     margin: 50px auto;
