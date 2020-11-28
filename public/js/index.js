@@ -57,20 +57,6 @@ $(function(){
 
 
 
-//フェードイン
-$(function(){
-	$(window).scroll(function (){
-		$('.service-img').each(function(){
-			var elemPos = $(this).offset().top;
-			var scroll = $(window).scrollTop();
-			var windowHeight = $(window).height();
-			if (scroll > elemPos - windowHeight + 100){
-				$(this).addClass('scrollin');
-			}
-		});
-	});
-});
-
 //マウスポインターをかざすと画像のモザイクがとれる
 $(function(){
     $('.service-img').hover(function(){
@@ -147,18 +133,15 @@ $(function(){
     })
 });
 
-//左から右
+//左から右繰り返し
 $(function(){
-    $(window).scroll(function (){
-        $('.service-contents').each(function(){
-            var elemPos = $(this).offset().top;
-            var scroll = $(window).scrollTop();
-            var windowHeight = $(window).height();
-            if (scroll > elemPos - windowHeight + 150){
-                $(this).addClass('scrollin');
-            }
-        });
-    });
+  $(".service-contents").on("inview", function (event, isInView) {
+    if (isInView) {
+      $(this).stop().addClass("is-show");
+    } else {
+      $(this).stop().removeClass("is-show");
+    }
+  });
 });
 
 //リクルートしたから上
@@ -175,3 +158,14 @@ $(function(){
     });
 });
 
+
+//serviceフェードイン繰り返し
+$(function(){
+  $(".service-img").on("inview", function (event, isInView) {
+    if (isInView) {
+      $(this).stop().addClass("is-show");
+    } else {
+      $(this).stop().removeClass("is-show");
+    }
+  });
+});
