@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>株式会社 Presia|関わるすべての人を幸せに</title>
-  <!-- Page Specific CSS -->
-  <link rel="stylesheet" href="{{ asset('css/index.css') }}">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Page Specific CSS -->
+  <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+
 </head>
 
 <body>
@@ -29,13 +30,15 @@
         私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
     -->
+  
+  <div class="blank"></div>
   <div id="wrapper">
     <div id="wrapper1">
       <div class="back-button">
         <p class="pagetop"><a href="#wrap">▲</a></p>
       </div>
-      <div class="nav">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="nav">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
