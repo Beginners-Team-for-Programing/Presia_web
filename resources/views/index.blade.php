@@ -229,14 +229,52 @@
             </a>
           </div>
         </div>
-
-        <div id="wrapper7">
-          <div class="#contact">
-            <h2>CONTACT</h2>
-          </div>
-        </div>
       </div>
     </div>
+    <div id="wrapper7">
+      <div class="contact">
+        <h2>CONTACT</h2>
+        <form action="/confirm" method="POST">
+            @csrf
+            <div class="form-group">
+                @error('name')
+                <div class="error-message">
+                    <p>ERROR {{$message}}</p>
+                </div>
+                @enderror
+                <input type="text" name="name" value="{{old('name')}}" placeholder="Name">
+            </div>
+            <div class="form-group">
+                @error('mail')
+                <div class="error-message">
+                    <p>ERROR {{$message}}</p>
+                </div>
+                @enderror
+                <input type="text" name="mail" value="{{old('mail')}}" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                @error('tel')
+                <div class="error-message">
+                    <p>ERROR {{$message}}</p>
+                </div>
+                @enderror
+                <input type="text" name="tel" value="{{old('tel')}}" placeholder="Tel">
+            </div>
+            <div class="form-group">
+                @error('contents')
+                <div class="error-message">
+                    <p>ERROR {{$message}}</p>
+                </div>
+                @enderror
+                <textarea name="contents" value="Message" placeholder="Message" > {{old('contents')}}</textarea>
+            </div>
+            <div id="send">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+      </div>
+    </div>
+
 
     <div class="footer">
       <div class="footer-nav">
