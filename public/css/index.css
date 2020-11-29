@@ -304,12 +304,12 @@ iframe {
     /*左から右にフェードイン*/
 .service-contents {
     opacity: 0;
-  transform: translate(-10%, 0);
-  transition: 2s;
+    transform: translate(-10%, 0);
+    transition: 2s;
 }
 .service-contents .is-show {
-  transform: translate(0, 0);
-  opacity: 1;
+    transform: translate(0, 0);
+    opacity: 1;
 }
 
 /*下から上にフェードイン リクルート*/
@@ -344,10 +344,36 @@ iframe {
 
 /* serviceフェードイン繰り返し */
 .service-img{
-  opacity:0;
+    opacity:0;
 }
 .is-show{
-  transition: all 0.5s ease-in;
-  transform: translateX(40px);
-  opacity: 1 !important;
+    transition: all 0.5s ease-in;
+    transform: translateX(40px);
+    opacity: 1 !important;
 }
+
+
+/* CONTACT */
+#wrapper7{
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    /* width:990px; */
+    background-color: #EEEEEE;
+}
+.contact{
+    margin: 0 auto;
+    padding: 10px;
+    width: 600px;
+    height: 450px;
+    border: double 5px #4ec4d3;
+
+    /* background-color: teal; */
+}
+.contact .form-group input{
+    width: 550px;
+}
+.contact .form-group textarea{
+    width: 550px;
+}
+/* CONTACT */

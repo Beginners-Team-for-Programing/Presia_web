@@ -62,42 +62,6 @@
                     <input type="submit" value="Send">
                 </div>
             </form>
-
-            <!-- tr,td削除　テーブル用のタグなのでここには不適切ではないか？　ズームアウトしたときに警告が入力欄と同じ行に来ていたがそれも改善 -->
-            <!-- <form action="/confirm" method="POST">
-                    @csrf
-                <div class="form-group">
-                    @error('name')
-                        <tr><th>ERROR</th>
-                        <td>{{$message}}</td></tr>
-                    @enderror
-                    <tr><td><input type="text" name="name" value="{{old('name')}}" placeholder="Name"></td></tr>
-                </div>
-                <div class="form-group">
-                    @error('mail')
-                        <tr><th>ERROR</th>
-                        <td>{{$message}}</td></tr>
-                    @enderror
-                    <tr><td><input type="text" name="mail" value="{{old('mail')}}" placeholder="E-mail"></td></tr>
-                </div>
-                <div class="form-group">
-                    @error('tel')
-                        <tr><th>ERROR</th>
-                        <td>{{$message}}</td></tr>
-                    @enderror
-                    <tr><td><input type="text" name="tel" value="{{old('tel')}}" placeholder="Tel"></td></tr>
-                </div>
-                <div class="form-group">
-                    @error('contents')
-                        <tr><th>ERROR</th>
-                        <td>{{$message}}</td></tr>
-                    @enderror
-                    <tr><td><textarea name="contents" value="Message"> {{old('contents')}}</textarea></td></tr>
-                </div>
-                <div id="send">
-                    <tr><td><input type="submit" value="Send"></td></tr>
-                </div>
-            </form> -->
         </div>
         <!-- wrapper end -->
     @endif
