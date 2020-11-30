@@ -132,7 +132,9 @@
   <div id="wrapper4">
     <div class="recruit">
       <h2>RECRUIT</h2>
-      <img src="{{ asset('/images/recruit.png') }}" alt="recruit_2" width=90% height=50%>
+      <div class="recruit-img">
+        <img src="{{ asset('/images/recruit.png') }}" alt="recruit_2" width=90% height=50%>
+      </div>
       <div class="content">
         <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
           今まで培ってきた「個性」は、必ず活かせます。
