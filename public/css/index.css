@@ -87,9 +87,14 @@ body h2 {
     height: 800px;
     color: white;
 }
-#wrapper3,
+#wrapper3{
+    background-color: #EEEEEE;
+}
+
+
 #wrapper5 {
     background-color: #EEEEEE;
+    padding: 50px;
 }
 .recruit {
     width: 990px;
@@ -202,6 +207,7 @@ iframe {
     width: 200px;
     text-align: left;
 }
+
 .history-box th, .history-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
@@ -354,15 +360,15 @@ iframe {
 #wrapper7{
     margin: 0 auto;
     padding: 20px;
-    height: 500px;
+    /* height: 500px; */
     /* width:990px; */
-    background-color: #EEEEEE;
+    background-color: white;
 }
-.contact{
+.contact .form{
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     width: 600px;
-    height: 450px;
+    /* height: 300px; */
     border: double 5px #4ec4d3;
 
     /* background-color: teal; */
@@ -372,5 +378,10 @@ iframe {
 }
 .contact .form-group textarea{
     width: 550px;
+}
+.error-message p{
+    color: #ff0000;
+    text-align: left;
+    margin:  0;
 }
 /* CONTACT */
