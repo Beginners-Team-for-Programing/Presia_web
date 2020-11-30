@@ -137,26 +137,13 @@ $(function(){
 $(function(){
   $(".service-contents").on("inview", function (event, isInView) {
     if (isInView) {
-      $(this).stop().addClass("is-show");
+      $(this).stop().addClass("fadeInRight");
     } else {
-      $(this).stop().removeClass("is-show");
+      $(this).stop().removeClass("fadeInRight");
     }
   });
 });
 
-//リクルートしたから上
-$(function(){
-    $(window).scroll(function (){
-        $('.content').each(function(){
-            var elemPos = $(this).offset().top;
-            var scroll = $(window).scrollTop();
-            var windowHeight = $(window).height();
-            if (scroll > elemPos - windowHeight + 150){
-                $(this).addClass('scrollin');
-            }
-        });
-    });
-});
 
 
 //serviceフェードイン繰り返し
@@ -166,6 +153,17 @@ $(function(){
       $(this).stop().addClass("is-show");
     } else {
       $(this).stop().removeClass("is-show");
+    }
+  });
+});
+
+//リクルートしたから上
+$(function(){
+  $(".recruit-img").on("inview", function (event, isInView) {
+    if (isInView) {
+      $(this).stop().addClass("recruit-show");
+    } else {
+      $(this).stop().removeClass("recruit-show");
     }
   });
 });
