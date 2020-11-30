@@ -1,0 +1,10 @@
+/* タブレット向けレイアウト */
+
+/* ブレイクポイントが1000px以下のとき */
+@media (max-width:1000px) {
+  .main {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+}
