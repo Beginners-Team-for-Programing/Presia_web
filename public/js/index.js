@@ -167,3 +167,14 @@ $(function(){
     }
   });
 });
+
+//画面表示した際、'error-message'クラスの中に"ERROR"という文字列が含まれている場合、お問い合わせフォームまで画面スクロール
+$(function() {
+  var elements = document.getElementsByClassName('error-message');
+  if($(elements).is(":contains('ERROR')")){
+      var p = $("#wrapper7").offset().top;
+      $('html,body').animate({ scrollTop: p }, 0);
+      return false;
+    }
+  }
+);
