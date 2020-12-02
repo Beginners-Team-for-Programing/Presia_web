@@ -16,6 +16,19 @@ body {
 .header {
     margin:0 auto;
 }
+#logo img{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+
+
+
+
 /* フェードイン */
 .fadeIn_up {
     opacity: 0;
@@ -69,10 +82,59 @@ body h2 {
 #wrapper {
     margin: 0 auto;
 }
+
+
+/* ヘッダーここから */
 #wrapper1 {
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
-#wrapper1,
+#wrapper1 .nav {
+    margin: 0 auto;
+    height: 75px;
+    z-index: 9999;
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    margin-bottom: 0;
+}
+#wrapper1 .nav ul{
+    margin:  0 auto;
+    /* margin: 0; */
+    padding: 0;
+    list-style-type: none;
+    /* width: 100%; */
+
+}
+#wrapper1 .nav ul li {
+    float: left;
+    /* うまく整列しないので削除 */
+    /* width: 14%; */
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+}
+#wrapper1 .nav ul li a {
+    display: block;
+    height: 30px;
+    margin: 0;
+    padding: 5px 10px 10px 10px;
+    color: #333333;
+    text-decoration: none;
+}
+ /* ヘッダーの幅を横幅いっぱいにするために追加 */
+#navbarSupportedContent{
+    width: 100VW;   
+}
+/* ヘッダーここまで */
+
+
+
+
 #wrapper2,
 #wrapper3,
 #wrapper4,
@@ -117,65 +179,13 @@ iframe {
 }
 
 
-.blank{
+/* .blank{
     width: 100VW;
     height: 65px;
     background-color: white;
     position: fixed;
     top: 0%;
-}
-
-
-/*ナビゲーション */
-.nav {
-    margin: 0 auto;
-    height: 75px;
-    z-index: 9999;
-    position: fixed;
-    top: 25px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    margin-bottom: 0;
-}
-.nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 100%;
-}
-
-.nav ul li {
-    float: left;
-    /* うまく整列しないので削除 */
-    /* width: 14%; */
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 15px;
-}
-.nav ul li a {
-    display: block;
-    height: 30px;
-    margin: 0;
-    padding: 5px 10px 10px 10px;
-    color: #333333;
-    text-decoration: none;
-}
-.bg-light{
-    width: 100%;
-    /* text-align: center; */
-}
-
-/* ヘッダーの幅を横幅いっぱいにした */
-#navbarSupportedContent{
-    width: 100VW;
-    text-align: center;
-    padding: 0 28VW;
-}
-
-/*ナビゲーション */
-
+} */
 
 .section {
     margin:60px auto 0 auto;
