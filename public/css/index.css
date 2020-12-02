@@ -6,7 +6,6 @@
 body {
     width: 100%;
     font-family:sans-serif;
-    text-align: center;
     color: #222222;
 }
 .main {
@@ -203,17 +202,24 @@ iframe {
     /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
     padding-top: 50px;
 }
-.campany-box, .history-box {
+.campany-box, .history-box, .welfare-box {
     width: 100%;
 }
-.campany-box th, .campany-box td {
+.campany-box th,
+.campany-box td,
+.welfare-box th,
+.welfare-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
     color: gray;
     padding-left: 80px;
 }
-.campany-box th {
-    width: 200px;
+.campany-box th,
+.welfare-box th {
+    width: 250px;
+    text-align: left;
+}
+.welfare-box td {
     text-align: left;
 }
 
@@ -224,7 +230,7 @@ iframe {
     padding-left: 80px;
 }
 .history-box th {
-    width: 200px;
+    width: 250px;
     text-align: left;
 }
 .vision {
@@ -378,7 +384,7 @@ iframe {
     padding: 20px;
     width: 600px;
     /* height: 300px; */
-    border: double 5px #4ec4d3;
+    border: double 5px #BBBBBB;
 
     /* background-color: teal; */
 }
@@ -394,3 +400,41 @@ iframe {
     margin:  0;
 }
 /* CONTACT */
+
+
+
+/*recruit */
+.btn {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 10px auto;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+
+}
+
+.btn.shadow {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.shadow:hover {
+  -webkit-transform: translate(-2.5px, -2.5px);
+          transform: translate(-2.5px, -2.5px);
+  -webkit-box-shadow: 5px 5px 0 0 black;
+          box-shadow: 5px 5px 0 0 black;
+}
+
+.recruit_contact {
+    margin: 50px auto;
+    text-align: center;
+}
+.recruit_contact a {
+     text-decoration: none !important;
+}

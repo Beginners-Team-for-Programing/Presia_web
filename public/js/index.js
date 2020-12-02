@@ -43,7 +43,7 @@ $(
 );
 
 
-//スムーススクロール 
+//スムーススクロール
 $(function(){
   $('a[href^="#"]').click(function(){
     var speed = 900;
@@ -143,7 +143,6 @@ $(function(){
     }
   });
 });
-
 
 
 //serviceフェードイン繰り返し
