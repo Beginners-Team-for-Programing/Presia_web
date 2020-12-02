@@ -34,7 +34,9 @@
 
     -->
 
-  <div class="blank"></div>
+  <div id="logo">
+    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+  </div>
   <div id="wrapper">
     <div id="wrapper1">
       <div class="back-button">
