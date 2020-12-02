@@ -299,6 +299,7 @@
     <div class="footer-text">
       <small>©︎ 2020 PRESIA Co.,Ltd.</small>
       <a href="/privacy/">プライバシーポリシー</a>
+      <a href="/recruit/">リクルート</a>
     </div>
   </div>
   </div>

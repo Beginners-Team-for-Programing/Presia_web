@@ -27,8 +27,6 @@ class ContactController extends Controller
  }
 
     public function create(Request $inputs) {
-
-
         $contact = new Contact();
         $contact -> name = $inputs-> name;
         $contact -> mail = $inputs-> mail;

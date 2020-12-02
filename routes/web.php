@@ -25,9 +25,9 @@ Route::get('/', function () {
 //     return view('access');
 // });
 
-// Route::get('/recruit', function () {
-//     return view('recruit');
-// });
+Route::get('/recruit', function () {
+    return view('recruit');
+});
 
 // Route::get('/company', function () {
 //     return view('company');
