@@ -62,7 +62,7 @@
       </nav>
     </div>
     <!-- nav -->
-    <div class="section">
+    <!-- <div class="section">
       <div class="txtBox inview fadeIn_up">
         <p>関わるすべての人を幸せに</p>
         <h2>Make Everyone Happy</h2>
@@ -70,7 +70,10 @@
       <div class="imgBox inview fadeIn_up">
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
-    </div>
+    </div> -->
+<div class="mainvisual">
+    <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
+</div>
   </div>
   <div id="wrapper2">
     <div class="vision">
@@ -80,6 +83,9 @@
         クライアント、社員、その家族、全ての人の「幸せ」を実現するために、既存の形に捉われない、過去の成功に満足しない、
         この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
     </div>
+    <!-- <div class="about-img">
+        <img src="{{ asset('/images/presia.png') }}" alt="rogo">
+    </div> -->
   </div>
   <div id="wrapper3">
     <div class="main">

@@ -128,7 +128,7 @@ body h2 {
 }
  /* ヘッダーの幅を横幅いっぱいにするために追加 */
 #navbarSupportedContent{
-    width: 100VW;   
+    width: 100VW;
 }
 /* ヘッダーここまで */
 
@@ -144,9 +144,11 @@ body h2 {
     overflow: hidden;
 }
 #wrapper2 {
-    background-image: url("/images/company.png");
+    background-image: url("/images/about2.png");
     height: 800px;
-    color: white;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* color: white; */
 }
 #wrapper3{
     background-color: #EEEEEE;
@@ -212,24 +214,41 @@ iframe {
     /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
     padding-top: 50px;
 }
-.campany-box, .history-box, .welfare-box {
+.campany-box,
+.history-box,
+.welfare-box,
+.coo-box,
+.engineer-box,
+.help-box {
     width: 100%;
 }
 .campany-box th,
 .campany-box td,
 .welfare-box th,
-.welfare-box td {
+.welfare-box td,
+.coo-box th,
+.coo-box td,
+.engineer-box th,
+.engineer-box td,
+.help-box th,
+.help-box td {
     border-bottom:solid 1px silver;
     padding: 20px;
     color: gray;
     padding-left: 80px;
 }
 .campany-box th,
-.welfare-box th {
+.welfare-box th,
+.coo-box th,
+.engineer-box th,
+.help-box th {
     width: 250px;
     text-align: left;
 }
-.welfare-box td {
+.welfare-box td,
+.coo-box td,
+.engineer-box td,
+.help-box td {
     text-align: left;
 }
 
@@ -350,7 +369,7 @@ iframe {
 }
 .fadeInRight {
    transition: all 0.5s ease-in;
-    transform: translateX(10px);
+   transform: translateX(5px);
     opacity: 1;
 }
 
@@ -445,6 +464,13 @@ iframe {
     margin: 50px auto;
     text-align: center;
 }
+.service-contents a,
 .recruit_contact a {
      text-decoration: none !important;
+}
+.service-contents button {
+    margin: 10px auto;
+}
+.recruit-type h3{
+    margin: 10px auto;
 }

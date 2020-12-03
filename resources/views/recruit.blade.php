@@ -31,49 +31,52 @@
               <div class="service">
                 <h2>JOB TYPE</h2>
               </div>
-              <div class="service-1">
+              <div class="service-1 recruit-type">
                 <div class="service-contents">
-                  <h3>COO</h3>
-                  <p>
+                <h3>COO</h3>
+                    <p>
                       事業拡大に伴いCXOチームの組成が急務となっております。
                       COO候補として、新規事業・既存事業の各事業責任者として
                       全体の戦略立案〜実行までを統括していただきます。
                       全社の目標達成にコミットし、事業成長を指揮していただける方を募集しております。
-                  </p>
+                    </p>
+                    <button class="btn shadow"><a href=".coo-box">採用情報</a></button>
                 </div>
                 <div class="service-img">
-                  <img src="{{ asset('/images/飲食店経営.jpg') }}" alt="coo">
+                  <img  class="recruit1" src="{{ asset('/images/飲食店経営.jpg') }}" alt="coo">
                 </div>
               </div>
-              <div class="service-2">
+              <div class="service-2 recruit-type">
                 <div class="service-img">
                   <img src="{{ asset('/images/飲食コンサル.png') }}" alt="engineer-designer ">
                 </div>
                 <div class="service-contents">
                   <h3>ITエンジニア・WEBデザイナー</h3>
-                  <p>
-                      現代社会において、どのような業種にもITが必要な時代となりました。
-                      私たちプレジアでは、クライアント様のニーズにあわせたITプロダクトを
-                      提案することがとても重要だと考えています。
-                      様々な新規webサービスの開発はもちろん、保守サービスの運営などを行っていただきます。
-                      正社員はもちろん、業務委託も可能です。
-
-                  </p>
+                      <p>
+                         どのような業種にもITが必要な時代となりました。私たちプレジアでは、クライアント様のニーズにあわせたITプロダクトを提案することがとても重要だと考えています。様々な新規webサービスの開発はもちろん、保守サービスの運営などを行っていただきます。正社員はもちろん、業務委託も可能です。
+                      </p>
+                      <button class="btn shadow"><a href=".engineer-box">採用情報</a></button>
                 </div>
               </div>
-              <div class="service-3">
+              <div class="service-3 recruit-type">
                 <div class="service-contents">
-                  <h3>総務・ヘルプデスク</h3>
-                  <p>
-                      事業拡大に伴い、社内の管理体制を整えています。
-                      小さい会社ならではの幅広い権限を生かして、
-                      内勤で攻めていく「攻めの内勤」を募集しています。
-                  <p>
+                    <h3>総務・ヘルプデスク</h3>
+                        <p>
+                              事業拡大に伴い、社内の管理体制を整えています。
+                              小さい会社ならではの幅広い権限を生かして、
+                              内勤で攻めていく「攻めの内勤」を募集しています。
+                        </p>
+                        <button class="btn shadow"><a href=".help-box">採用情報</a></button>
                 </div>
                 <div class="service-img">
                   <img src="{{ asset('/images/web製作.png') }}" alt="General-affairs">
                 </div>
               </div>
+
+                <div class="recruit_contact">
+                  <button class="btn shadow"><a href="{{ url('/') }}#wrapper7">CONTANCT</a></button>
+                </div>
+
             </div>
           </div>
           <div id="wrapper5">
@@ -83,7 +86,7 @@
                     <h2>キャリア採用</h2>
                     <h3>COO</h3>
                 </div>
-                <table class="campany-box">　
+                <table class="coo-box">　
                   <tr>
                     <th>勤務地</th>
                     <td>池尻本社※リモートワーク可</td>
@@ -118,7 +121,7 @@
                 <div class="his">
                   <h3>ITエンジニア・WEBデザイナー</h3>
                 </div>
-                <table class="history-box">
+                <table class="engineer-box">
                     <tr>
                       <th>勤務地</th>
                       <td>自由※契約による</td>
@@ -152,7 +155,7 @@
               <div class="cam">
                   <h3>総務・ヘルプデスク</h3>
               </div>
-              <table class="campany-box">　
+              <table class="help-box">　
                 <tr>
                   <th>勤務地</th>
                   <td>池尻本社※リモートワーク可</td>
@@ -230,7 +233,19 @@
               </div>
             </div>
           </div>
-
+          <!-- wrapper -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+          <!-- Bootstrap javascript -->
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+          </script>
+          <!-- Page Specific javascript -->
+          <!-- jqueryのリンクを読み込んだ後にこっちを読み込まないと動作しなくなる -->
+          <script src="{{ asset('/js/index.js') }}"></script>
 
     </body>
 </html>
