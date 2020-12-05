@@ -11,7 +11,11 @@
     </head>
     <body>
     @if(isset($contact['name']))
-        <p>お問い合わせを受付しました。ご連絡まで少々お待ちくださいませ。</p>
+    <div class="resultMessage">
+        <p>お問い合わせを受付しました。</p>
+        <p>ご連絡まで少々お待ちくださいませ。</p>
+        <a href="/">ホーム画面に戻る</a>
+    </div>
 
     @else
         <div id="wrapper">

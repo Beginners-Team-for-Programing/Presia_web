@@ -17,11 +17,11 @@ body {
     margin:0 auto;
 }
 #logo img{
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     position: fixed;
-    left: 0px;
-    top: 0px;
+    left: 35px;
+    top: 15px;
     z-index: 0;
 }
 
@@ -103,27 +103,31 @@ body h2 {
 }
 #wrapper1 .nav ul{
     margin:  0 auto;
-    /* margin: 0; */
     padding: 0;
     list-style-type: none;
-    /* width: 100%; */
 
 }
 #wrapper1 .nav ul li {
     float: left;
-    /* うまく整列しないので削除 */
-    /* width: 14%; */
     height: 50px;
     text-align: center;
     text-decoration: none;
-    padding-top: 15px;
+    padding-top: 30px;
 }
+#wrapper1 .nav ul li .nav-item {
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
 #wrapper1 .nav ul li a {
     display: block;
     height: 30px;
     margin: 0;
     padding: 5px 10px 10px 10px;
     color: #333333;
+    background-color: white;
     text-decoration: none;
 }
  /* ヘッダーの幅を横幅いっぱいにするために追加 */
@@ -131,9 +135,6 @@ body h2 {
     width: 100VW;
 }
 /* ヘッダーここまで */
-
-
-
 
 #wrapper2,
 #wrapper3,
@@ -404,19 +405,18 @@ iframe {
 #wrapper7{
     margin: 0 auto;
     padding: 20px;
-    /* height: 500px; */
-    /* width:990px; */
     background-color: white;
 }
 .contact .form{
     margin: 0 auto;
     padding: 20px;
     width: 600px;
-    /* height: 300px; */
     border: double 5px #BBBBBB;
-
-    /* background-color: teal; */
 }
+#send{
+    text-align: center;
+}
+
 .contact .form-group input{
     width: 550px;
 }
@@ -434,18 +434,17 @@ iframe {
 
 /*recruit */
 .btn {
-  position: relative;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid black;
-  font-weight: 600;
-  padding: 10px 40px;
-  margin: 10px auto;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  color: black;
-
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
 }
 
 .btn.shadow {

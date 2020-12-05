@@ -34,9 +34,6 @@
 
     -->
 
-  <div id="logo">
-    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-  </div>
   <div id="wrapper">
     <div id="wrapper1">
       <div class="back-button">
@@ -49,6 +46,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div id="logo">
+            <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+          </div>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a href='#wrapper'>TOP</a></li>
               <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
@@ -71,10 +71,12 @@
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
     </div> -->
-<div class="mainvisual">
-    <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
-</div>
   </div>
+  
+  <div class="mainvisual">
+    <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
+  </div>
+
   <div id="wrapper2">
     <div class="vision">
       <h2>ABOUT US</h2>
@@ -279,7 +281,7 @@
           <textarea name="contents" value="{{old('contents')}}" placeholder="Message"></textarea>
         </div>
         <div id="send">
-          <input type="submit" value="Send">
+          <input type="submit" class="btn shadow" value="Send">
         </div>
       </form>
     </div>
