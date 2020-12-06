@@ -12,7 +12,7 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Page Specific CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-  >>>>>>> be31899de1975b7efb9e5741e70bebbceed5332e
+
 
 </head>
 
@@ -72,7 +72,7 @@
       </div>
     </div> -->
   </div>
-  
+
   <div class="mainvisual">
     <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
   </div>
@@ -149,8 +149,9 @@
         <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
           今まで培ってきた「個性」は、必ず活かせます。
           あなたの「個性」を使って、たくさんの幸せの創出を一緒にしませんか？
-          思い描く理想の働き方を、プレジアで実現しましょう。
-          募集概要は当ホームページのどこかに隠れています。</p>
+          プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
+          小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。
+          弊社のメンバーと楽しく会社を作っていけるメンバーを募集します。</p>
       </div>
     </div>
   </div>
