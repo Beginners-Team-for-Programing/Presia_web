@@ -19,6 +19,7 @@ class CreateContactsTable extends Migration
             $table->string('tel');
             $table->string('mail');
             $table->string('contents');
+            $table->string('checkbox');
             $table->timestamps();
         });
     }

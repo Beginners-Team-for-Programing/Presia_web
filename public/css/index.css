@@ -16,12 +16,21 @@ body {
 .header {
     margin:0 auto;
 }
+#logo{
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 65px;
+    width: 100vw;
+    background-color: white;
+}
+
+
 #logo img{
     width: 60px;
     height: 60px;
     position: fixed;
-    left: 35px;
-    top: 15px;
     z-index: 0;
 }
 
@@ -91,32 +100,35 @@ body h2 {
     overflow: hidden;
 }
 #wrapper1 .nav {
-    margin: 0 auto;
-    height: 75px;
+    /* padding: 10px; */
+    height: 45px;
+    width: 100vw;
     z-index: 9999;
     position: fixed;
-    top: 25px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 60px; 
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
     background-color: white;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 #wrapper1 .nav ul{
     margin:  0 auto;
     padding: 0;
     list-style-type: none;
-
 }
+
+
+
 #wrapper1 .nav ul li {
     float: left;
-    height: 50px;
     text-align: center;
     text-decoration: none;
-    padding-top: 30px;
+    /* ハンバーガーメニューを開いた際の項目の上下に空白ができるため下記2点はここでは設定しない */
+    /* height: 50px; */
+    /* padding-top: 30px; */
 }
 #wrapper1 .nav ul li .nav-item {
     margin: 0;
-    padding: 10px 10px;
     text-align: center;
 
 }
@@ -124,8 +136,8 @@ body h2 {
 #wrapper1 .nav ul li a {
     display: block;
     height: 30px;
-    margin: 0;
-    padding: 5px 10px 10px 10px;
+    margin: 0 auto;
+    padding: 20px;
     color: #333333;
     background-color: white;
     text-decoration: none;
@@ -135,6 +147,7 @@ body h2 {
     width: 100VW;
 }
 /* ヘッダーここまで */
+
 
 #wrapper2,
 #wrapper3,
@@ -149,7 +162,6 @@ body h2 {
     height: 800px;
     background-repeat: no-repeat;
     background-size:contain;
-    /* color: white; */
 }
 #wrapper3{
     background-color: #EEEEEE;
@@ -180,15 +192,6 @@ iframe {
 .content {
     margin: 20px auto ;
 }
-
-
-/* .blank{
-    width: 100VW;
-    height: 65px;
-    background-color: white;
-    position: fixed;
-    top: 0%;
-} */
 
 .section {
     margin:60px auto 0 auto;
@@ -268,8 +271,6 @@ iframe {
     width: 990px;
 }
 .vision p {
-    /* 三行のままならいらないが、増やすならleftにした方がいい */
-    /* text-align: left; */
     margin: 0;
     text-align: left;
 }

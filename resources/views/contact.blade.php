@@ -28,7 +28,7 @@
                 <p>入力に問題があります。再度入力してください。</p>
             </div>
     @endif
-            <form action="/confirm" method="POST">
+            <form action="/" method="POST">
                 @csrf
                 <div class="form-group">
                     @error('name')

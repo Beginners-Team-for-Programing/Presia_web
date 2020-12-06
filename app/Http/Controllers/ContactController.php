@@ -11,7 +11,7 @@ use App\Models\Contact;
 class ContactController extends Controller
 {
     public function get(Request $request) {
-        return view('contact');
+        return view('index');
     }
 
     public function confirm(beginnerRequest $request)
@@ -21,19 +21,20 @@ class ContactController extends Controller
      $inputs = $request->all();
 
      //入力内容確認ページのviewに変数を渡して表示
-     return view('confirm', [
+     return view('/', [
          'inputs' => $inputs,
      ]);
  }
 
-    public function create(Request $inputs) {
+    public function create(Request $request) {
         $contact = new Contact();
-        $contact -> name = $inputs-> name;
-        $contact -> mail = $inputs-> mail;
-        $contact -> tel = $inputs-> tel;
-        $contact -> contents = $inputs-> contents;
+        $contact -> name = $request -> name;
+        $contact -> mail = $request -> mail;
+        $contact -> tel = $request -> tel;
+        $contact -> contents = $request -> contents;
+        $contact -> checkbox = $request -> checkbox;
         $contact ->save();
-        return view('contact',compact('contact'));
+        return view('index');
     }
 
 }

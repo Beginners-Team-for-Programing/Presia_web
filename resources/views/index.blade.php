@@ -35,6 +35,9 @@
     -->
 
   <div id="wrapper">
+    <div id="logo">
+      <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+    </div>
     <div id="wrapper1">
       <div class="back-button">
         <p class="pagetop"><a href="#wrap">▲</a></p>
@@ -46,9 +49,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div id="logo">
-            <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-          </div>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a href='#wrapper'>TOP</a></li>
               <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
@@ -247,7 +247,7 @@
   <div id="wrapper7">
     <div class="contact">
       <h2>CONTACT</h2>
-      <form class="form" action="/confirm" method="POST">
+      <form class="form" action="/" method="POST">
         @csrf
         <div class="form-group">
           @error('name')
@@ -281,9 +281,23 @@
           @enderror
           <textarea name="contents" value="{{old('contents')}}" placeholder="Message"></textarea>
         </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox">
+          <span class="">Sendを押すと送信されますが、よろしいでしょうか？</span>
+          @error('checkbox')
+          <div class="error-message">
+            <p>ERROR {{$message}}</p>
+          </div>
+          @enderror
+        </div>
         <div id="send">
           <input type="submit" class="btn shadow" value="Send">
         </div>
+        @if(isset($contact['name']))
+        <div class="result">
+          <p class="">送信しました。お問い合わせありがとうございました。</p>
+        </div>
+        @endif
       </form>
     </div>
   </div>
