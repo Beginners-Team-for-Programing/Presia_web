@@ -12,7 +12,9 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Page Specific CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-  >>>>>>> be31899de1975b7efb9e5741e70bebbceed5332e
+  <!-- レスポンシブcss -->
+  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+
 
 </head>
 
@@ -71,9 +73,9 @@
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
     </div> -->
-<div class="mainvisual">
-    <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
-</div>
+    <div class="mainvisual">
+      <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
+    </div>
   </div>
   <div id="wrapper2">
     <div class="vision">
