@@ -45,9 +45,8 @@ $(
 
 //スムーススクロール
 $(function(){
-// #にダブルクォーテーションが必要
    $('a[href^="#"]').click(function() {
-     	var headerHight = 60;
+     	var headerHight = 100;
       var speed = 400;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
