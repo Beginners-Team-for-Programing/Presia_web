@@ -74,7 +74,11 @@
   </div>
 
   <div class="mainvisual">
-    <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
+    <img alt="mainvisual" src="{{ asset('images/mainvisual.jpg') }}" width="100%" height="700px">
+    <div class="mainvisual-text">
+        <h2>Make All People Happy</h2>
+        <p>関わるすべての人を幸せに</p>
+    </div>
   </div>
 
   <div id="wrapper2">
@@ -82,7 +86,8 @@
       <h2>ABOUT US</h2>
       <p>私たち株式会社プレジアは創業当初より、事業を通じて<br>
         『関わる全ての人を幸せにすること』＝「世の中を、より良くすること」を目指しています。<br>
-        クライアント、社員、その家族、全ての人の「幸せ」を実現するために、既存の形に捉われない、過去の成功に満足しない、
+        クライアント、社員、その家族、全ての人の「幸せ」を実現するために、<br>
+        既存の形に捉われない、過去の成功に満足しない、<br>
         この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
     </div>
     <!-- <div class="about-img">

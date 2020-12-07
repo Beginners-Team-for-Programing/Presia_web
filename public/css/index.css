@@ -33,8 +33,24 @@ body {
     position: fixed;
     z-index: 0;
 }
-
-
+.mainvisual {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.mainvisual-text{
+    margin: 0 auto;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+}
+.mainvisual-text h2 {
+    margin: 10px auto;
+}
 
 
 
@@ -105,7 +121,7 @@ body h2 {
     width: 100vw;
     z-index: 9999;
     position: fixed;
-    top: 60px; 
+    top: 60px;
     left: 0%;
     /* transform: translate(-50%, -50%); */
     background-color: white;
@@ -158,8 +174,9 @@ body h2 {
     overflow: hidden;
 }
 #wrapper2 {
-    background-image: url("/images/about2.png");
-    height: 800px;
+    /* background-image: url("/images/aboutus.png"); */
+    background-color: white;
+    height: 500px;
     background-repeat: no-repeat;
     background-size:contain;
 }
@@ -176,6 +193,9 @@ body h2 {
     width: 990px;
     margin: 0 auto;
     text-align: center;
+}
+.recruit {
+    line-height: 30px;
 }
 .access {
     text-align: center;
@@ -269,10 +289,14 @@ iframe {
 .vision {
     margin: 0 auto 50px auto;
     width: 990px;
+
 }
 .vision p {
-    margin: 0;
-    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px #cccccc;
+    width: 70%;
+    line-height: 30px;
 }
 .service {
     margin: 50px auto;
