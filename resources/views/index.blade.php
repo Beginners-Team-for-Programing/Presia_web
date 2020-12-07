@@ -36,10 +36,10 @@
 
     -->
 
-  <div id="logo">
-    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-  </div>
   <div id="wrapper">
+    <div id="logo">
+      <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+    </div>
     <div id="wrapper1">
       <div class="back-button">
         <p class="pagetop"><a href="#wrap">▲</a></p>
@@ -73,16 +73,28 @@
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
     </div> -->
-    <div class="mainvisual">
+    <<<<<<< HEAD <div class="mainvisual">
       <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
+  </div>
+  =======
+  >>>>>>> 1dfb1268e7db5d6b19cd8a4389e7763769603529
+  </div>
+
+  <div class="mainvisual">
+    <img alt="mainvisual" src="{{ asset('images/mainvisual.jpg') }}" width="100%" height="700px">
+    <div class="mainvisual-text">
+      <h2>Make All People Happy</h2>
+      <p>関わるすべての人を幸せに</p>
     </div>
   </div>
+
   <div id="wrapper2">
     <div class="vision">
       <h2>ABOUT US</h2>
       <p>私たち株式会社プレジアは創業当初より、事業を通じて<br>
         『関わる全ての人を幸せにすること』＝「世の中を、より良くすること」を目指しています。<br>
-        クライアント、社員、その家族、全ての人の「幸せ」を実現するために、既存の形に捉われない、過去の成功に満足しない、
+        クライアント、社員、その家族、全ての人の「幸せ」を実現するために、<br>
+        既存の形に捉われない、過去の成功に満足しない、<br>
         この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
     </div>
     <!-- <div class="about-img">
@@ -149,8 +161,9 @@
         <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
           今まで培ってきた「個性」は、必ず活かせます。
           あなたの「個性」を使って、たくさんの幸せの創出を一緒にしませんか？
-          思い描く理想の働き方を、プレジアで実現しましょう。
-          募集概要は当ホームページのどこかに隠れています。</p>
+          プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
+          小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。
+          弊社のメンバーと楽しく会社を作っていけるメンバーを募集します。</p>
       </div>
     </div>
   </div>
@@ -246,7 +259,7 @@
   <div id="wrapper7">
     <div class="contact">
       <h2>CONTACT</h2>
-      <form class="form" action="/confirm" method="POST">
+      <form class="form" action="/" method="POST">
         @csrf
         <div class="form-group">
           @error('name')
@@ -280,9 +293,23 @@
           @enderror
           <textarea name="contents" value="{{old('contents')}}" placeholder="Message"></textarea>
         </div>
-        <div id="send">
-          <input type="submit" value="Send">
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox">
+          <span class="">Sendを押すと送信されますが、よろしいでしょうか？</span>
+          @error('checkbox')
+          <div class="error-message">
+            <p>ERROR {{$message}}</p>
+          </div>
+          @enderror
         </div>
+        <div id="send">
+          <input type="submit" class="btn shadow" value="Send">
+        </div>
+        @if(isset($contact['name']))
+        <div class="result">
+          <p class="">送信しました。お問い合わせありがとうございました。</p>
+        </div>
+        @endif
       </form>
     </div>
   </div>

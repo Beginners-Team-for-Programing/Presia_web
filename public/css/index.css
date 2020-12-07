@@ -16,16 +16,41 @@ body {
 .header {
     margin:0 auto;
 }
-#logo img{
-    width: 75px;
-    height: 75px;
+#logo{
+    z-index: 9999;
     position: fixed;
-    left: 0px;
     top: 0px;
-    z-index: 0;
+    left: 0px;
+    height: 65px;
+    width: 100vw;
+    background-color: white;
 }
 
 
+#logo img{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    z-index: 0;
+}
+.mainvisual {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.mainvisual-text{
+    margin: 0 auto;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+}
+.mainvisual-text h2 {
+    margin: 10px auto;
+}
 
 
 
@@ -91,39 +116,46 @@ body h2 {
     overflow: hidden;
 }
 #wrapper1 .nav {
-    margin: 0 auto;
-    height: 75px;
+    /* padding: 10px; */
+    height: 45px;
+    width: 100vw;
     z-index: 9999;
     position: fixed;
-    top: 25px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 60px;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
     background-color: white;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 #wrapper1 .nav ul{
     margin:  0 auto;
-    /* margin: 0; */
     padding: 0;
     list-style-type: none;
-    /* width: 100%; */
-
 }
+
+
+
 #wrapper1 .nav ul li {
     float: left;
-    /* うまく整列しないので削除 */
-    /* width: 14%; */
-    height: 50px;
     text-align: center;
     text-decoration: none;
-    padding-top: 15px;
+    /* ハンバーガーメニューを開いた際の項目の上下に空白ができるため下記2点はここでは設定しない */
+    /* height: 50px; */
+    /* padding-top: 30px; */
 }
+#wrapper1 .nav ul li .nav-item {
+    margin: 0;
+    text-align: center;
+
+}
+
 #wrapper1 .nav ul li a {
     display: block;
     height: 30px;
-    margin: 0;
-    padding: 5px 10px 10px 10px;
+    margin: 0 auto;
+    padding: 20px;
     color: #333333;
+    background-color: white;
     text-decoration: none;
 }
  /* ヘッダーの幅を横幅いっぱいにするために追加 */
@@ -131,8 +163,6 @@ body h2 {
     width: 100VW;
 }
 /* ヘッダーここまで */
-
-
 
 
 #wrapper2,
@@ -144,11 +174,11 @@ body h2 {
     overflow: hidden;
 }
 #wrapper2 {
-    background-image: url("/images/about2.png");
-    height: 800px;
+    /* background-image: url("/images/aboutus.png"); */
+    background-color: white;
+    height: 500px;
     background-repeat: no-repeat;
     background-size:contain;
-    /* color: white; */
 }
 #wrapper3{
     background-color: #EEEEEE;
@@ -163,6 +193,9 @@ body h2 {
     width: 990px;
     margin: 0 auto;
     text-align: center;
+}
+.recruit {
+    line-height: 30px;
 }
 .access {
     text-align: center;
@@ -179,15 +212,6 @@ iframe {
 .content {
     margin: 20px auto ;
 }
-
-
-/* .blank{
-    width: 100VW;
-    height: 65px;
-    background-color: white;
-    position: fixed;
-    top: 0%;
-} */
 
 .section {
     margin:60px auto 0 auto;
@@ -265,12 +289,14 @@ iframe {
 .vision {
     margin: 0 auto 50px auto;
     width: 990px;
+
 }
 .vision p {
-    /* 三行のままならいらないが、増やすならleftにした方がいい */
-    /* text-align: left; */
-    margin: 0;
-    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px #cccccc;
+    width: 70%;
+    line-height: 30px;
 }
 .service {
     margin: 50px auto;
@@ -404,19 +430,18 @@ iframe {
 #wrapper7{
     margin: 0 auto;
     padding: 20px;
-    /* height: 500px; */
-    /* width:990px; */
     background-color: white;
 }
 .contact .form{
     margin: 0 auto;
     padding: 20px;
     width: 600px;
-    /* height: 300px; */
     border: double 5px #BBBBBB;
-
-    /* background-color: teal; */
 }
+#send{
+    text-align: center;
+}
+
 .contact .form-group input{
     width: 550px;
 }
@@ -434,18 +459,17 @@ iframe {
 
 /*recruit */
 .btn {
-  position: relative;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid black;
-  font-weight: 600;
-  padding: 10px 40px;
-  margin: 10px auto;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  color: black;
-
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
 }
 
 .btn.shadow {

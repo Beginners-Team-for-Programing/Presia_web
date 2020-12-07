@@ -13,7 +13,7 @@ class beginnerRequest extends FormRequest
      */
     public function authorize()
     {
-        if ($this->path() == 'confirm')
+        if ($this->path() == 'index')
         {
             return true;
         } else {
@@ -33,7 +33,7 @@ class beginnerRequest extends FormRequest
             'tel'=>'required',
             'mail'=>'email',
             'contents'=>'required',
-
+            'checkbox'=>'required',
         ];
     }
 
@@ -44,7 +44,7 @@ class beginnerRequest extends FormRequest
             'tel.required'=>'電話番号が必須です。',
             'mail.email'=>'メールアドレスが必須です。',
             'contents.required'=>'お問い合わせ内容を入力してください。',
-
+            'checkbox.required'=>'内容を確認し、チェックを入れてください。',
         ];
     }
 }

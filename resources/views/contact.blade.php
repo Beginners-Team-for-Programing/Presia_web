@@ -11,7 +11,11 @@
     </head>
     <body>
     @if(isset($contact['name']))
-        <p>お問い合わせを受付しました。ご連絡まで少々お待ちくださいませ。</p>
+    <div class="resultMessage">
+        <p>お問い合わせを受付しました。</p>
+        <p>ご連絡まで少々お待ちくださいませ。</p>
+        <a href="/">ホーム画面に戻る</a>
+    </div>
 
     @else
         <div id="wrapper">
@@ -24,7 +28,7 @@
                 <p>入力に問題があります。再度入力してください。</p>
             </div>
     @endif
-            <form action="/confirm" method="POST">
+            <form action="/" method="POST">
                 @csrf
                 <div class="form-group">
                     @error('name')
