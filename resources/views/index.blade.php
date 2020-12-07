@@ -73,11 +73,10 @@
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
     </div> -->
-    <<<<<<< HEAD <div class="mainvisual">
+    <div class="mainvisual">
       <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
-  </div>
-  =======
-  >>>>>>> 1dfb1268e7db5d6b19cd8a4389e7763769603529
+    </div>
+
   </div>
 
   <div class="mainvisual">

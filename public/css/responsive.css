@@ -1,48 +1,23 @@
 
+/* スマートフォン向けレイアウト */
+/* ブレイクポイントをmax-width: 600pxに指定 */
+@media (max-width:670px) {
+.vision{
+    width: 100%;
+  }
 
-/*====================
-PCを基本設計にする
- - 1280px〜：大型PC
- - 960px〜1279px：小型PC
- - 600px〜959px：タブレット
- - 480px〜599px：スマートフォン横
- - 〜479px：スマートフォン縦
-====================*/
- 
- 
- 
-/* 1280px〜：大型PC
------------------------------- */
- 
 
- 
- 
-/* 960px〜1279px：小型PC
------------------------------- */
-@media screen and (min-width:960px) and (max-width:1279px) {
- 
+.main{
+  width: 100%;
  
 }
- 
-/* 600px〜959px：タブレット
------------------------------- */
-@media screen and (min-width:600px) and (max-width:959px) {
- 
- 
+
+.recruit{
+  width: 100%;
 }
- 
- 
-/* 480px〜599px：SP横
------------------------------- */
-@media screen and (min-width:480px) and (max-width:599px) { 
- 
- 
+
+.main-2 {
+  width: 100%;
 }
- 
- 
-/* 〜479px：スマートフォン縦
------------------------------- */
-@media screen and (max-width:479px) { 
- 
- 
-}
+
+ }

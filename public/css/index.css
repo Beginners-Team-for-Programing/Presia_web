@@ -380,7 +380,7 @@ iframe {
 /* serviceフェードイン繰り返し */
 .service-img{
    transform: translateY(50px);
- transition: 3s;
+ transition: 1s;
  opacity: 0;
 }
 .is-show{
@@ -402,7 +402,7 @@ iframe {
 /*下から上にフェードイン リクルート*/
 .recruit-img{
    transform: translateY(50px);
- transition: 3s;
+ transition: 2s;
  opacity: 0;
 }
 .recruit-show{
