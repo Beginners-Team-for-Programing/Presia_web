@@ -2,15 +2,18 @@
 /* スマートフォン向けレイアウト */
 /* ブレイクポイントをmax-width: 600pxに指定 */
 @media (max-width:670px) {
-.vision{
+/* about us */
+  .vision{
     width: 100%;
   }
 
+/* service */
 
-.main{
+.service-1 ,.service-2 ,.service-3 {
   width: 100%;
- 
+  display: block;
 }
+
 
 .recruit{
   width: 100%;
