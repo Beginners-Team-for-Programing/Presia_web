@@ -73,14 +73,17 @@
         <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
       </div>
     </div> -->
-    <div class="mainvisual">
+    <!-- <div class="mainvisual">
       <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
-    </div>
+    </div> -->
 
   </div>
 
   <div class="mainvisual">
-    <img alt="mainvisual" src="{{ asset('images/mainvisual.jpg') }}" width="100%" height="700px">
+      <video autoplay loop>
+          <source src="{{asset('movie/mainvisual.mp4')}}" type="video/" width="100%" height="700px">
+      </video>
+    <!-- <img alt="mainvisual" src="{{ asset('images/main.png') }}" width="100%" height="700px"> -->
     <div class="mainvisual-text">
       <h2>Make All People Happy</h2>
       <p>関わるすべての人を幸せに</p>
@@ -122,7 +125,7 @@
       </div>
       <div class="service-2">
         <div class="service-img">
-          <img src="{{ asset('/images/飲食コンサル.png') }}" alt="consultant">
+          <img src="{{ asset('/images/consul.png') }}" alt="consultant">
         </div>
         <div class="service-contents">
           <h3>飲食コンサル</h3>
@@ -145,7 +148,7 @@
           <p>
         </div>
         <div class="service-img">
-          <img src="{{ asset('/images/web製作.png') }}" alt="WebProduction">
+          <img src="{{ asset('/images/web.jpg') }}" alt="WebProduction">
         </div>
       </div>
     </div>
@@ -154,7 +157,7 @@
     <div class="recruit">
       <h2>RECRUIT</h2>
       <div class="recruit-img">
-        <img src="{{ asset('/images/recruit.png') }}" alt="recruit_2" width=90% height=50%>
+        <img src="{{ asset('/images/recruit.jpg') }}" alt="recruit_2" width=90% height=50%>
       </div>
       <div class="content">
         <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
@@ -294,7 +297,7 @@
         </div>
         <div class="checkbox">
           <input type="checkbox" name="checkbox">
-          <span class="">Sendを押すと送信されますが、よろしいでしょうか？</span>
+          <span class="">確認画面は表示されません。よろしければチェックを入れてください。</span>
           @error('checkbox')
           <div class="error-message">
             <p>ERROR {{$message}}</p>

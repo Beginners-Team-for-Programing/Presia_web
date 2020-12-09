@@ -20,6 +20,9 @@ class ContactController extends Controller
      //フォームから受け取ったすべてのinputの値を取得
      $inputs = $request->all();
 
+     // var_dump($inputs);
+     // exit;
+
      //入力内容確認ページのviewに変数を渡して表示
      return view('/', [
          'inputs' => $inputs,
@@ -32,7 +35,7 @@ class ContactController extends Controller
         $contact -> mail = $request -> mail;
         $contact -> tel = $request -> tel;
         $contact -> contents = $request -> contents;
-        $contact -> checkbox = $request -> checkbox;
+        // $contact -> checkbox = $request -> checkbox;
         $contact ->save();
         return view('index');
     }
