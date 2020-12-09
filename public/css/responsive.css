@@ -8,6 +8,15 @@
   }
 
 /* service */
+.service-contents {
+  display: flex;
+}
+.order1 {
+  order: 2;
+}
+.order2 {
+  order: 1;
+}
 
 .service-1 ,.service-2 ,.service-3 {
   width: 100%;

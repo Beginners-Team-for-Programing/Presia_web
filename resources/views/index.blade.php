@@ -80,9 +80,9 @@
   </div>
 
   <div class="mainvisual">
-      <video autoplay loop>
-          <source src="{{asset('movie/mainvisual.mp4')}}" type="video/" width="100%" height="700px">
-      </video>
+    <video autoplay loop>
+      <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
+    </video>
     <!-- <img alt="mainvisual" src="{{ asset('images/main.png') }}" width="100%" height="700px"> -->
     <div class="mainvisual-text">
       <h2>Make All People Happy</h2>
