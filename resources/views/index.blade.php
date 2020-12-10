@@ -120,7 +120,7 @@
           </p>
         </div>
         <div class="service-img">
-          <img src="{{ asset('/images/飲食店経営.jpg') }}" alt="restaurant-management">
+          <img src="{{ asset('/images/restaurant.jpg') }}" alt="restaurant-management">
         </div>
       </div>
       <div class="service-2">
