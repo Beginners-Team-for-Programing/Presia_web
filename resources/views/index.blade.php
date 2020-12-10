@@ -261,7 +261,7 @@
   <div id="wrapper7">
     <div class="contact">
       <h2>CONTACT</h2>
-      <form class="form" action="/" method="POST">
+      <form class="form" action="/confirm" method="POST">
         @csrf
         <div class="form-group">
           @error('name')
@@ -330,10 +330,7 @@
       </ul>
     </div>
     <div class="footer-sns">
-      <img src="images/facebook.png"></img>
-      <img src="images/facebook.png"></img>
-      <img src="images/facebook.png"></img>
-      <img src="images/facebook.png"></img>
+      <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/facebook.png"><a>
     </div>
     <div class="footer-text">
       <small>©︎ 2020 PRESIA Co.,Ltd.</small>
