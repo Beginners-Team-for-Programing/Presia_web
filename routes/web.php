@@ -37,13 +37,13 @@ Route::get('/recruit', function () {
 //     return view('pro');
 // });
 
-Route::get('/privacy', function () {
-     return view('privacy');
-});
-
-
-Route::get('/contact', [ContactController::class, 'get']);
-
-Route::post('/confirm', [ContactController::class, 'confirm']);
-
-Route::post('/result', [ContactController::class, 'create']);
+// Route::get('/privacy', function () {
+//      return view('privacy');
+// });
+//
+//
+// Route::get('/contact', [ContactController::class, 'get']);
+//
+// Route::post('/confirm', [ContactController::class, 'confirm']);
+//
+// Route::post('/result', [ContactController::class, 'create']);

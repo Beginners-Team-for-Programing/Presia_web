@@ -233,7 +233,7 @@
       </a>
     </div>
   </div>
-  <div id="wrapper7">
+  <!-- <div id="wrapper7">
     <div class="contact">
       <h2>CONTACT</h2>
       <form class="form" action="/confirm" method="POST">
@@ -275,7 +275,7 @@
         </div>
       </form>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="footer">
