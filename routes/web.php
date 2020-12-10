@@ -44,7 +44,5 @@ Route::get('/privacy', function () {
 
 Route::get('/', [ContactController::class, 'get']);
 Route::post('/', [ContactController::class, 'create']);
-
-
-// Route::post('/confirm', [ContactController::class, 'confirm']);
+Route::post('/confirm', [ContactController::class, 'confirm']);
 // Route::post('/result', [ContactController::class, 'create']);

@@ -13,11 +13,13 @@ class beginnerRequest extends FormRequest
      */
     public function authorize()
     {
-        if ($this->path() == 'index')
+        if ($this->path() == 'confirm')
         {
             return true;
-        } else {
-        return false;
+        } 
+        else
+        {
+            return false;
         }
     }
 
