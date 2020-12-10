@@ -16,7 +16,7 @@
           <div id="wrapper4">
             <div class="recruit">
               <h2>RECRUIT</h2>
-              <img src="{{ asset('/images/recruit.png') }}" alt="recruit_2" width=90% height=50%>
+              <img src="{{ asset('/images/recruit.jpg') }}" alt="recruit_2" width=90% height=50%>
               <div class="content">
                 <p>私たちプレジアは、ビジョンに賛同し仕事に本気でコミットできる仲間を募集しています。<br>
                 自ら考えて行動できる人材が求められる現代社会。プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
@@ -43,12 +43,12 @@
                     <button class="btn shadow"><a href=".coo-box">採用情報</a></button>
                 </div>
                 <div class="service-img">
-                  <img  class="recruit1" src="{{ asset('/images/飲食店経営.jpg') }}" alt="coo">
+                  <img  class="recruit1" src="{{ asset('/images/coo.jpg') }}" alt="coo">
                 </div>
               </div>
               <div class="service-2 recruit-type">
                 <div class="service-img">
-                  <img src="{{ asset('/images/飲食コンサル.png') }}" alt="engineer-designer ">
+                  <img src="{{ asset('/images/desinner.jpg') }}" alt="engineer-designer ">
                 </div>
                 <div class="service-contents">
                   <h3>ITエンジニア・WEBデザイナー</h3>
@@ -69,7 +69,7 @@
                         <button class="btn shadow"><a href=".help-box">採用情報</a></button>
                 </div>
                 <div class="service-img">
-                  <img src="{{ asset('/images/web製作.png') }}" alt="General-affairs">
+                  <img src="{{ asset('/images/support.jpg') }}" alt="General-affairs">
                 </div>
               </div>
 
@@ -191,7 +191,7 @@
           <div id="wrapper4">
             <div class="recruit">
               <h2>福利厚生</h2>
-              <img src="{{ asset('/images/recruit.png') }}" alt="recruit_2" width=90% height=50%>
+              <img src="{{ asset('/images/mainvisual2.jpg') }}" alt="welfare" width=90% height=50%>
               <div class="content">
                   <table class="welfare-box">　
                     <tr>
@@ -213,6 +213,10 @@
                     <tr>
                       <th>昇給</th>
                       <td>自分から会社にいつでも昇給申請でき、承認されればそのまま昇給されます。</td>
+                    </tr>
+                    <tr>
+                      <th>社員旅行</th>
+                      <td>年1回</td>
                     </tr>
                     <tr>
                       <th>健康診断</th>
