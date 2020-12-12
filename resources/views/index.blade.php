@@ -12,6 +12,7 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Page Specific CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/wrapper7.css') }}">
   <!-- レスポンシブcss -->
   <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
@@ -261,7 +262,7 @@
   <div id="wrapper7">
     <div class="contact">
       <h2>CONTACT</h2>
-      <form class="form" action="/confirm" method="POST">
+      <form class="form" action="/" method="POST">
         @csrf
         <div class="form-group">
           @error('name')
@@ -309,7 +310,7 @@
         </div>
         @if(isset($contact['name']))
         <div class="result">
-          <p class="">送信しました。お問い合わせありがとうございました。</p>
+          <p>☑送信しました。お問い合わせありがとうございました。</p>
         </div>
         @endif
       </form>
