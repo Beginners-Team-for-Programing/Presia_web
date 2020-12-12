@@ -425,39 +425,6 @@ iframe {
     text-align: center;
 }
 
-
-
-/* CONTACT */
-#wrapper7{
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-}
-.contact .form{
-    margin: 0 auto;
-    padding: 20px;
-    width: 600px;
-    border: double 5px #BBBBBB;
-}
-#send{
-    text-align: center;
-}
-
-.contact .form-group input{
-    width: 550px;
-}
-.contact .form-group textarea{
-    width: 550px;
-}
-.error-message p{
-    color: #ff0000;
-    text-align: left;
-    margin:  0;
-}
-/* CONTACT */
-
-
-
 /*recruit */
 .btn {
     position: relative;

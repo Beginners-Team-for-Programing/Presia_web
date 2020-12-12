@@ -25,7 +25,9 @@ class ContactController extends Controller
         $contact -> contents = $request -> contents;
         $contact -> checkbox = $request -> checkbox;//バリデーションしたら保存しないとエラー？　20201210_yoshigai
         $contact ->save();
-        return view('index');
+        return view('index', [
+            'contact' => $contact,
+        ]);
 
         //古いコード↓↓↓↓↓↓↓↓↓↓↓↓
 
