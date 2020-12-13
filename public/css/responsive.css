@@ -8,13 +8,13 @@
   }
 
 /* service */
-.service-contents {
+.service-1 {
   display: flex;
 }
-.order1 {
+.service-contents {
   order: 2;
 }
-.order2 {
+.service-img {
   order: 1;
 }
 
