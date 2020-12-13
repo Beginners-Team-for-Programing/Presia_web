@@ -12,11 +12,13 @@
   }
 
 /* service */
-
-.order1 {
+.service-1 {
+  display: flex;
+}
+.service-contents {
   order: 2;
 }
-.order2 {
+.service-img {
   order: 1;
 }
 
