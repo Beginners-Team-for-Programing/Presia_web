@@ -28,19 +28,6 @@ class ContactController extends Controller
         return view('index', [
             'contact' => $contact,
         ]);
-
-        //古いコード↓↓↓↓↓↓↓↓↓↓↓↓
-
-        // //フォームから受け取ったすべてのinputの値を取得
-        // $inputs = $request->all();
-
-        // //  var_dump($inputs);
-        // // exit;
-
-        // //入力内容確認ページのviewに変数を渡して表示
-        // return view('index', [
-        //     'inputs' => $inputs,
-        // ]);
     }
 
     public function create(Request $inputs) {

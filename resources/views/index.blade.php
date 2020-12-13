@@ -12,9 +12,10 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Page Specific CSS -->
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/service.css') }}">
   <link rel="stylesheet" href="{{ asset('css/wrapper7.css') }}">
   <!-- レスポンシブcss -->
-  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+  <!-- <link rel="stylesheet" href="{{ asset('css/responsive.css') }}"> -->
 
 
 </head>
@@ -64,27 +65,12 @@
           </div>
       </nav>
     </div>
-    <!-- nav -->
-    <!-- <div class="section">
-      <div class="txtBox inview fadeIn_up">
-        <p>関わるすべての人を幸せに</p>
-        <h2>Make Everyone Happy</h2>
-      </div>
-      <div class="imgBox inview fadeIn_up">
-        <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-      </div>
-    </div> -->
-    <!-- <div class="mainvisual">
-      <img alt="mainvisual" src="{{ asset('images/mainvisual.png') }}">
-    </div> -->
-
   </div>
 
   <div class="mainvisual">
     <video autoplay loop>
       <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
     </video>
-    <!-- <img alt="mainvisual" src="{{ asset('images/main.png') }}" width="100%" height="700px"> -->
     <div class="mainvisual-text">
       <h2>Make All People Happy</h2>
       <p>関わるすべての人を幸せに</p>
@@ -100,9 +86,6 @@
         既存の形に捉われない、過去の成功に満足しない、<br>
         この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
     </div>
-    <!-- <div class="about-img">
-        <img src="{{ asset('/images/presia.png') }}" alt="rogo">
-    </div> -->
   </div>
   <div id="wrapper3">
     <div class="main">
@@ -110,11 +93,9 @@
         <h2>SERVICE</h2>
       </div>
       <div class="service-1">
-        <div class="service-contents">
+        <div class="service-contents order2">
           <h3>飲食店経営</h3>
-
-
-          <div class="text right order2">
+          <!-- <div class="text right order2"> -->
             <p>
               都心の港区を中心に飲食店経営を行っております。
               日本中の強豪がひしめき合う街、六本木。新規参入の難易度は非常に高く、
@@ -122,17 +103,17 @@
               私たちプレジアは、１０年間直営店を運営してきております。
               世の中に必要とされる飲食事業を創造し続けております。
             </p>
-          </div>
+          <!-- </div> -->
         </div>
-        <div class="service-img img left order1">
+        <div class="service-img order1">
           <img src="{{ asset('/images/restaurant.jpg') }}" alt="restaurant-management">
         </div>
       </div>
       <div class="service-2">
-        <div class="service-img">
+        <div class="service-img order1">
           <img src="{{ asset('/images/consul.png') }}" alt="consultant">
         </div>
-        <div class="service-contents">
+        <div class="service-contents order2">
           <h3>飲食コンサル</h3>
           <p>
             夢を追い求める飲食店経営者を支援したい、という想いから
@@ -142,7 +123,7 @@
         </div>
       </div>
       <div class="service-3">
-        <div class="service-contents">
+        <div class="service-contents order2">
           <h3>Web制作</h3>
           <p>
             『ITを通して、関わる全ての人を幸せにする』
@@ -152,7 +133,7 @@
             是非ご要望をお聞かせください。
           <p>
         </div>
-        <div class="service-img">
+        <div class="service-img order1">
           <img src="{{ asset('/images/web.jpg') }}" alt="WebProduction">
         </div>
       </div>
@@ -304,13 +285,13 @@
           <textarea name="contents" value="{{old('contents')}}" placeholder="Message"></textarea>
         </div>
         <div class="checkbox">
-          <input type="checkbox" name="checkbox">
-          <span class="">確認画面は表示されません。よろしければチェックを入れてください。</span>
           @error('checkbox')
           <div class="error-message">
             <p>ERROR {{$message}}</p>
           </div>
           @enderror
+          <input type="checkbox" name="checkbox">
+          <label class="">確認画面は表示されません。よろしければチェックを入れてください。</label>
         </div>
         <div id="send">
           <input type="submit" class="btn shadow" value="Send">
