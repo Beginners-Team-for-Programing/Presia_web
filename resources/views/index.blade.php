@@ -112,6 +112,8 @@
       <div class="service-1">
         <div class="service-contents">
           <h3>飲食店経営</h3>
+
+
           <p>
             都心の港区を中心に飲食店経営を行っております。
             日本中の強豪がひしめき合う街、六本木。新規参入の難易度は非常に高く、
@@ -154,6 +156,9 @@
       </div>
     </div>
   </div>
+
+
+
   <div id="wrapper4">
     <div class="recruit">
       <h2>RECRUIT</h2>
