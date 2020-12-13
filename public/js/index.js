@@ -190,3 +190,14 @@ $(function() {
     }
   }
 );
+//画面表示した際、'result'クラスの中に"送信しました。お問い合わせありがとうございました。"という文字列が含まれている場合、お問い合わせフォームまで画面スクロール
+$(function() {
+  var elements = document.getElementsByClassName('result');
+  if($(elements).is(":contains('送信しました。お問い合わせありがとうございました。')")){
+      var p = $("#wrapper7").offset().top;
+      $('html,body').animate({ scrollTop: p }, 0);
+      return false;
+    }
+  }
+);
+

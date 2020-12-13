@@ -13,7 +13,7 @@ class beginnerRequest extends FormRequest
      */
     public function authorize()
     {
-        if ($this->path() == 'confirm')
+        if ($this->path() == '/')
         {
             return true;
         } 
