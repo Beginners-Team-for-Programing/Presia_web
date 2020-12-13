@@ -4,15 +4,16 @@
 .service-1 {
   display: flex;
 }
-@media (max-width:670px) {
+@media (max-width:767px) {
 /* about us */
   .vision{
     width: 100%;
   }
 
 /* service */
-.service-1 ,.service-2 ,.service-3 {
+.service .service-1 ,.service-2 ,.service-3 {
   width: 100%;
+  padding: 20px 20px;
 }
 
 .service-1{
@@ -26,15 +27,47 @@
   order: 1;
 }
 
+/* campany */
+.campany-box, 
+.campany-box tr,
+.campany-box td,
+.campany-box th {
+  width: 100%;
+  display: block;
+}
+.campany-box th {
+  padding: 10px;
+}
+.campany-box th {
+  width: auto;
+}
+
+.history-box, 
+.history-box tr,
+.history-box td,
+.history-box th {
+  width: 100%;
+  display: block;
+} 
+.history-box th {
+ padding: 10px;
+}
 
 
 
 .recruit{
   width: 100%;
+  padding: 20px 20px;
 }
 
 .main-2 {
   width: 100%;
 }
 
- }
+.access,
+.contact {
+  width: 100%;
+  padding: 20px;
+}
+
+}
