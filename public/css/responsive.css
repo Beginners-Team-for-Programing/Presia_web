@@ -1,9 +1,5 @@
 
 /* スマートフォン向けレイアウト */
-
-.service-contents {
-  display: flex;
-}
 /* ブレイクポイントをmax-width: 600pxに指定 */
 @media (max-width:670px) {
 /* about us */
@@ -36,4 +32,4 @@
   width: 100%;
 }
 
-}
+ }
