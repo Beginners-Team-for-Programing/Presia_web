@@ -1,6 +1,9 @@
 
 /* スマートフォン向けレイアウト */
 /* ブレイクポイントをmax-width: 600pxに指定 */
+.service-1 {
+  display: flex;
+}
 @media (max-width:670px) {
 /* about us */
   .vision{
@@ -8,20 +11,22 @@
   }
 
 /* service */
-.service-1 {
-  display: flex;
+.service-1 ,.service-2 ,.service-3 {
+  width: 100%;
 }
-.service-contents {
+
+.service-1{
+  flex-direction: column;
+
+}
+.order1 {
   order: 2;
 }
-.service-img {
+.order2 {
   order: 1;
 }
 
-.service-1 ,.service-2 ,.service-3 {
-  width: 100%;
-  display: block;
-}
+
 
 
 .recruit{
