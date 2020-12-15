@@ -42,7 +42,7 @@
 /* スマートフォン向けレイアウト */
 @media (max-width:768px)
 {
-    .service-1 ,.service-2 ,.service-3
+    .service-1 ,.service-2 ,.service-3 
     {
         width: 100%;
         display: flex;
@@ -64,6 +64,5 @@
     {
         order: 2;
     }   
-
 
 } 
