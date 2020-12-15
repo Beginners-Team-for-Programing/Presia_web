@@ -14,8 +14,10 @@
   <link rel="stylesheet" href="{{ asset('css/index.css') }}">
   <link rel="stylesheet" href="{{ asset('css/service.css') }}">
   <link rel="stylesheet" href="{{ asset('css/wrapper7.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+
   <!-- レスポンシブcss -->
-  <!-- <link rel="stylesheet" href="{{ asset('css/responsive.css') }}"> -->
+  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
 
 </head>
@@ -96,13 +98,13 @@
         <div class="service-contents order2">
           <h3>飲食店経営</h3>
           <!-- <div class="text right order2"> -->
-            <p>
-              都心の港区を中心に飲食店経営を行っております。
-              日本中の強豪がひしめき合う街、六本木。新規参入の難易度は非常に高く、
-              また、参入しても１年と持たないお店が大半を占める中で、
-              私たちプレジアは、１０年間直営店を運営してきております。
-              世の中に必要とされる飲食事業を創造し続けております。
-            </p>
+          <p>
+            都心の港区を中心に飲食店経営を行っております。
+            日本中の強豪がひしめき合う街、六本木。新規参入の難易度は非常に高く、
+            また、参入しても１年と持たないお店が大半を占める中で、
+            私たちプレジアは、１０年間直営店を運営してきております。
+            世の中に必要とされる飲食事業を創造し続けております。
+          </p>
           <!-- </div> -->
         </div>
         <div class="service-img order1">
