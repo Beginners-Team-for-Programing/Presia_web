@@ -307,17 +307,6 @@
 
 
   <div class="footer">
-    <div class="footer-nav">
-      <ul>
-        <li><a href='#wrapper'>TOP</a></li>
-        <li><a href='#wrapper2'>ABOUT</a></li>
-        <li><a href='#wrapper3'>SERVICE</a></li>
-        <li><a href='#wrapper4'>RECRUIT</a></li>
-        <li><a href='#wrapper5'>ACCESS</a></li>
-        <li><a href="#wrapper6">COMPANY</a></li>
-        <li><a href='#wrapper7'>CONTACT</a></li>
-      </ul>
-    </div>
     <div class="footer-sns">
       <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/facebook.png"><a>
     </div>
