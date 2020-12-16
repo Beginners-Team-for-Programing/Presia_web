@@ -434,4 +434,22 @@ iframe {
   padding: 20px 20px;
 }
 
+
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width:768px)
+{
+    /* body h2{
+        width: 100%;
+    } */
+    .main{
+        width:100%;
+    }
+    #wrapper6{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
 }

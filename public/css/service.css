@@ -42,12 +42,30 @@
 /* スマートフォン向けレイアウト */
 @media (max-width:768px)
 {
-    .service-1 ,.service-2 ,.service-3 
+    #wrapper3
     {
+        /* margin: 0 auto; */
         width: 100%;
+    }
+    #wrapper3 h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-1 ,
+    .service-2 ,
+    .service-3 {
+        width: 100%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
+    .service-1 div,
+    .service-2 div,
+    .service-3 div {
+        width: 100%;
+    }
+
     .service-1 .order1
     {
         order: 1;
@@ -63,12 +81,10 @@
     .service-3 .order2
     {
         order: 2;
-    }   
-    .main,
-    .recruit,
-    .main-2,
-    .access,
-    .contact {
-        margin: 0 auto;
+
     }
-} 
+    .service-1 img{
+        width: 100%;
+    }
+
+}

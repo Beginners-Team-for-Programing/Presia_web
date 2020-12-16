@@ -30,10 +30,11 @@
   width: 100%;
 }
 .campany-box th {
-  padding: 10px;
+  padding: 10px 5px;
 }
-.campany-box th {
-  width: auto;
+.campany-box td {
+padding: 10px 5px;
+word-break:keep-all
 }
 
 .history-box, 
@@ -43,6 +44,17 @@
   width: 100%;
   padding: 0;
 } 
+
+
+.history-box th {
+  padding: 10px 5px;
+  word-break:keep-all;
+  
+}
+.history-box td {
+  padding: 10px 5px;
+  word-break:keep-all;
+}
 
 
 

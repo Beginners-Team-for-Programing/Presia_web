@@ -28,7 +28,7 @@
 #send{
     width: 20%;
     text-align: center;
-    margin: 5% 0 40% 40%;
+    margin: 5% 0 0 40%;
 }
 
 .resultMessage{
@@ -37,7 +37,6 @@
 
 @media (max-width:767px) {
 
-/* contact */
 .contact .form {
     width: 100%;
 }
