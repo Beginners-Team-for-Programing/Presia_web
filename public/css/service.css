@@ -64,5 +64,11 @@
     {
         order: 2;
     }   
-
+    .main,
+    .recruit,
+    .main-2,
+    .access,
+    .contact {
+        margin: 0 auto;
+    }
 } 
