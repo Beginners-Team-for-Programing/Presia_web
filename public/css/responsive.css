@@ -30,7 +30,7 @@
   width: 100%;
 }
 .campany-box th {
-  padding: 10px 5px;
+  padding: 20px 5px;
 }
 .campany-box td {
 padding: 10px 5px;
@@ -47,7 +47,7 @@ word-break:keep-all
 
 
 .history-box th {
-  padding: 10px 5px;
+  padding: 30px 5px;
   word-break:keep-all;
   
 }
