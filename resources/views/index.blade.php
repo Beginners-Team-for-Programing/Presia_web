@@ -42,9 +42,6 @@
   <div class="wrapp">
 
     <div id="wrapper">
-      <div id="logo">
-        <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-      </div>
       <div id="wrapper1">
         <div class="back-button">
           <p class="pagetop"><a href="#wrap">▲</a></p>
@@ -56,6 +53,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="logo">
+              <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+            </div>
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href='#wrapper'>TOP</a></li>
                 <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
