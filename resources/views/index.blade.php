@@ -68,7 +68,12 @@
       </nav>
     </div>
   </div>
-
+  <div class="covervid-wrapper">
+      <video class="covervid-video" autoplay loop poster="img/video-fallback.png">
+          <!-- <source src="videos/clouds.webm" type="video/webm"> -->
+          <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/mp4">
+      </video>
+  </div>
   <div class="mainvisual">
     <video autoplay loop>
       <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
@@ -322,6 +327,7 @@
   <!-- wrapper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+
   <!-- Bootstrap javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -332,6 +338,8 @@
   <!-- Page Specific javascript -->
   <!-- jqueryのリンクを読み込んだ後にこっちを読み込まないと動作しなくなる -->
   <script src="{{ asset('/js/index.js') }}"></script>
+ <!-- 動画を再生 -->
+  <script src="{{ asset('/js/covervid.min.js') }}"></script>
 </body>
 
 </html>
