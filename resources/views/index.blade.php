@@ -42,9 +42,6 @@
   <div class="wrapp">
 
     <div id="wrapper">
-      <div id="logo">
-        <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-      </div>
       <div id="wrapper1">
         <div class="back-button">
           <p class="pagetop"><a href="#wrap">▲</a></p>
@@ -56,6 +53,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div id="logo">
+                <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+              </div>
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href='#wrapper'>TOP</a></li>
                 <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
@@ -70,20 +70,14 @@
       </div>
     </div>
 
-  </div>
-  <div class="covervid-wrapper">
-    <video class="covervid-video" autoplay loop poster="img/video-fallback.png">
-      <!-- <source src="videos/clouds.webm" type="video/webm"> -->
-      <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/mp4">
-    </video>
-  </div>
-  <div class="mainvisual">
-    <video autoplay loop>
-      <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
-    </video>
-    <div class="mainvisual-text">
-      <h2>Make All People Happy</h2>
-      <p>関わるすべての人を幸せに</p>
+    <div class="mainvisual">
+      <video autoplay loop>
+        <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
+      </video>
+      <div class="mainvisual-text">
+        <h2>Make All People Happy</h2>
+        <p>関わるすべての人を幸せに</p>
+      </div>
     </div>
 
     <div id="wrapper2">
@@ -340,9 +334,12 @@
   <!-- Page Specific javascript -->
   <!-- jqueryのリンクを読み込んだ後にこっちを読み込まないと動作しなくなる -->
   <script src="{{ asset('/js/index.js') }}"></script>
-  </div>
-  <!-- 動画を再生 -->
-  <script src="{{ asset('/js/covervid.min.js') }}"></script>
+  <<<<<<< HEAD </div>
+    <!-- 動画を再生 -->
+    =======
+    <!-- 動画を再生 -->
+    >>>>>>> e8a9ebc2fa91fcda9e5e00ee06f2def5393a72e7
+    <script src="{{ asset('/js/covervid.min.js') }}"></script>
 </body>
 
 </html>
