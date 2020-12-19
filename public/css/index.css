@@ -2,6 +2,10 @@
 * {
   box-sizing: border-box;
 }
+.wrapp {
+      overflow: hidden;
+
+}
 
 body {
     width: 100%;
@@ -16,21 +20,23 @@ body {
 .header {
     margin:0 auto;
 }
-#logo{
+/* #logo{
     z-index: 9999;
-    position: fixed;
+    position: relative;
     top: 0px;
     left: 0px;
     height: 65px;
     width: 100vw;
     background-color: white;
-}
+} */
 
 
 #logo img{
     width: 60px;
     height: 60px;
     position: fixed;
+    top: 10px;
+    left: 10px;
     z-index: 0;
 }
 .mainvisual {
@@ -122,10 +128,8 @@ body h2 {
     /* width: 100vw; */
     z-index: 9999;
     position: fixed;
-    right: 10px;
-    top: 10px;
-    /* top: 60px;
-    left: 0%; */
+    top: 0px;
+    left: 0%;
     /* transform: translate(-50%, -50%); */
     background-color: white;
     /* margin-bottom: 0; */
@@ -156,14 +160,17 @@ body h2 {
     display: block;
     height: 30px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     color: #333333;
     background-color: white;
     text-decoration: none;
 }
  /* ヘッダーの幅を横幅いっぱいにするために追加 */
 #navbarSupportedContent{
+    background-color: white;
     width: 100VW;
+    height: 75px;
+
 }
 /* ヘッダーここまで */
 
@@ -447,7 +454,7 @@ iframe {
 }
 
 /* スマートフォン向けレイアウト */
-@media (max-width:768px)
+@media (max-width:767px)
 {
     /* body h2{
         width: 100%;
@@ -455,6 +462,7 @@ iframe {
     .main{
         width:100%;
     }
+        
     #wrapper6{
         width: 100%;
     }

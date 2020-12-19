@@ -17,7 +17,7 @@
 .service-3 p {
     text-align: left;
     line-height: 30px;
-    margin: 0 10px;
+    margin: 0 10px 50px 10px;
 }
 .service-1,
 .service-2,
@@ -40,7 +40,7 @@
 }
 
 /* スマートフォン向けレイアウト */
-@media (max-width:768px)
+@media (max-width:767px)
 {
     #wrapper3
     {

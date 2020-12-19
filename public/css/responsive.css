@@ -1,6 +1,17 @@
 
 /* スマートフォン向けレイアウト */
 @media (max-width:767px) {
+
+/* ヘッダー */
+#logo img{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 0;
+}
+
 /* about us */
   .vision{
     width: 100%;
@@ -30,7 +41,7 @@
   width: 100%;
 }
 .campany-box th {
-  padding: 10px 5px;
+  padding: 20px 5px;
 }
 .campany-box td {
 padding: 10px 5px;
@@ -47,7 +58,7 @@ word-break:keep-all
 
 
 .history-box th {
-  padding: 10px 5px;
+  padding: 30px 5px;
   word-break:keep-all;
   
 }
