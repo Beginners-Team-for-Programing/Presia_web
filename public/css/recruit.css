@@ -1,0 +1,65 @@
+
+#wrapper4 {
+    width: 100%;
+    overflow: hidden;
+}
+.recruit {
+    width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+.recruit .recruit-img img{
+    width: 90%;
+    height: 50%;
+}
+.recruit-type h3{
+    margin: 10px auto;
+}
+.recruit_contact {
+    margin: 50px auto;
+    text-align: center;
+}
+.recruit_contact a {
+    text-decoration: none !important;
+}
+
+/*下から上にフェードイン リクルート*/
+.recruit-img{
+    transform: translateY(50px);
+    transition: 2s;
+    opacity: 0;
+}
+.recruit-show{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.content {
+    margin: 20px auto ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .recruit{
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
