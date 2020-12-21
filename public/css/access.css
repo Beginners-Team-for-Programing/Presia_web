@@ -1,0 +1,17 @@
+#wrapper6 {
+    width: 100%;
+    overflow: hidden;
+}
+.access {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.access iframe {
+    margin: 50px auto 20px auto;
+    width: 400px;
+}
+
+.access p {
+    margin: 0 auto;
+}

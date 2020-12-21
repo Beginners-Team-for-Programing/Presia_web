@@ -11,13 +11,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Page Specific CSS -->
-  <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/service.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/wrapper7.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/aboutus.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/access.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/confirm.css') }}">
   <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
-
-  <!-- レスポンシブcss -->
-  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/history.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/mainvisual.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/privacy.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/recruit.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/service.css') }}">
+  <!-- <link rel="stylesheet" href="{{ asset('css/index.css') }}"> -->
+  <!-- <link rel="stylesheet" href="{{ asset('css/responsive.css') }}"> -->
 
 
 </head>
@@ -39,13 +45,15 @@
         私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
     -->
-  <div class="wrapp">
-
-    <div id="wrapper">
+  <div id="logo">
+    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
+  </div>
+  <div class="back-button">
+    <p class="pagetop"><a href="#wrap">▲</a></p>
+  </div>
+  <!-- <div class="wrapp">
+    <div id="wrapper"> -->
       <div id="wrapper1">
-        <div class="back-button">
-          <p class="pagetop"><a href="#wrap">▲</a></p>
-        </div>
         <nav class="navbar navbar-expand-md navbar-light">
           <div class="nav">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -53,9 +61,6 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div id="logo">
-              <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-            </div>
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href='#wrapper'>TOP</a></li>
                 <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
@@ -149,7 +154,7 @@
       <div class="recruit">
         <h2>RECRUIT</h2>
         <div class="recruit-img">
-          <img src="{{ asset('/images/recruit.jpg') }}" alt="recruit_2" width=90% height=50%>
+          <img src="{{ asset('/images/recruit.jpg') }}" alt="recruit_2">
         </div>
         <div class="content">
           <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
@@ -318,7 +323,7 @@
         <a href="/privacy/">プライバシーポリシー</a>
         <a href="/recruit/">リクルート</a>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
   <!-- wrapper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

@@ -1,0 +1,10 @@
+.history-box th, .history-box td {
+    border-bottom:solid 1px silver;
+    padding: 20px;
+    color: gray;
+    padding-left: 80px;
+}
+.history-box th {
+    width: 250px;
+    text-align: left;
+}

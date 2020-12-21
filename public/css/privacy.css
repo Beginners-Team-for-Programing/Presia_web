@@ -1,0 +1,13 @@
+/* プライバシーポリシー */
+.P-main {
+    width: 990px;
+    margin: 0 auto;
+    text-align: left;
+}
+.P-main h3 {
+    margin: 50px auto 30px auto;
+    border-bottom:solid 1px silver;
+}
+.back-top {
+    text-align: center;
+}
