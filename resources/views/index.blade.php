@@ -334,12 +334,8 @@
   <!-- Page Specific javascript -->
   <!-- jqueryのリンクを読み込んだ後にこっちを読み込まないと動作しなくなる -->
   <script src="{{ asset('/js/index.js') }}"></script>
-  <<<<<<< HEAD </div>
-    <!-- 動画を再生 -->
-    =======
-    <!-- 動画を再生 -->
-    >>>>>>> e8a9ebc2fa91fcda9e5e00ee06f2def5393a72e7
-    <script src="{{ asset('/js/covervid.min.js') }}"></script>
+  <!-- 動画を再生 -->
+  <script src="{{ asset('/js/covervid.min.js') }}"></script>
 </body>
 
 </html>
