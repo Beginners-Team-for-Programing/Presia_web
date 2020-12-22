@@ -45,39 +45,35 @@
         私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
     -->
-  <div id="logo">
-    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-  </div>
   <div class="back-button">
     <p class="pagetop"><a href="#wrap">▲</a></p>
   </div>
-  <!-- <div class="wrapp">
-    <div id="wrapper"> -->
-      <div id="wrapper1">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <div class="nav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a href='#wrapper'>TOP</a></li>
-                <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
-                <li class="nav-item"><a href='#wrapper3'>SERVICE</a></li>
-                <li class="nav-item"><a href='#wrapper4'>RECRUIT</a></li>
-                <li class="nav-item"><a href='#wrapper5'>COMPANY</a></li>
-                <li class="nav-item"><a href="#wrapper6">ACCESS</a></li>
-                <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
-              </ul>
-            </div>
-        </nav>
-      </div>
+  <div id="header">
+    <div id="logo">
+      <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
     </div>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href='#wrapper'>TOP</a></li>
+            <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
+            <li class="nav-item"><a href='#wrapper3'>SERVICE</a></li>
+            <li class="nav-item"><a href='#wrapper4'>RECRUIT</a></li>
+            <li class="nav-item"><a href='#wrapper5'>COMPANY</a></li>
+            <li class="nav-item"><a href="#wrapper6">ACCESS</a></li>
+            <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
 
     <div class="mainvisual">
       <video autoplay loop>
-        <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
+        <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/">
       </video>
       <div class="mainvisual-text">
         <h2>Make All People Happy</h2>
