@@ -1,0 +1,70 @@
+
+.main-2 {
+    width: 990px;
+    margin: 0 auto;
+}
+.cam {
+    text-align: center;
+    color: black;
+    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
+    padding-top: 50px;
+
+}
+.his {
+    text-align: center;
+    color: black;
+    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
+    padding-top: 50px;
+}
+.campany-box,
+.history-box,
+.welfare-box,
+.coo-box,
+.engineer-box,
+.help-box {
+    width: 100%;
+}
+.campany-box th,
+.campany-box td,
+.welfare-box th,
+.welfare-box td,
+.coo-box th,
+.coo-box td,
+.engineer-box th,
+.engineer-box td,
+.help-box th,
+.help-box td {
+    border-bottom:solid 1px silver;
+    padding: 20px;
+    color: gray;
+    padding-left: 80px;
+}
+.campany-box th,
+.welfare-box th,
+.coo-box th,
+.engineer-box th,
+.help-box th {
+    width: 250px;
+    text-align: left;
+}
+
+@media (max-width:767px) {
+
+    .main-2 {
+        width: 100%;
+    }
+    .campany-box, 
+    .campany-box tr,
+    .campany-box td,
+    .campany-box th {
+        width: 100%;
+    }
+    .campany-box th {
+        padding: 20px 0 20px 20px;
+    }
+    .campany-box td {
+        padding: 10px 5px;
+        word-break:keep-all
+    }
+
+}  

@@ -6,6 +6,11 @@
 .service {
     margin: 50px auto;
 }
+.main {
+    width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
 .service-1 h3,
 .service-2 h3,
 .service-3 h3 {
@@ -34,10 +39,39 @@
     margin-bottom: 75px;
 }
 
+/* serviceフェードイン繰り返し */
+.service-img{
+    transform: translateY(50px);
+    transition: 1s;
+    opacity: 0;
+}
+.is-show{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
 .service-img img {
     width: 100%;
     height: 250px;
 }
+.service-contents a {
+    text-decoration: none !important;
+}
+.service-contents button {
+    margin: 20px auto;
+}
+
+/*左から右にフェードイン*/
+.service-contents {
+    opacity: 0;
+}
+.fadeInRight {
+    transition: all 0.5s ease-in;
+    transform: translateX(5px);
+    opacity: 1;
+}
+
 
 /* スマートフォン向けレイアウト */
 @media (max-width:767px)
@@ -48,7 +82,11 @@
         width: 100%;
     }
     #wrapper3 h2{
+        width: 100%;
         text-align: center;
+    }
+
+    .service {
         width: 100%;
     }
 

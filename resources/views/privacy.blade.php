@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>プライバシーポリシー</title>
         <!-- Page Specific CSS -->
-        <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/privacy.css') }}">
     </head>
     <body>
         <div class="P-main">
