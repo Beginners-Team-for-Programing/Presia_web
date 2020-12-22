@@ -8,3 +8,28 @@
     width: 250px;
     text-align: left;
 }
+
+
+
+@media (max-width:767px) {
+
+.history-box, 
+.history-box tr,
+.history-box td,
+.history-box th {
+  width: 100%;
+  padding: 0;
+} 
+
+
+.history-box th {
+  padding: 30px 20px;
+  word-break:keep-all;
+  
+}
+.history-box td {
+  padding: 10px 5px;
+  word-break:keep-all;
+}
+
+}

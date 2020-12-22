@@ -1,9 +1,4 @@
-#wrapper6 {
-    width: 100%;
-    overflow: hidden;
-    background-color: #EEEEEE;
-    padding: 50px;
-}
+
 .main-2 {
     width: 990px;
     margin: 0 auto;
@@ -65,7 +60,7 @@
         width: 100%;
     }
     .campany-box th {
-        padding: 20px 5px;
+        padding: 20px 0 20px 20px;
     }
     .campany-box td {
         padding: 10px 5px;

@@ -1,7 +1,9 @@
 #wrapper6 {
     width: 100%;
     overflow: hidden;
+    background-color: #EEEEEE;
 }
+
 .access {
     text-align: center;
     width: 60%;
@@ -14,4 +16,17 @@
 
 .access p {
     margin: 0 auto;
+}
+
+
+@media (max-width:767px) {
+
+
+.access {
+  width: 100%;
+
+}
+.ifram {
+    width: 100%;
+}
 }

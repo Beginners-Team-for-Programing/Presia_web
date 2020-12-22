@@ -10,6 +10,7 @@
 #wrapper2 .vision {
     margin: 0 auto 50px auto;
     width: 990px;
+    text-align: center;
 
 }
 #wrapper2 .vision p {
@@ -18,4 +19,13 @@
     border: solid 1px #cccccc;
     width: 70%;
     line-height: 30px;
+}
+
+
+@media (max-width:767px) {
+    #wrapper2 .vision  {
+        width: 100%;
+    }
+
+
 }
