@@ -45,15 +45,11 @@
         私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
     -->
-  <div id="logo">
-    <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-  </div>
   <div class="back-button">
     <p class="pagetop"><a href="#wrap">▲</a></p>
   </div>
-  <!-- <div class="wrapp">
-    <div id="wrapper"> -->
-  <div id="wrapper1">
+  <div id="header">
+    <img  id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}">
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -61,9 +57,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div id="logo">
-            <img alt="presiarogo" src="{{ asset('images/presia.png') }}">
-          </div>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href='#wrapper'>TOP</a></li>
             <li class="nav-item"><a href='#wrapper2'>ABOUT</a></li>
@@ -74,8 +67,8 @@
             <li class="nav-item"><a href='#wrapper7'>CONTACT</a></li>
           </ul>
         </div>
+      </div>
     </nav>
-  </div>
   </div>
 
   <div class="mainvisual">
