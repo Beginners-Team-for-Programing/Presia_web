@@ -11,3 +11,13 @@
 .back-top {
     text-align: center;
 }
+
+
+@media (max-width:767px) {
+.P-main {
+    width: 100%;
+    padding: 3%;
+}
+
+
+}

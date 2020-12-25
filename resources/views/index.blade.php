@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="{{ asset('css/profile.css') }}">
   <link rel="stylesheet" href="{{ asset('css/recruit.css') }}">
   <link rel="stylesheet" href="{{ asset('css/service.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
   <!-- <link rel="stylesheet" href="{{ asset('css/index.css') }}"> -->
   <!-- <link rel="stylesheet" href="{{ asset('css/responsive.css') }}"> -->
 
@@ -49,7 +50,7 @@
     <p class="pagetop"><a href="#wrap">▲</a></p>
   </div>
   <div id="header">
-    <img  id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}">
+    <img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}">
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -315,7 +316,7 @@
       <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/facebook.png"><a>
     </div>
     <div class="footer-text">
-      <small>©︎ 2020 PRESIA Co.,Ltd.</small>
+      <small>©︎ 2020 PRESIA Co.,Ltd.</small><br>
       <a href="/privacy/">プライバシーポリシー</a>
       <a href="/recruit/">リクルート</a>
     </div>
