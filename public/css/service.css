@@ -85,6 +85,10 @@
         width: 100%;
         text-align: center;
     }
+    .main {
+        width: 100%;
+        padding: 20px;
+    }
 
     .service {
         width: 100%;
