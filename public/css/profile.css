@@ -1,21 +1,31 @@
-
-.main-2 {
+.campany {
     width: 990px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
-.cam {
+.campany h2{
+    margin: 50px auto;
     text-align: center;
-    color: black;
-    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
-    padding-top: 50px;
 
 }
-.his {
+/* .cam {
     text-align: center;
     color: black;
-    /* font-family: 'Noto Sans CJK JP Subset', sans-serif; */
     padding-top: 50px;
+} */
+.history {
+    width: 990px;
+    margin: 50px auto;
 }
+.history h2{
+    margin: 50px auto;
+    text-align: center;
+}
+/* .his {
+    text-align: center;
+    color: black;
+    font-family: 'Noto Sans CJK JP Subset', sans-serif;
+    padding-top: 50px;
+} */
 .campany-box,
 .history-box,
 .welfare-box,
