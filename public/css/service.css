@@ -1,16 +1,22 @@
-#wrapper3{
+.service {
+    margin: 25px auto;
     background-color: #EEEEEE;
     width: 100%;
     overflow: hidden;
-}
-.service {
-    margin: 50px auto;
-}
-.main {
-    width: 990px;
-    margin: 0 auto;
     text-align: center;
 }
+.service h2{
+    margin: 25px auto;
+}
+.service-1,
+.service-2,
+.service-3  {
+    width: 990px;
+    display: flex;
+    margin: 50px auto;
+}
+
+
 .service-1 h3,
 .service-2 h3,
 .service-3 h3 {
@@ -23,12 +29,6 @@
     text-align: left;
     line-height: 30px;
     margin: 0 10px 50px 10px;
-}
-.service-1,
-.service-2,
-.service-3  {
-    display: flex;
-    margin: 50px auto;
 }
 .service-1 div,
 .service-2 div,

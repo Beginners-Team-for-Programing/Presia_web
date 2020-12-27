@@ -1,19 +1,18 @@
-#wrapper2 {
-    /* background-image: url("/images/aboutus.png"); */
+.vision {
+    margin: 25px auto;
     width: 100%;
     overflow: hidden;
     background-color: white;
-    height: 500px;
     background-repeat: no-repeat;
     background-size:contain;
-}
-#wrapper2 .vision {
-    margin: 0 auto 50px auto;
-    width: 990px;
+    /* width: 990px; */
     text-align: center;
-
 }
-#wrapper2 .vision p {
+.vision h2{
+    margin: 25px auto;
+}
+
+.vision p {
     margin: 0 auto;
     text-align: center;
     border: solid 1px #cccccc;

@@ -6,9 +6,13 @@
 
 .access {
     text-align: center;
-    width: 60%;
-    margin: 0 auto;
+    /* width: 60%; */
+    margin: 25px auto;
 }
+.access h2{
+    margin: 25px auto;
+}
+
 .access iframe {
     margin: 50px auto 20px auto;
     width: 400px;

@@ -1,14 +1,17 @@
 
-#wrapper4 {
+/* #wrapper4 {
     width: 100%;
     overflow: hidden;
-}
+} */
 .recruit {
+    margin: 25px auto;
     width: 990px;
-    margin: 0 auto;
     text-align: center;
     line-height: 30px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+}
+.recruit h2{
+    margin: 25px auto;
 }
 .recruit .recruit-img img{
     width: 90%;
