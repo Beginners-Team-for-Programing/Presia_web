@@ -7,6 +7,9 @@
 
   <title>株式会社 Presia|関わるすべての人を幸せに</title>
 
+  <!-- header nav -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/header-nav.js"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -30,6 +33,7 @@
 </head>
 
 <body>
+
   <!--
 
 
@@ -46,10 +50,11 @@
         私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
 
     -->
+
   <div class="back-button">
     <p class="pagetop"><a href="#wrap">▲</a></p>
   </div>
-  <div id="header">
+  <!-- <div id="header">
     <img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}">
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="nav">
@@ -70,7 +75,48 @@
         </div>
       </div>
     </nav>
+  </div> -->
+    <div id="res-nav">
+         <div class="logo">
+             <a href="/"><img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}"></a>
+         </div>
+         <div class="nav">
+               <ul>
+                     <li><a href='#wrapper'>TOP</a></li>
+                     <li><a href='#wrapper2'>ABOUT</a></li>
+                     <li><a href='#wrapper3'>SERVICE</a></li>
+                     <li><a href='#wrapper4'>RECRUIT</a></li>
+                     <li><a href='#wrapper5'>PROFILE</a></li>
+                     <li><a href="#wrapper6">ACCESS</a></li>
+                     <li><a href='#wrapper7'>CONTACT</a></li>
+               </ul>
+         </div>
+         <div class="sns">
+             <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/fb.png"><a>
+         </div>
+    </div>
+
+  <div id="header">
+    <div class="logo">
+        <a href="/"><img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}"></a>
+    </div>
+    <div class="nav">
+          <ul>
+                <li><a href='#wrapper'>TOP</a></li>
+                <li><a href='#wrapper2'>ABOUT</a></li>
+                <li><a href='#wrapper3'>SERVICE</a></li>
+                <li><a href='#wrapper4'>RECRUIT</a></li>
+                <li><a href='#wrapper5'>PROFILE</a></li>
+                <li><a href="#wrapper6">ACCESS</a></li>
+                <li><a href='#wrapper7'>CONTACT</a></li>
+          </ul>
+    </div>
+    <div class="sns">
+        <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/fb.png"><a>
+    </div>
   </div>
+      <img id="open-button" src="images/menu-open.png">
+     　<img id="close-button" src="images/menu-close.png">
 
   <div class="mainvisual">
     <video autoplay loop>
@@ -154,12 +200,14 @@
         <img src="{{ asset('/images/recruit.jpg') }}" alt="recruit_2">
       </div>
       <div class="content">
-        <p>私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
-          今まで培ってきた「個性」は、必ず活かせます。
-          あなたの「個性」を使って、たくさんの幸せの創出を一緒にしませんか？
-          プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
-          小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。
-          弊社のメンバーと楽しく会社を作っていけるメンバーを募集します。</p>
+          <p class="cont">私たちプレジアは、時間の制約や場所の制約等、様々な制約を超えて、今まで合わさることのなかった「個性」の組み合わせによる未来の創出を描いています。
+              今まで培ってきた「個性」は、必ず活かせます。
+              あなたの「個性」を使って、たくさんの幸せの創出を一緒にしませんか？
+              プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
+              小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。
+              弊社のメンバーと楽しく会社を作っていけるメンバーを募集します。</p>
+          <p class="res-cont">プレジアでは経験者から未経験者、業務委託と、幅広く採用を行っています。
+              小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。</p>
       </div>
     </div>
   </div>
@@ -312,9 +360,6 @@
 
 
   <div class="footer">
-    <div class="footer-sns">
-      <a href='https://ja-jp.facebook.com/presia.co.jp'><img src="images/facebook.png"><a>
-    </div>
     <div class="footer-text">
       <small>©︎ 2020 PRESIA Co.,Ltd.</small><br>
       <a href="/privacy/">プライバシーポリシー</a>

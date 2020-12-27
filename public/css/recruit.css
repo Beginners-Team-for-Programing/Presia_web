@@ -39,7 +39,9 @@
 .content {
     margin: 20px auto ;
 }
-
+.res-cont {
+    display: none;
+}
 
 
 
@@ -63,4 +65,11 @@
         width: 100%;
         padding: 20px 20px;
     }
+    .cont {
+        display: none;
+    }
+    .res-cont {
+        display: block;
+    }
+
 }
