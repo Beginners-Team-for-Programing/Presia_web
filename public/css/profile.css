@@ -12,14 +12,7 @@
     color: black;
     padding-top: 50px;
 } */
-.history {
-    width: 990px;
-    margin: 50px auto;
-}
-.history h2{
-    margin: 50px auto;
-    text-align: center;
-}
+
 /* .his {
     text-align: center;
     color: black;
@@ -27,7 +20,6 @@
     padding-top: 50px;
 } */
 .campany-box,
-.history-box,
 .welfare-box,
 .coo-box,
 .engineer-box,
@@ -60,7 +52,7 @@
 
 @media (max-width:767px) {
 
-    .main-2 {
+    .campany {
         width: 100%;
     }
     .campany-box, 
@@ -70,10 +62,10 @@
         width: 100%;
     }
     .campany-box th {
-        padding: 20px 0 20px 20px;
+        padding: 15px 15px;
     }
     .campany-box td {
-        padding: 10px 5px;
+        padding: 5px 5px;
         word-break:keep-all
     }
 
