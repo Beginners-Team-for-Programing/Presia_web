@@ -5,11 +5,11 @@
     text-align: center;
 } */
 .contact {
-    margin: 25px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .contact h2 {
-    margin: 25px auto;
+    margin: 50px auto;
 
 }
 
@@ -43,7 +43,10 @@
     margin:  0;
 }
 
-
+.btn.shadow {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
 
 
 @media (max-width:767px) {
