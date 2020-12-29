@@ -25,6 +25,8 @@
     #wrapper2 .vision  {
         width: 100%;
     }
-
+    .vision br {
+        display: none;
+    }
 
 }
