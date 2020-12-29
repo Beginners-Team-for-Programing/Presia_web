@@ -56,13 +56,13 @@
     </div>
     <div class="navigation">
       <ul>
-        <li><a href='#wrapper'>TOP</a></li>
-        <li><a href='#wrapper2'>ABOUT</a></li>
-        <li><a href='#wrapper3'>SERVICE</a></li>
-        <li><a href='#wrapper4'>RECRUIT</a></li>
-        <li><a href='#wrapper5'>PROFILE</a></li>
-        <li><a href="#wrapper6">ACCESS</a></li>
-        <li><a href='#wrapper7'>CONTACT</a></li>
+        <li><a href='#header'>TOP</a></li>
+        <li><a href='.vision'>ABOUT</a></li>
+        <li><a href='.service'>SERVICE</a></li>
+        <li><a href='.recruit'>RECRUIT</a></li>
+        <li><a href='.campany'>PROFILE</a></li>
+        <li><a href=".access">ACCESS</a></li>
+        <li><a href='.contact'>CONTACT</a></li>
       </ul>
     </div>
     <div class="res-sns">
@@ -76,13 +76,13 @@
     </div>
     <div class="nav">
       <ul>
-        <li><a href='#wrapper'>TOP</a></li>
-        <li><a href='#wrapper2'>ABOUT</a></li>
-        <li><a href='#wrapper3'>SERVICE</a></li>
-        <li><a href='#wrapper4'>RECRUIT</a></li>
-        <li><a href='#wrapper5'>PROFILE</a></li>
-        <li><a href="#wrapper6">ACCESS</a></li>
-        <li><a href='#wrapper7'>CONTACT</a></li>
+      <li><a href='#header'>TOP</a></li>
+        <li><a href='.vision'>ABOUT</a></li>
+        <li><a href='.service'>SERVICE</a></li>
+        <li><a href='.recruit'>RECRUIT</a></li>
+        <li><a href='.campany'>PROFILE</a></li>
+        <li><a href=".access">ACCESS</a></li>
+        <li><a href='.contact'>CONTACT</a></li>
       </ul>
     </div>
     <div class="sns">
