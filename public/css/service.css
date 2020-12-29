@@ -1,12 +1,12 @@
 .service {
-    margin: 25px auto;
+    margin: 50px auto;
     background-color: #EEEEEE;
     width: 100%;
     overflow: hidden;
     text-align: center;
 }
 .service h2{
-    margin: 25px auto;
+    margin: 50px auto;
 }
 .service-1,
 .service-2,
