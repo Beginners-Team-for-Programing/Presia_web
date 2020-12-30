@@ -354,9 +354,9 @@
   </script>
   <!-- Page Specific javascript -->
   <!-- jqueryのリンクを読み込んだ後にこっちを読み込まないと動作しなくなる -->
-  <script src="{{ asset('/js/index.js') }}"></script>
+  <script src="{{ asset('js/index.js') }}"></script>
   <!-- 動画を再生 -->
-  <script src="{{ asset('/js/covervid.min.js') }}"></script>
+  <script src="{{ asset('js/covervid.min.js') }}"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 .vision {
     margin: 50px auto;
-    width: 100%;
+    width: 990px;
     overflow: hidden;
     background-color: white;
     background-repeat: no-repeat;
@@ -27,6 +27,10 @@
     }
     .vision br {
         display: none;
+        
+    }
+    .vision {
+        width: 100%;
     }
 
 }
