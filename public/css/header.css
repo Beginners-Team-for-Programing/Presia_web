@@ -88,7 +88,13 @@
     text-align: center;
 }
  #header {
-     display: flex;
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+
  }
  .logo img {
      width: 100px;
