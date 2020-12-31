@@ -7,32 +7,36 @@
 .access {
     width: 990px;
     margin: 50px auto;
-    text-align: center;
-    /* width: 60%; */
+    /* text-align: center; */
 }
+.access-box {
+  width: 100%;
+
+}
+
+
 .access h2{
     margin: 50px auto;
+    text-align: center;
+
 }
-
-.access iframe {
-    margin: 50px auto 20px auto;
-    width: 400px;
-}
-
-/* .access p {
-    margin: 0 auto;
-} */
-
-.access-box th, 
-.access-box td {
+.access-box th {
+    width: 250px;
+    text-align: left;
     border-bottom:solid 1px silver;
     padding: 20px;
     color: gray;
     padding-left: 80px;
 }
-.access-box th {
-    width: 250px;
-    text-align: left;
+.access-box td {
+  border-bottom:solid 1px silver;
+  padding: 20px;
+  color: gray;
+  padding-left: 80px;
+}
+.access .map{
+  text-align: center;
+  margin: 50px auto 20px auto;
 }
 
 
@@ -62,6 +66,10 @@
 .access-box td {
   padding: 10px 5px;
   word-break:keep-all;
+}
+.access iframe{
+  width: 300px;
+  height: 225px;
 }
 
 }
