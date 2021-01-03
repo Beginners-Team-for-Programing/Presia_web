@@ -1,24 +1,14 @@
 .campany {
+    margin: 0px auto;
+    padding: 20px;
+    overflow: hidden;
     width: 990px;
-    margin: 50px auto;
 }
 .campany h2{
-    margin: 50px auto;
+    margin: 10px auto;
     text-align: center;
 
 }
-/* .cam {
-    text-align: center;
-    color: black;
-    padding-top: 50px;
-} */
-
-/* .his {
-    text-align: center;
-    color: black;
-    font-family: 'Noto Sans CJK JP Subset', sans-serif;
-    padding-top: 50px;
-} */
 .campany-box,
 .welfare-box,
 .coo-box,

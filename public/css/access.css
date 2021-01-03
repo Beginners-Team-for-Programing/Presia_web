@@ -1,38 +1,42 @@
-#wrapper6 {
+/* #wrapper6 {
     width: 100%;
     overflow: hidden;
     background-color: #EEEEEE;
-}
+} */
 
 .access {
-    width: 990px;
-    margin: 50px auto;
-    /* text-align: center; */
+  margin: 0px auto;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #EEEEEE;
 }
+.access h2{
+  margin: 10px auto;
+  text-align: center;
+}
+
 .access-box {
   width: 100%;
 
 }
 
 
-.access h2{
-    margin: 50px auto;
-    text-align: center;
-
-}
 .access-box th {
-    width: 250px;
-    text-align: left;
-    border-bottom:solid 1px silver;
-    padding: 20px;
+    /* width: 200px; */
+    width: 40%;
+    text-align: right;
+    padding: 10px;
     color: gray;
     padding-left: 80px;
 }
 .access-box td {
-  border-bottom:solid 1px silver;
-  padding: 20px;
+  /* width: 500px; */
+  width: 60%;
+  text-align: left;
+  padding: 10px;
   color: gray;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 .access .map{
   text-align: center;
@@ -45,27 +49,34 @@
   width: 100%;
 
 }
+/* .access h2{
+  margin: 10px auto;
+  text-align: center;
+} */
+
 .ifram {
     width: 100%;
 }
 
-.access-box, 
+/* .access-box, 
 .access-box tr,
 .access-box td,
 .access-box th {
   width: 100%;
   padding: 0;
-} 
+}  */
 
 
 .access-box th {
-  padding: 30px 20px;
-  word-break:keep-all;
+  width: 25%;
+  padding: 10px;
+  /* word-break:keep-all; */
   
 }
 .access-box td {
-  padding: 10px 5px;
-  word-break:keep-all;
+  width: 75%;
+  padding: 10px;
+  /* word-break:keep-all; */
 }
 .access iframe{
   width: 300px;

@@ -1,15 +1,15 @@
 .vision {
-    margin: 50px auto;
-    width: 990px;
+    margin: 0px auto;
+    padding: 20px;
     overflow: hidden;
+    width: 990px;
     background-color: white;
     background-repeat: no-repeat;
     background-size:contain;
-    /* width: 990px; */
     text-align: center;
 }
 .vision h2{
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
 .vision p {
@@ -22,15 +22,15 @@
 
 
 @media (max-width:767px) {
-    #wrapper2 .vision  {
+    .vision {
         width: 100%;
+        /* margin: 30px auto; */
+    }
+    .vision h2{
+        margin: 20px auto;
     }
     .vision br {
         display: none;
         
     }
-    .vision {
-        width: 100%;
-    }
-
 }

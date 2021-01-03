@@ -1,12 +1,14 @@
 .service {
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 20px;
+    overflow: hidden;
     background-color: #EEEEEE;
     width: 100%;
-    overflow: hidden;
     text-align: center;
 }
 .service h2{
-    margin: 50px auto;
+    margin: 10px auto;
+    text-align: center;
 }
 .service-1,
 .service-2,
@@ -76,22 +78,14 @@
 /* スマートフォン向けレイアウト */
 @media (max-width:767px)
 {
-    #wrapper3
-    {
-        /* margin: 0 auto; */
-        width: 100%;
-    }
-    #wrapper3 h2{
-        width: 100%;
-        text-align: center;
-    }
-    .main {
-        width: 100%;
-    }
-
     .service {
         width: 100%;
+        /* padding: 20px; */
+        /* margin: 30px auto; */
     }
+    /* .service h2{
+        margin: 20px auto;
+    } */
 
     .service-1 ,
     .service-2 ,
