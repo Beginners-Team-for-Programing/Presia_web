@@ -5,7 +5,7 @@
   width: 990px;
 }
 .history h2{
-  margin: 10px auto;
+  margin: 10px 0 30px 0;
   text-align: center;
 }
 .history-box {
@@ -35,7 +35,6 @@
 .history-box tr,
 .history-box td,
 .history-box th {
-  width: 100%;
   padding: 0;
 } 
 
@@ -52,3 +51,4 @@
 
 
 }
+
