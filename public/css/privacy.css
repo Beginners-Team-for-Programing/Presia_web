@@ -12,6 +12,11 @@
     text-align: center;
 }
 
+.P-main h2 {
+    text-align: center;
+    margin: 40px auto;
+}
+
 
 @media (max-width:767px) {
 .P-main {

@@ -1,6 +1,5 @@
 .recruit {
     margin: 0px auto;
-    padding: 20px;
     overflow: hidden;
     width: 990px;
     text-align: center;
@@ -8,7 +7,7 @@
     /* padding-top: 30px; */
 }
 .recruit h2{
-    margin: 10px auto;
+    margin: 30px 0 50px 0;
 }
 .recruit .recruit-img img{
     width: 90%;
@@ -43,45 +42,35 @@
     display: none;
 }
 
+
 @media (max-width:767px) {
-    .recruit{
-        width: 100%;
-        /* margin: 20px auto; */
-    }
-    /* .recruit h2{
-        margin: 20px auto;
-    } */
+        .recruit{
+            width: 100%;
+            padding: 20px 20px;
+        }
+        .cont {
+            display: none;
+        }
+        .res-cont {
+            display: block;
+        }
     
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:767px) {
-    .recruit{
-        width: 100%;
-        padding: 20px 20px;
-    }
-    .cont {
-        display: none;
-    }
-    .res-cont {
-        display: block;
     }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,21 +1,24 @@
 .service {
     margin: 0px auto;
-    padding: 20px;
     overflow: hidden;
     background-color: #EEEEEE;
     width: 100%;
     text-align: center;
 }
 .service h2{
-    margin: 10px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .service-1,
-.service-2,
-.service-3  {
+.service-2 {
     width: 990px;
     display: flex;
     margin: 50px auto;
+}
+.service-3 {
+    width: 990px;
+    display: flex;
+    margin: 50px 0 20px 0;
 }
 
 
@@ -26,20 +29,21 @@
     margin: 20px auto;
 }
 .service-1 p,
-.service-2 p,
-.service-3 p {
+.service-2 p {
     text-align: left;
     line-height: 30px;
     margin: 0 10px 50px 10px;
+}
+.service-3 p{
+    margin: 0 10px 10px 10px;
+
 }
 .service-1 div,
 .service-2 div,
 .service-3 div {
     width: 50%;
 }
-.service-3 {
-    margin-bottom: 75px;
-}
+
 
 /* serviceフェードイン繰り返し */
 .service-img{
@@ -125,12 +129,12 @@
     .service-2 img, 
     .service-3 img {
         height: 200px;
-        width: 310px;
+        width: 95%;
     }
 
     .service-1 img {
-        height: 180px;
-        width: 80%;
+        height: 200px;
+        width: 95%;
     }
 
 }
