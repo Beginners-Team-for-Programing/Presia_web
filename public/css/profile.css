@@ -1,11 +1,10 @@
 .campany {
     margin: 0px auto;
-    padding: 20px;
     overflow: hidden;
     width: 990px;
 }
 .campany h2{
-    margin: 10px auto;
+    margin-bottom: 10px;
     text-align: center;
 
 }
@@ -38,6 +37,11 @@
 .help-box th {
     width: 250px;
     text-align: left;
+}
+
+.campany-body {
+    padding: 25px 0;
+    background-color: #eeeeee;
 }
 
 @media (max-width:767px) {

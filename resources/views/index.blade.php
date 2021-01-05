@@ -113,9 +113,9 @@
       既存の形に捉われない、過去の成功に満足しない、<br>
       この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
     <p class="res-about">私たちプレジアは、事業を通じて<br>
-        『関わる全ての人を幸せにすること』<br>
-        「世の中をより良くすること」<br>
-        を目指し、日々挑戦し続けます</p>
+      『関わる全ての人を幸せにすること』<br>
+      「世の中をより良くすること」<br>
+      を目指し、日々挑戦し続けます</p>
   </div>
 
   <div class="service">
@@ -182,75 +182,77 @@
         小さい会社ならではの幅広い権限を生かして、思い描く理想の働き方を実現しましょう。</p>
     </div>
   </div>
-  <div class="campany">
-    <div class="cam">
-      <h2>PROFILE</h2>
+  <div class="campany-body">
+    <div class="campany">
+      <div class="cam">
+        <h2>PROFILE</h2>
+      </div>
+      <table class="campany-box">　
+        <tr>
+          <th>会社名</th>
+          <td>株式会社プレジア</td>
+        </tr>
+        <tr>
+          <th>代表取締役</th>
+          <td>関澤光太</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>￥2,000,000</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>〒154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</td>
+        </tr>
+        <tr>
+          <th>従業員数</th>
+          <td>１０名（パート・アルバイト含む）</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td>03-6413-8117</td>
+        </tr>
+        <tr>
+          <th>受付時間</th>
+          <td>平日10:00-18:00 （土日は休業）</td>
+        </tr>
+      </table>
     </div>
-    <table class="campany-box">　
-      <tr>
-        <th>会社名</th>
-        <td>株式会社プレジア</td>
-      </tr>
-      <tr>
-        <th>代表取締役</th>
-        <td>関澤光太</td>
-      </tr>
-      <tr>
-        <th>資本金</th>
-        <td>￥2,000,000</td>
-      </tr>
-      <tr>
-        <th>所在地</th>
-        <td>〒154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</td>
-      </tr>
-      <tr>
-        <th>従業員数</th>
-        <td>１０名（パート・アルバイト含む）</td>
-      </tr>
-      <tr>
-        <th>電話番号</th>
-        <td>03-6413-8117</td>
-      </tr>
-      <tr>
-        <th>受付時間</th>
-        <td>平日10:00-18:00 （土日は休業）</td>
-      </tr>
-    </table>
-  </div>
-  <div class="history">
-    <div class="his">
-      <h2>HISTORY</h2>
+    <div class="history">
+      <div class="his">
+        <h2>HISTORY</h2>
+      </div>
+      <table class="history-box">
+        <tr>
+          <th>2013年10月</th>
+          <td>Roppongi BAR DEN オープン</td>
+        </tr>
+        <tr>
+          <th>2013年10月</th>
+          <td>BAR　GLOSSオープン</td>
+        </tr>
+        <tr>
+          <th>2013年10月</th>
+          <td>BAR HEVENオープン</td>
+        </tr>
+        <tr>
+          <th>2014年03月</th>
+          <td>株式会社プレジア設立</td>
+        </tr>
+        <tr>
+          <th>2015年10月</th>
+          <td>東京都港区に本社移転</td>
+        </tr>
+        <tr>
+          <th>2018年10月</th>
+          <td>事業拡大に伴い、本店を東京都目黒区に移転</td>
+        </tr>
+        <tr>
+          <th>2020年10月</th>
+          <td>事業拡大に伴い、東京都世田谷区に本社移転</td>
+        </tr>
+      </table>
     </div>
-    <table class="history-box">
-      <tr>
-        <th>2013年10月</th>
-        <td>Roppongi BAR DEN オープン</td>
-      </tr>
-      <tr>
-        <th>2013年10月</th>
-        <td>BAR　GLOSSオープン</td>
-      </tr>
-      <tr>
-        <th>2013年10月</th>
-        <td>BAR HEVENオープン</td>
-      </tr>
-      <tr>
-        <th>2014年03月</th>
-        <td>株式会社プレジア設立</td>
-      </tr>
-      <tr>
-        <th>2015年10月</th>
-        <td>東京都港区に本社移転</td>
-      </tr>
-      <tr>
-        <th>2018年10月</th>
-        <td>事業拡大に伴い、本店を東京都目黒区に移転</td>
-      </tr>
-      <tr>
-        <th>2020年10月</th>
-        <td>事業拡大に伴い、東京都世田谷区に本社移転</td>
-      </tr>
-    </table>
   </div>
   <div id="wrapper6">
     <div class="access">
@@ -266,7 +268,8 @@
         </tr>
       </table>
       <!-- <p>所在地：154-0001 東京都世田谷区池尻2-33-14 クレストビル５階</p>
-      <p>最寄駅：田園都市線 池尻大橋駅　徒歩３分</p> -->
+        <p>最寄駅：田園都市線 池尻大橋駅　徒歩３分</p> -->
+
       <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1338338467995!2d139.67986371519984!3d35.64907413934231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4a8947ef97b%3A0xa4b90507c017fd52!2z44CSMTU0LTAwMDEg5p2x5Lqs6YO95LiW55Sw6LC35Yy65rGg5bC777yS5LiB55uu77yT77yT4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1604329490150!5m2!1sja!2sjp"
