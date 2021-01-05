@@ -50,10 +50,13 @@
   <div class="back-button">
     <p class="pagetop"><a href="#wrap">▲</a></p>
   </div>
+  <div class="res-logo">
+    <a href="/"><img id="logo" alt="presia-rogo" src="{{ asset('images/presia.png') }}"></a>
+  </div>
   <div id="res-nav">
-    <div class="logo">
+    <!-- <div class="logo">
       <a href="/"><img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}"></a>
-    </div>
+    </div> -->
     <div class="navigation">
       <ul>
         <li><a href='#header'>TOP</a></li>
@@ -72,7 +75,7 @@
 
   <div id="header">
     <div class="logo">
-      <a href="/"><img id="logo" alt="presiarogo" src="{{ asset('images/presia.png') }}"></a>
+      <a href="/"><img id="logo" alt="presia-rogo" src="{{ asset('images/presia.png') }}"></a>
     </div>
     <div class="nav">
       <ul>
@@ -104,11 +107,15 @@
 
   <div class="vision">
     <h2>ABOUT US</h2>
-    <p>私たち株式会社プレジアは創業当初より、事業を通じて<br>
-      『関わる全ての人を幸せにすること』＝「世の中を、より良くすること」を目指しています。<br>
+    <p class="about">私たち株式会社プレジアは創業当初より、事業を通じて<br>
+      『関わる全ての人を幸せにすること』＝「世の中をより良くすること」を目指しています。<br>
       クライアント、社員、その家族、全ての人の「幸せ」を実現するために、<br>
       既存の形に捉われない、過去の成功に満足しない、<br>
       この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
+    <p class="res-about">私たちプレジアは、事業を通じて<br>
+        『関わる全ての人を幸せにすること』<br>
+        「世の中をより良くすること」<br>
+        を目指し、日々挑戦し続けます</p>
   </div>
 
   <div class="service">
@@ -241,7 +248,7 @@
       </tr>
       <tr>
         <th>2020年10月</th>
-        <td>事業拡大に伴い、東京都渋谷区に本社移転</td>
+        <td>事業拡大に伴い、東京都世田谷区に本社移転</td>
       </tr>
     </table>
   </div>

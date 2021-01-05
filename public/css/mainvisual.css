@@ -18,8 +18,10 @@
 } */
 
 @media (max-width:767px) {
-.mainvisual-text{
-    position: static;
-}
-
+    .mainvisual-text{
+        position: static;
+    }
+    .mainvisual {
+        position: relative;
+    }
 }

@@ -19,7 +19,9 @@
     width: 70%;
     line-height: 30px;
 }
-
+.res-about {
+    display: none;
+}
 
 @media (max-width:767px) {
     .vision {
@@ -29,8 +31,13 @@
     .vision h2{
         margin: 20px auto;
     }
-    .vision br {
+    .vision p {
+        width: 95%;
+    }
+    .res-about {
+        display: block;
+    }
+    .about {
         display: none;
-        
     }
 }
