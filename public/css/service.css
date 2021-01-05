@@ -10,16 +10,13 @@
     text-align: center;
 }
 .service-1,
-.service-2 {
-    width: 990px;
-    display: flex;
-    margin: 50px auto;
-}
+.service-2,
 .service-3 {
     width: 990px;
     display: flex;
-    margin: 50px 0 20px 0;
+    margin: 25px auto;
 }
+
 
 
 .service-1 h3,

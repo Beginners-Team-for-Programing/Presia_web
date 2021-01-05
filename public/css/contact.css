@@ -6,12 +6,13 @@
 } */
 .contact {
     margin: 0px auto;
-    padding: 20px;
+    padding: 25px 0;
     overflow: hidden;
     text-align: center;
+    background-color: #eeeeee;
 }
 .contact h2 {
-    margin: 10px 0 30px 0;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -20,6 +21,7 @@
     padding: 20px;
     width: 600px;
     border: double 5px #BBBBBB;
+    background-color: white;
 }
 
 .form .result p{
