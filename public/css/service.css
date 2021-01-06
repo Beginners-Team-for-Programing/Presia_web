@@ -29,7 +29,7 @@
 .service-2 p {
     text-align: left;
     line-height: 30px;
-    margin: 0 10px 50px 10px;
+    margin: 0 10px;
 }
 .service-3 p{
     margin: 0 10px 10px 10px;
@@ -56,7 +56,7 @@
 
 .service-img img {
     width: 100%;
-    height: 250px;
+    height: 275px;
 }
 .service-contents a {
     text-decoration: none !important;
@@ -122,8 +122,8 @@
     .service-1 img{
         width: 100%;
     }
-    
-    .service-2 img, 
+
+    .service-2 img,
     .service-3 img {
         height: 200px;
         width: 95%;

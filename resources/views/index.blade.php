@@ -137,7 +137,7 @@
     </div>
     <div class="service-2">
       <div class="service-img order1">
-        <img src="{{ asset('/images/consul.png') }}" alt="consultant">
+        <img src="{{ asset('/images/consul.jpg') }}" alt="consultant">
       </div>
       <div class="service-contents order2">
         <h3>飲食コンサル</h3>

@@ -37,9 +37,7 @@
   </div>
   <div id="wrapper3">
     <div class="main">
-      <div class="service">
         <h2>JOB TYPE</h2>
-      </div>
       <div class="service-1 recruit-type">
         <div class="service-contents">
           <h3>COO</h3>
