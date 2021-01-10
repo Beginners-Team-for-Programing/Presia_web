@@ -40,12 +40,11 @@
 
 .history-box th {
   padding: 15px 15px;
-  word-break:keep-all;
+  width: 50%;
   
 }
 .history-box td {
   padding: 10px 5px;
-  word-break:keep-all;
 }
 
 
