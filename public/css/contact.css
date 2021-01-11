@@ -68,10 +68,13 @@
 }
 .contact .form-group textarea {
     width: 100%;
-    
+
 }
 #send {
     margin: auto;
     width: auto;
 }
+}
+#send > .btn .shadow {
+    border: solid 1px #cccccc;
 }

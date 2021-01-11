@@ -44,7 +44,9 @@
         888            888        P'88888P'       Y'888b.     "888     8'     '88
         888            888        bY.                  88      888     8       88
         888            888         Y888888P'     .d88888P      888     Y'88888P"Y8b.
-        私たちと一緒に、事業やサービスを作りませんか？　  https://www.00000000000000000000000000
+
+
+        私たちと一緒に、事業やサービスを作りませんか？　  https://www.presia.co.jp/recruit/
     -->
   <div class="presia-top">
 
@@ -345,9 +347,8 @@
 
     <div class="footer">
       <div class="footer-text">
-        <small>©︎ 2020 PRESIA Co.,Ltd.</small><br>
-        <a href="/privacy/">プライバシーポリシー</a>
-        <a href="/recruit/">リクルート</a>
+        <a href="/privacy/">プライバシーポリシー</a><br>
+        <small>©︎ 2020 PRESIA Co.,Ltd.</small>
       </div>
       <!-- </div> -->
     </div>
