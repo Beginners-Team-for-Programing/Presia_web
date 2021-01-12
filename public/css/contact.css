@@ -61,7 +61,7 @@
     width: 100%;
 }
 .contact .form {
-    width: 100%;
+    width: 95%;
 }
 .contact .form-group input {
     width: 100%;
@@ -75,6 +75,6 @@
     width: auto;
 }
 }
-#send > .btn .shadow {
-    border: solid 1px #cccccc;
+.sendbtn {
+    border: solid 1px #767676;
 }

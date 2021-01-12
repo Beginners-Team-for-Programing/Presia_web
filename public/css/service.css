@@ -29,10 +29,10 @@
 .service-2 p {
     text-align: left;
     line-height: 30px;
-    margin: 0 10px;
+    margin: 0 10px 0 5px;
 }
 .service-3 p{
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 10px 0px;
 
 }
 .service-1 div,

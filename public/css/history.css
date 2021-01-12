@@ -8,7 +8,8 @@
   text-align: center;
 }
 .history-box {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .history-box th, .history-box td{
@@ -30,23 +31,22 @@
   width: 100%;
 }
 
-.history-box, 
+.history-box,
 .history-box tr,
 .history-box td,
 .history-box th {
   padding: 0;
-} 
+}
 
 
 .history-box th {
   padding: 15px 15px;
   width: 50%;
-  
+
 }
 .history-box td {
-  padding: 10px 5px;
+  padding: 5px 5px 5px 0;
 }
 
 
 }
-

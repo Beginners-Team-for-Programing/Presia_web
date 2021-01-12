@@ -13,7 +13,8 @@
 .coo-box,
 .engineer-box,
 .help-box {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 .campany-box th,
 .campany-box td,
@@ -47,9 +48,10 @@
 @media (max-width:767px) {
 
     .campany {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
-    .campany-box, 
+    .campany-box,
     .campany-box tr,
     .campany-box td,
     .campany-box th {
@@ -59,8 +61,8 @@
         padding: 15px 15px;
     }
     .campany-box td {
-        padding: 5px 5px;
+        padding: 5px 20px 5px;
         word-break:keep-all
     }
 
-}  
+}

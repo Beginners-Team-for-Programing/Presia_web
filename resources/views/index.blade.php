@@ -99,9 +99,10 @@
     　<img id="close-button" src="images/menu-close.png">
 
     <div class="mainvisual">
-      <video autoplay loop>
+      <!-- <video autoplay loop>
         <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
-      </video>
+      </video> -->
+      <img src="images/mainvisual01.png">
       <div class="mainvisual-text">
         <h2>Make All People Happy</h2>
         <p>関わるすべての人を幸せに</p>
@@ -333,7 +334,7 @@
             <label class="">確認画面は表示されません。よろしければチェックを入れてください。</label>
           </div>
           <div id="send">
-            <input type="submit" class="btn shadow" value="Send">
+            <input type="submit" class="btn shadow sendbtn" value="Send">
           </div>
           @if(isset($contact['name']))
           <div class="result">
