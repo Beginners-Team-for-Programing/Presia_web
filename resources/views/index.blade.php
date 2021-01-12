@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>株式会社 Presia|関わるすべての人を幸せに</title>
-
+　<meta name=”description” content=”飲食店経営から飲食店のコンサル、WEBの制作など、様々な事業であらゆる可能性を追求し続ける”>
   <!-- header nav -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/header-nav.js"></script>
