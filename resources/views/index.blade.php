@@ -102,7 +102,7 @@
       <!-- <video autoplay loop>
         <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
       </video> -->
-      <img src="images/mainvisual01.png">
+      <img src="{{ asset('/images/mainvisual.jpg') }}" alt="mainvisual">
       <div class="mainvisual-text">
         <h2>Make All People Happy</h2>
         <p>関わるすべての人を幸せに</p>
@@ -110,16 +110,18 @@
     </div>
 
     <div class="vision">
-      <h2>ABOUT US</h2>
-      <p class="about">私たち株式会社プレジアは創業当初より、事業を通じて<br>
-        『関わる全ての人を幸せにすること』＝「世の中をより良くすること」を目指しています。<br>
-        クライアント、社員、その家族、全ての人の「幸せ」を実現するために、<br>
-        既存の形に捉われない、過去の成功に満足しない、<br>
-        この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
-      <p class="res-about">私たちプレジアは、事業を通じて<br>
-        『関わる全ての人を幸せにすること』<br>
-        「世の中をより良くすること」<br>
-        を目指し、日々挑戦し続けます</p>
+        <div class="v-text">
+            <h2>ABOUT US</h2>
+            <p class="about">私たち株式会社プレジアは創業当初より、事業を通じて<br>
+              『関わる全ての人を幸せにすること』＝「世の中をより良くすること」を目指しています。<br>
+              クライアント、社員、その家族、全ての人の「幸せ」を実現するために、<br>
+              既存の形に捉われない、過去の成功に満足しない、<br>
+              この精神で常に現状に疑問を持ち、日々挑戦していきます。</p>
+            <p class="res-about">私たちプレジアは、事業を通じて<br>
+              『関わる全ての人を幸せにすること』<br>
+              「世の中をより良くすること」<br>
+              を目指し、日々挑戦し続けます</p>
+        </div>
     </div>
 
     <div class="service">

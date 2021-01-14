@@ -7,6 +7,18 @@
     background-repeat: no-repeat;
     background-size:contain;
     text-align: center;
+    height: 650px;
+    position: relative;
+}
+.v-text {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+	width: 100%;
+    z-index: 1;
 }
 .vision h2{
     margin: 10px auto;
