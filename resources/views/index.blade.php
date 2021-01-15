@@ -102,7 +102,12 @@
       <!-- <video autoplay loop>
         <source src="{{ asset('movie/mainvisual.mp4') }}" type="video/" width="100%" height="700px">
       </video> -->
-      <img src="{{ asset('/images/mainvisual.jpg') }}" alt="mainvisual">
+      <!--コメント：videoタグで動画を流すことができます。以下を参考にしてみてください。autoplayを実施する場合、mutedをつけないと実行されないようです。
+　　　              また、playinline(スマートフォンのブラウザでもWebページ内で再生する)も必要です。
+                   ただ、当初入っていたmainvisual.mp4ではうまく動作しません。動画ファイル自体に問題あるかもしれません。-->
+      <video src="{{ asset('/movie/sample2.mp4') }}" muted autoplay playline loop width="100%" heigth="300px"></video>
+
+      <!--<img src="{{ asset('/images/mainvisual.jpg') }}" alt="mainvisual">-->
       <div class="mainvisual-text">
         <h2>Make All People Happy</h2>
         <p>関わるすべての人を幸せに</p>
