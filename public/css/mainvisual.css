@@ -5,7 +5,7 @@
 .mainvisual {
     text-align: center;
     position: relative;
-    height: 650px;
+    /* height: 650px; */
     width: 100%;
 }
 .mainvisual img {
