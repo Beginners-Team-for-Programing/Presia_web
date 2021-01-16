@@ -156,5 +156,8 @@
     .res-logo img {
         width: 60px;
         height: 60px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
     }
 }
