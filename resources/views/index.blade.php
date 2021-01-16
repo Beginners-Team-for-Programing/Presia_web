@@ -63,10 +63,10 @@
     </div> -->
       <div class="navigation">
         <ul>
-          <li><a href='#header'>TOP</a></li>
-          <li><a href='.vision'>ABOUT</a></li>
-          <li><a href='.service'>SERVICE</a></li>
-          <li><a href='.recruit'>RECRUIT</a></li>
+          <li><a href='.presia-top'>TOP</a></li>
+          <li><a href='.v-text'>ABOUT</a></li>
+          <li><a href='.service h2'>SERVICE</a></li>
+          <li><a href='.recruit h2'>RECRUIT</a></li>
           <li><a href='.campany'>PROFILE</a></li>
           <li><a href=".access">ACCESS</a></li>
           <li><a href='.contact'>CONTACT</a></li>
@@ -83,10 +83,10 @@
       </div>
       <div class="nav">
         <ul>
-          <li><a href='#header'>TOP</a></li>
-          <li><a href='.vision'>ABOUT</a></li>
-          <li><a href='.service'>SERVICE</a></li>
-          <li><a href='.recruit'>RECRUIT</a></li>
+          <li><a href='.presia-top'>TOP</a></li>
+          <li><a href='.v-text'>ABOUT</a></li>
+          <li><a href='.service h2'>SERVICE</a></li>
+          <li><a href='.recruit h2'>RECRUIT</a></li>
           <li><a href='.campany'>PROFILE</a></li>
           <li><a href=".access">ACCESS</a></li>
           <li><a href='.contact'>CONTACT</a></li>
