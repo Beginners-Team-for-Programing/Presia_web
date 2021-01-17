@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use  App\Http\Requests\beginnerRequest;
 
 use App\Models\Contact;
+use App\Mail\presia_mail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -25,32 +27,11 @@ class ContactController extends Controller
         $contact -> contents = $request -> contents;
         $contact -> checkbox = $request -> checkbox;//バリデーションしたら保存しないとエラー？　20201210_yoshigai
         $contact ->save();
+
+        Mail::to($contact -> mail)->send(new presia_mail($contact));
+
         return view('index', [
             'contact' => $contact,
         ]);
-
-        //古いコード↓↓↓↓↓↓↓↓↓↓↓↓
-
-        // //フォームから受け取ったすべてのinputの値を取得
-        // $inputs = $request->all();
-
-        // //  var_dump($inputs);
-        // // exit;
-
-        // //入力内容確認ページのviewに変数を渡して表示
-        // return view('index', [
-        //     'inputs' => $inputs,
-        // ]);
     }
-
-    public function create(Request $inputs) {
-        $contact = new Contact();
-        $contact -> name = $request -> name;
-        $contact -> mail = $request -> mail;
-        $contact -> tel = $request -> tel;
-        $contact -> contents = $request -> contents;
-        $contact ->save();
-        return view('index');
-    }
-
 }
