@@ -17,32 +17,15 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('index');
-// });
-
-// Route::get('/access', function () {
-//     return view('access');
-// });
-
 Route::get('/recruit', function () {
     return view('recruit');
 });
 
-// Route::get('/company', function () {
-//     return view('company');
-// });
-
-// Route::get('/pro', function () {
-//     return view('pro');
-// });
 
 Route::get('/privacy', function () {
-     return view('privacy');
+    return view('privacy');
 });
 
 
 Route::get('/', [ContactController::class, 'get']);
 Route::post('/', [ContactController::class, 'confirm']);
-// Route::post('/confirm', [ContactController::class, 'confirm']);
-// Route::post('/result', [ContactController::class, 'create']);
