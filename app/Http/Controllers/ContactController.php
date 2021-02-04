@@ -30,8 +30,11 @@ class ContactController extends Controller
 
         Mail::to($contact -> mail)->send(new presia_mail($contact));
 
-        return view('index', [
-            'contact' => $contact,
-        ]);
+        // 画面リロードで、同じメールが何度も表示されるため変更   view --> redirect
+        return redirect('/');
+
+        // return view('index', [
+        //     'contact' => $contact,
+        // ]);
     }
 }
