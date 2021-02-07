@@ -28,7 +28,7 @@ class ContactController extends Controller
         $contact -> checkbox = $request -> checkbox;//バリデーションしたら保存しないとエラー？　20201210_yoshigai
         $contact ->save();
 
-        Mail::to($contact -> mail)->send(new presia_mail($contact));
+        Mail::to(['s.koyama1012@gmail.com', $contact -> mail])->send(new presia_mail($contact));
 
         // 画面リロードで、同じメールが何度も表示されるため変更   view --> redirect
         return redirect('/');

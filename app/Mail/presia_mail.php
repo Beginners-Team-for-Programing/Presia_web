@@ -11,7 +11,10 @@ class presia_mail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $mailtext;
+    public $name;
+    public $mail;
+    public $tel;
+    public $contents;
 
     /**
      * Create a new message instance.
@@ -20,8 +23,10 @@ class presia_mail extends Mailable
      */
     public function __construct($a_text)
     {
-        $this->mailtext = $a_text->contents;
-        // $mailtext = 
+        $this->name = $a_text->name;
+        $this->mail = $a_text->mail;
+        $this->tel = $a_text->tel;
+        $this->contents = $a_text->contents;
     }
 
     /**
